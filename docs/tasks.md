@@ -58,20 +58,20 @@
 - [x] スターターキットの認証機能確認・テスト
   - [x] 開発サーバー起動: `npm run dev`
   - [x] 認証フロー動作確認
-- [ ] カスタムデータベーステーブル作成
-  - [ ] **テスト作成**: データベーステーブル作成のテスト
-  - [ ] Users（auth.usersを使用、プロフィール拡張用）
-  - [ ] Birds テーブル
-  - [ ] BirdImages テーブル
-  - [ ] Questions テーブル
-  - [ ] UserAnswers テーブル
-  - [ ] Comments テーブル
-  - [ ] QuestionRatings テーブル
-  - [ ] CommentRatings テーブル
-- [ ] RLS（Row Level Security）ポリシー設定
-- [ ] 外部キー制約設定
-- [ ] **テスト実行**: `npm test`
-- [ ] **コミット**: `git add . && git commit -m "[Supabaseセットアップ]: 環境変数設定と認証機能確認完了"`
+- [x] カスタムデータベーステーブル作成
+  - [x] **テスト作成**: データベーステーブル作成のテスト
+  - [x] Users（auth.usersを使用、プロフィール拡張用）
+  - [x] Birds テーブル
+  - [x] BirdImages テーブル
+  - [x] Questions テーブル
+  - [x] UserAnswers テーブル
+  - [x] Comments テーブル
+  - [x] QuestionRatings テーブル
+  - [x] CommentRatings テーブル
+- [x] RLS（Row Level Security）ポリシー設定
+- [x] 外部キー制約設定
+- [x] **テスト実行**: `npm test`
+- [x] **コミット**: `git add . && git commit -m "[Supabaseセットアップ]: データベーステーブル作成とテスト実装完了"`
 
 ### 1.3 認証システム（スターターキット活用）
 - [ ] **テスト作成**: 認証システムのテスト

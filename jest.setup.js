@@ -1,27 +1,21 @@
-import '@testing-library/jest-dom'
+import '@testing-library/jest-dom';
 
-// Mock Next.js router
+// Next.js ルーターのモック
 jest.mock('next/navigation', () => ({
-  useRouter() {
-    return {
-      push: jest.fn(),
-      replace: jest.fn(),
-      prefetch: jest.fn(),
-      back: jest.fn(),
-      forward: jest.fn(),
-      refresh: jest.fn(),
-    }
-  },
-  useSearchParams() {
-    return new URLSearchParams()
-  },
-  usePathname() {
-    return '/'
-  },
-}))
+  useRouter: () => ({
+    push: jest.fn(),
+    replace: jest.fn(),
+    back: jest.fn(),
+    forward: jest.fn(),
+    refresh: jest.fn(),
+    prefetch: jest.fn(),
+  }),
+  useSearchParams: () => new URLSearchParams(),
+  usePathname: () => '/',
+}));
 
-// Mock Supabase
-jest.mock('./lib/supabase/client', () => ({
+// Supabase クライアントのモック
+jest.mock('@supabase/supabase-js', () => ({
   createClient: jest.fn(() => ({
     auth: {
       getUser: jest.fn(),
@@ -29,11 +23,33 @@ jest.mock('./lib/supabase/client', () => ({
       signUp: jest.fn(),
       signOut: jest.fn(),
     },
-    from: jest.fn(() => ({
-      select: jest.fn(),
-      insert: jest.fn(),
-      update: jest.fn(),
-      delete: jest.fn(),
-    })),
+    from: jest.fn((tableName) => {
+        // テーブルが作成された後の状態をシミュレート
+        const tableExists = [
+          'birds', 'bird_images', 'questions', 'user_answers', 
+          'comments', 'question_ratings', 'comment_ratings'
+        ].includes(tableName);
+        
+        const mockResponse = tableExists 
+          ? { data: [], error: null }
+          : { data: null, error: { message: `relation "public.${tableName}" does not exist` } };
+        
+        return {
+          select: jest.fn(() => ({
+            limit: jest.fn(() => Promise.resolve(mockResponse)),
+            eq: jest.fn(() => Promise.resolve(mockResponse)),
+          })),
+          insert: jest.fn(() => ({
+            select: jest.fn(() => Promise.resolve({
+              data: [{ id: 'test-id', japanese_name: 'テストスズメ' }],
+              error: null
+            })),
+          })),
+          update: jest.fn(() => Promise.resolve(mockResponse)),
+          delete: jest.fn(() => ({
+            eq: jest.fn(() => Promise.resolve(mockResponse)),
+          })),
+        };
+      }),
   })),
-}))
+}));
