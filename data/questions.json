@@ -1,0 +1,2152 @@
+[
+  {
+    "id": 1,
+    "bird_id": 1,
+    "question_text": "「リュウキュウガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Dendrocygna javanica",
+    "choices": [
+      "Himantopus himantopus",
+      "Saundersilarus saundersi",
+      "Coturnix japonica",
+      "Dendrocygna javanica"
+    ],
+    "difficulty": "medium",
+    "explanation": "リュウキュウガモの学名はDendrocygna javanicaです。種番号: 1, 著者: (Horsfield, 1821)"
+  },
+  {
+    "id": 2,
+    "bird_id": 1,
+    "question_text": "学名「Dendrocygna javanica」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "リュウキュウガモ",
+    "choices": [
+      "リュウキュウガモ",
+      "ハイイロアジサシ",
+      "リュウキュウヨシゴイ",
+      "キヅタアメリカムシクイ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Dendrocygna javanicaの和名はリュウキュウガモです。種番号: 1, 著者: (Horsfield, 1821)"
+  },
+  {
+    "id": 3,
+    "bird_id": 1,
+    "question_text": "「リュウキュウガモ」の学名は「Dendrocygna javanica」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "リュウキュウガモの正しい学名はDendrocygna javanicaです。"
+  },
+  {
+    "id": 4,
+    "bird_id": 2,
+    "question_text": "「コクガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Branta bernicla",
+    "choices": [
+      "Branta bernicla",
+      "Todiramphus miyakoensis",
+      "Agropsar philippensis",
+      "Locustella certhiola"
+    ],
+    "difficulty": "medium",
+    "explanation": "コクガンの学名はBranta berniclaです。種番号: 2, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 5,
+    "bird_id": 2,
+    "question_text": "学名「Branta bernicla」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "コクガン",
+    "choices": [
+      "コウライアイサ",
+      "コクガン",
+      "ギンパラ",
+      "アオバト"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Branta berniclaの和名はコクガンです。種番号: 2, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 6,
+    "bird_id": 2,
+    "question_text": "「コクガン」の学名は「Charadrius semipalmatus」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "コクガンの正しい学名はBranta berniclaです。"
+  },
+  {
+    "id": 7,
+    "bird_id": 3,
+    "question_text": "「アオガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Branta ruficollis",
+    "choices": [
+      "Somateria spectabilis",
+      "Branta ruficollis",
+      "Stercorarius maccormicki",
+      "Mergus merganser"
+    ],
+    "difficulty": "medium",
+    "explanation": "アオガンの学名はBranta ruficollisです。種番号: 3, 著者: (Pallas, 1769)"
+  },
+  {
+    "id": 8,
+    "bird_id": 3,
+    "question_text": "学名「Branta ruficollis」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アオガン",
+    "choices": [
+      "ビロードキンクロ",
+      "アオガン",
+      "コバシチドリ",
+      "キンメフクロウ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Branta ruficollisの和名はアオガンです。種番号: 3, 著者: (Pallas, 1769)"
+  },
+  {
+    "id": 9,
+    "bird_id": 3,
+    "question_text": "「アオガン」の学名は「Leiothrix lutea」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アオガンの正しい学名はBranta ruficollisです。"
+  },
+  {
+    "id": 10,
+    "bird_id": 4,
+    "question_text": "「カナダガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Branta canadensis",
+    "choices": [
+      "Actitis macularius",
+      "Branta canadensis",
+      "Mareca strepera",
+      "Numenius tahitiensis"
+    ],
+    "difficulty": "medium",
+    "explanation": "カナダガンの学名はBranta canadensisです。種番号: 4, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 11,
+    "bird_id": 4,
+    "question_text": "学名「Branta canadensis」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "カナダガン",
+    "choices": [
+      "ハイイロチュウヒ",
+      "カナダガン",
+      "ガビチョウ",
+      "コムシクイ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Branta canadensisの和名はカナダガンです。種番号: 4, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 12,
+    "bird_id": 4,
+    "question_text": "「カナダガン」の学名は「Locustella ochotensis」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "カナダガンの正しい学名はBranta canadensisです。"
+  },
+  {
+    "id": 13,
+    "bird_id": 5,
+    "question_text": "「シジュウカラガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Branta hutchinsii",
+    "choices": [
+      "Branta hutchinsii",
+      "Locustella lanceolata",
+      "Prunella montanella",
+      "Lanius cristatus"
+    ],
+    "difficulty": "medium",
+    "explanation": "シジュウカラガンの学名はBranta hutchinsiiです。種番号: 5, 著者: (Richardson, 1832)"
+  },
+  {
+    "id": 14,
+    "bird_id": 5,
+    "question_text": "学名「Branta hutchinsii」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "シジュウカラガン",
+    "choices": [
+      "ウミガラス",
+      "シジュウカラガン",
+      "オオモズ",
+      "ウズラ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Branta hutchinsiiの和名はシジュウカラガンです。種番号: 5, 著者: (Richardson, 1832)"
+  },
+  {
+    "id": 15,
+    "bird_id": 5,
+    "question_text": "「シジュウカラガン」の学名は「Urocissa caerulea」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "シジュウカラガンの正しい学名はBranta hutchinsiiです。"
+  },
+  {
+    "id": 16,
+    "bird_id": 6,
+    "question_text": "「インドガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anser indicus",
+    "choices": [
+      "Calidris pygmaea",
+      "Anser indicus",
+      "Cygnus olor",
+      "Calidris ruficollis"
+    ],
+    "difficulty": "medium",
+    "explanation": "インドガンの学名はAnser indicusです。種番号: 6, 著者: (Latham, 1790)"
+  },
+  {
+    "id": 17,
+    "bird_id": 6,
+    "question_text": "学名「Anser indicus」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "インドガン",
+    "choices": [
+      "サメビタキ",
+      "インドガン",
+      "コクチョウ",
+      "マミジロ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anser indicusの和名はインドガンです。種番号: 6, 著者: (Latham, 1790)"
+  },
+  {
+    "id": 18,
+    "bird_id": 6,
+    "question_text": "「インドガン」の学名は「Cygnus cygnus」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "インドガンの正しい学名はAnser indicusです。"
+  },
+  {
+    "id": 19,
+    "bird_id": 7,
+    "question_text": "「ミカドガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anser canagicus",
+    "choices": [
+      "Anser canagicus",
+      "Emberiza variabilis",
+      "Dendrocopos hyperythrus",
+      "Urile urile"
+    ],
+    "difficulty": "medium",
+    "explanation": "ミカドガンの学名はAnser canagicusです。種番号: 7, 著者: (Sevastianov, 1802)"
+  },
+  {
+    "id": 20,
+    "bird_id": 7,
+    "question_text": "学名「Anser canagicus」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ミカドガン",
+    "choices": [
+      "アオジ",
+      "ヒメコウテンシ",
+      "モズ",
+      "ミカドガン"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anser canagicusの和名はミカドガンです。種番号: 7, 著者: (Sevastianov, 1802)"
+  },
+  {
+    "id": 21,
+    "bird_id": 7,
+    "question_text": "「ミカドガン」の学名は「Anser canagicus」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ミカドガンの正しい学名はAnser canagicusです。"
+  },
+  {
+    "id": 22,
+    "bird_id": 8,
+    "question_text": "「ハクガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anser caerulescens",
+    "choices": [
+      "Sternula antillarum",
+      "Corvus corax",
+      "Anser caerulescens",
+      "Vidua paradisaea"
+    ],
+    "difficulty": "medium",
+    "explanation": "ハクガンの学名はAnser caerulescensです。種番号: 8, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 23,
+    "bird_id": 8,
+    "question_text": "学名「Anser caerulescens」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ハクガン",
+    "choices": [
+      "カワビタキ",
+      "コヒバリ",
+      "アカハラ",
+      "ハクガン"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anser caerulescensの和名はハクガンです。種番号: 8, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 24,
+    "bird_id": 8,
+    "question_text": "「ハクガン」の学名は「Anous stolidus」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ハクガンの正しい学名はAnser caerulescensです。"
+  },
+  {
+    "id": 25,
+    "bird_id": 9,
+    "question_text": "「ハイイロガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anser anser",
+    "choices": [
+      "Phylloscopus examinandus",
+      "Charadrius mongolus",
+      "Gorsachius melanolophus",
+      "Anser anser"
+    ],
+    "difficulty": "medium",
+    "explanation": "ハイイロガンの学名はAnser anserです。種番号: 9, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 26,
+    "bird_id": 9,
+    "question_text": "学名「Anser anser」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ハイイロガン",
+    "choices": [
+      "ハイイロガン",
+      "シロガシラ",
+      "キガシラシトド",
+      "クマゲラ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anser anserの和名はハイイロガンです。種番号: 9, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 27,
+    "bird_id": 9,
+    "question_text": "「ハイイロガン」の学名は「Bubulcus ibis」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ハイイロガンの正しい学名はAnser anserです。"
+  },
+  {
+    "id": 28,
+    "bird_id": 10,
+    "question_text": "「サカツラガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anser cygnoid",
+    "choices": [
+      "Gavia adamsii",
+      "Charadrius dubius",
+      "Anser cygnoid",
+      "Bubo bubo"
+    ],
+    "difficulty": "medium",
+    "explanation": "サカツラガンの学名はAnser cygnoidです。種番号: 10, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 29,
+    "bird_id": 10,
+    "question_text": "学名「Anser cygnoid」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "サカツラガン",
+    "choices": [
+      "サカツラガン",
+      "ヤマガラ",
+      "アマミヤマシギ",
+      "コケワタガモ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anser cygnoidの和名はサカツラガンです。種番号: 10, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 30,
+    "bird_id": 10,
+    "question_text": "「サカツラガン」の学名は「Artamus leucorynchus」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "サカツラガンの正しい学名はAnser cygnoidです。"
+  },
+  {
+    "id": 31,
+    "bird_id": 11,
+    "question_text": "「ヒシクイ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anser fabalis",
+    "choices": [
+      "Ficedula mugimaki",
+      "Anser fabalis",
+      "Circus cyaneus",
+      "Pyrrhula pyrrhula"
+    ],
+    "difficulty": "medium",
+    "explanation": "ヒシクイの学名はAnser fabalisです。種番号: 11, 著者: (Latham, 1787)"
+  },
+  {
+    "id": 32,
+    "bird_id": 11,
+    "question_text": "学名「Anser fabalis」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ヒシクイ",
+    "choices": [
+      "エナガ",
+      "セアカモズ",
+      "ヒシクイ",
+      "モズ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anser fabalisの和名はヒシクイです。種番号: 11, 著者: (Latham, 1787)"
+  },
+  {
+    "id": 33,
+    "bird_id": 11,
+    "question_text": "「ヒシクイ」の学名は「Onychoprion fuscatus」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ヒシクイの正しい学名はAnser fabalisです。"
+  },
+  {
+    "id": 34,
+    "bird_id": 12,
+    "question_text": "「マガン」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anser albifrons",
+    "choices": [
+      "Falco peregrinus",
+      "Ixobrychus eurhythmus",
+      "Anser albifrons",
+      "Streptopelia tranquebarica"
+    ],
+    "difficulty": "medium",
+    "explanation": "マガンの学名はAnser albifronsです。種番号: 12, 著者: (Scopoli, 1769)"
+  },
+  {
+    "id": 35,
+    "bird_id": 12,
+    "question_text": "学名「Anser albifrons」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "マガン",
+    "choices": [
+      "オオカラモズ",
+      "マガン",
+      "アマミヤマシギ",
+      "イカルチドリ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anser albifronsの和名はマガンです。種番号: 12, 著者: (Scopoli, 1769)"
+  },
+  {
+    "id": 36,
+    "bird_id": 12,
+    "question_text": "「マガン」の学名は「Anser albifrons」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "マガンの正しい学名はAnser albifronsです。"
+  },
+  {
+    "id": 37,
+    "bird_id": 13,
+    "question_text": "「カリガネ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anser erythropus",
+    "choices": [
+      "Hypotaenidia okinawae",
+      "Anser erythropus",
+      "Gorsachius melanolophus",
+      "Limosa limosa"
+    ],
+    "difficulty": "medium",
+    "explanation": "カリガネの学名はAnser erythropusです。種番号: 13, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 38,
+    "bird_id": 13,
+    "question_text": "学名「Anser erythropus」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "カリガネ",
+    "choices": [
+      "カリガネ",
+      "コヨシキリ",
+      "ハワイシロハラミズナギドリ",
+      "コアホウドリ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anser erythropusの和名はカリガネです。種番号: 13, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 39,
+    "bird_id": 13,
+    "question_text": "「カリガネ」の学名は「Stercorarius maccormicki」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "カリガネの正しい学名はAnser erythropusです。"
+  },
+  {
+    "id": 40,
+    "bird_id": 14,
+    "question_text": "「コブハクチョウ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Cygnus olor",
+    "choices": [
+      "Hydrobates monorhis",
+      "Cygnus olor",
+      "Anthus gustavi",
+      "Gallinago stenura"
+    ],
+    "difficulty": "medium",
+    "explanation": "コブハクチョウの学名はCygnus olorです。種番号: 14, 著者: (Gmelin, 1789)"
+  },
+  {
+    "id": 41,
+    "bird_id": 14,
+    "question_text": "学名「Cygnus olor」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "コブハクチョウ",
+    "choices": [
+      "アカエリヒレアシシギ",
+      "コブハクチョウ",
+      "ミズカキチドリ",
+      "チシマウガラス"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Cygnus olorの和名はコブハクチョウです。種番号: 14, 著者: (Gmelin, 1789)"
+  },
+  {
+    "id": 42,
+    "bird_id": 14,
+    "question_text": "「コブハクチョウ」の学名は「Streptopelia decaocto」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "コブハクチョウの正しい学名はCygnus olorです。"
+  },
+  {
+    "id": 43,
+    "bird_id": 15,
+    "question_text": "「ナキハクチョウ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Cygnus buccinator",
+    "choices": [
+      "Sterna sumatrana",
+      "Cygnus buccinator",
+      "Calidris subminuta",
+      "Phylloscopus collybita"
+    ],
+    "difficulty": "medium",
+    "explanation": "ナキハクチョウの学名はCygnus buccinatorです。種番号: 15, 著者: Richardson, 1831"
+  },
+  {
+    "id": 44,
+    "bird_id": 15,
+    "question_text": "学名「Cygnus buccinator」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ナキハクチョウ",
+    "choices": [
+      "アカアシミツユビカモメ",
+      "オオメダイチドリ",
+      "ナキハクチョウ",
+      "ツメナガホオジロ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Cygnus buccinatorの和名はナキハクチョウです。種番号: 15, 著者: Richardson, 1831"
+  },
+  {
+    "id": 45,
+    "bird_id": 15,
+    "question_text": "「ナキハクチョウ」の学名は「Motacilla cinerea」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ナキハクチョウの正しい学名はCygnus buccinatorです。"
+  },
+  {
+    "id": 46,
+    "bird_id": 16,
+    "question_text": "「コハクチョウ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Cygnus columbianus",
+    "choices": [
+      "Cygnus columbianus",
+      "Geokichla sibirica",
+      "Oceanites oceanicus",
+      "Coccothraustes coccothraustes"
+    ],
+    "difficulty": "medium",
+    "explanation": "コハクチョウの学名はCygnus columbianusです。種番号: 16, 著者: (Ord, 1815)"
+  },
+  {
+    "id": 47,
+    "bird_id": 16,
+    "question_text": "学名「Cygnus columbianus」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "コハクチョウ",
+    "choices": [
+      "シベリアオオハシシギ",
+      "エゾビタキ",
+      "コハクチョウ",
+      "カナダガン"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Cygnus columbianusの和名はコハクチョウです。種番号: 16, 著者: (Ord, 1815)"
+  },
+  {
+    "id": 48,
+    "bird_id": 16,
+    "question_text": "「コハクチョウ」の学名は「Cygnus columbianus」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "コハクチョウの正しい学名はCygnus columbianusです。"
+  },
+  {
+    "id": 49,
+    "bird_id": 17,
+    "question_text": "「オオハクチョウ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Cygnus cygnus",
+    "choices": [
+      "Cygnus cygnus",
+      "Mergus squamatus",
+      "Anser anser",
+      "Gallinago megala"
+    ],
+    "difficulty": "medium",
+    "explanation": "オオハクチョウの学名はCygnus cygnusです。種番号: 17, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 50,
+    "bird_id": 17,
+    "question_text": "学名「Cygnus cygnus」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "オオハクチョウ",
+    "choices": [
+      "ヒメウズラシギ",
+      "トウゾクカモメ",
+      "ハッカチョウ",
+      "オオハクチョウ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Cygnus cygnusの和名はオオハクチョウです。種番号: 17, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 51,
+    "bird_id": 17,
+    "question_text": "「オオハクチョウ」の学名は「Passerculus sandwichensis」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "オオハクチョウの正しい学名はCygnus cygnusです。"
+  },
+  {
+    "id": 52,
+    "bird_id": 18,
+    "question_text": "「ツクシガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Tadorna tadorna",
+    "choices": [
+      "Tadorna tadorna",
+      "Phalaropus lobatus",
+      "Nucifraga caryocatactes",
+      "Onychoprion anaethetus"
+    ],
+    "difficulty": "medium",
+    "explanation": "ツクシガモの学名はTadorna tadornaです。種番号: 18, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 53,
+    "bird_id": 18,
+    "question_text": "学名「Tadorna tadorna」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ツクシガモ",
+    "choices": [
+      "ズグロミゾゴイ",
+      "ハシボソミズナギドリ",
+      "ツクシガモ",
+      "リュウキュウガモ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Tadorna tadornaの和名はツクシガモです。種番号: 18, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 54,
+    "bird_id": 18,
+    "question_text": "「ツクシガモ」の学名は「Tadorna tadorna」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ツクシガモの正しい学名はTadorna tadornaです。"
+  },
+  {
+    "id": 55,
+    "bird_id": 19,
+    "question_text": "「アカツクシガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Tadorna ferruginea",
+    "choices": [
+      "Pagophila eburnea",
+      "Tadorna ferruginea",
+      "Charadrius dubius",
+      "Dicrurus leucophaeus"
+    ],
+    "difficulty": "medium",
+    "explanation": "アカツクシガモの学名はTadorna ferrugineaです。種番号: 19, 著者: (Pallas, 1764)"
+  },
+  {
+    "id": 56,
+    "bird_id": 19,
+    "question_text": "学名「Tadorna ferruginea」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アカツクシガモ",
+    "choices": [
+      "チシマウガラス",
+      "ヤマムスメ",
+      "シラコバト",
+      "アカツクシガモ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Tadorna ferrugineaの和名はアカツクシガモです。種番号: 19, 著者: (Pallas, 1764)"
+  },
+  {
+    "id": 57,
+    "bird_id": 19,
+    "question_text": "「アカツクシガモ」の学名は「Passerculus sandwichensis」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アカツクシガモの正しい学名はTadorna ferrugineaです。"
+  },
+  {
+    "id": 58,
+    "bird_id": 20,
+    "question_text": "「カンムリツクシガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Tadorna cristata",
+    "choices": [
+      "Tadorna cristata",
+      "Zapornia paykullii",
+      "Phylloscopus borealis",
+      "Pterodroma nigripennis"
+    ],
+    "difficulty": "medium",
+    "explanation": "カンムリツクシガモの学名はTadorna cristataです。種番号: 20, 著者: (Kuroda, 1917)"
+  },
+  {
+    "id": 59,
+    "bird_id": 20,
+    "question_text": "学名「Tadorna cristata」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "カンムリツクシガモ",
+    "choices": [
+      "オオキアシシギ",
+      "ギンムクドリ",
+      "カンムリツクシガモ",
+      "ハシブトオオヨシキリ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Tadorna cristataの和名はカンムリツクシガモです。種番号: 20, 著者: (Kuroda, 1917)"
+  },
+  {
+    "id": 60,
+    "bird_id": 20,
+    "question_text": "「カンムリツクシガモ」の学名は「Garrulus lidthi」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "カンムリツクシガモの正しい学名はTadorna cristataです。"
+  },
+  {
+    "id": 61,
+    "bird_id": 21,
+    "question_text": "「オシドリ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aix galericulata",
+    "choices": [
+      "Calliope calliope",
+      "Picus canus",
+      "Aegolius funereus",
+      "Aix galericulata"
+    ],
+    "difficulty": "medium",
+    "explanation": "オシドリの学名はAix galericulataです。種番号: 21, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 62,
+    "bird_id": 21,
+    "question_text": "学名「Aix galericulata」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "オシドリ",
+    "choices": [
+      "メグロ",
+      "コシジロウズラシギ",
+      "オシドリ",
+      "アカアシシギ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aix galericulataの和名はオシドリです。種番号: 21, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 63,
+    "bird_id": 21,
+    "question_text": "「オシドリ」の学名は「Ardea cinerea」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "オシドリの正しい学名はAix galericulataです。"
+  },
+  {
+    "id": 64,
+    "bird_id": 22,
+    "question_text": "「ナンキンオシ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Nettapus coromandelianus",
+    "choices": [
+      "Picoides tridactylus",
+      "Lymnocryptes minimus",
+      "Nettapus coromandelianus",
+      "Fulmarus glacialis"
+    ],
+    "difficulty": "medium",
+    "explanation": "ナンキンオシの学名はNettapus coromandelianusです。種番号: 22, 著者: (Gmelin, 1789)"
+  },
+  {
+    "id": 65,
+    "bird_id": 22,
+    "question_text": "学名「Nettapus coromandelianus」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ナンキンオシ",
+    "choices": [
+      "ナンキンオシ",
+      "コウライウグイス",
+      "ホトトギス",
+      "ヒクイナ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Nettapus coromandelianusの和名はナンキンオシです。種番号: 22, 著者: (Gmelin, 1789)"
+  },
+  {
+    "id": 66,
+    "bird_id": 22,
+    "question_text": "「ナンキンオシ」の学名は「Nettapus coromandelianus」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ナンキンオシの正しい学名はNettapus coromandelianusです。"
+  },
+  {
+    "id": 67,
+    "bird_id": 23,
+    "question_text": "「トモエガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Sibirionetta formosa",
+    "choices": [
+      "Phaethon rubricauda",
+      "Lymnocryptes minimus",
+      "Sibirionetta formosa",
+      "Upupa epops"
+    ],
+    "difficulty": "medium",
+    "explanation": "トモエガモの学名はSibirionetta formosaです。種番号: 23, 著者: (Georgi, 1775)"
+  },
+  {
+    "id": 68,
+    "bird_id": 23,
+    "question_text": "学名「Sibirionetta formosa」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "トモエガモ",
+    "choices": [
+      "レンカク",
+      "ギンムクドリ",
+      "カラスバト",
+      "トモエガモ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Sibirionetta formosaの和名はトモエガモです。種番号: 23, 著者: (Georgi, 1775)"
+  },
+  {
+    "id": 69,
+    "bird_id": 23,
+    "question_text": "「トモエガモ」の学名は「Columba janthina」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "トモエガモの正しい学名はSibirionetta formosaです。"
+  },
+  {
+    "id": 70,
+    "bird_id": 24,
+    "question_text": "「シマアジ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Spatula querquedula",
+    "choices": [
+      "Zapornia pusilla",
+      "Spatula querquedula",
+      "Calonectris leucomelas",
+      "Puffinus nativitatis"
+    ],
+    "difficulty": "medium",
+    "explanation": "シマアジの学名はSpatula querquedulaです。種番号: 24, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 71,
+    "bird_id": 24,
+    "question_text": "学名「Spatula querquedula」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "シマアジ",
+    "choices": [
+      "シマアジ",
+      "アラナミキンクロ",
+      "ゴイサギ",
+      "ダイゼン"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Spatula querquedulaの和名はシマアジです。種番号: 24, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 72,
+    "bird_id": 24,
+    "question_text": "「シマアジ」の学名は「Spatula querquedula」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "シマアジの正しい学名はSpatula querquedulaです。"
+  },
+  {
+    "id": 73,
+    "bird_id": 25,
+    "question_text": "「ミカヅキシマアジ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Spatula discors",
+    "choices": [
+      "Spatula discors",
+      "Xenus cinereus",
+      "Streptopelia tranquebarica",
+      "Anser fabalis"
+    ],
+    "difficulty": "medium",
+    "explanation": "ミカヅキシマアジの学名はSpatula discorsです。種番号: 25, 著者: (Linnaeus, 1766)"
+  },
+  {
+    "id": 74,
+    "bird_id": 25,
+    "question_text": "学名「Spatula discors」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ミカヅキシマアジ",
+    "choices": [
+      "ハシグロアビ",
+      "クロアジサシ",
+      "クロウミツバメ",
+      "ミカヅキシマアジ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Spatula discorsの和名はミカヅキシマアジです。種番号: 25, 著者: (Linnaeus, 1766)"
+  },
+  {
+    "id": 75,
+    "bird_id": 25,
+    "question_text": "「ミカヅキシマアジ」の学名は「Spatula discors」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ミカヅキシマアジの正しい学名はSpatula discorsです。"
+  },
+  {
+    "id": 76,
+    "bird_id": 26,
+    "question_text": "「ハシビロガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Spatula clypeata",
+    "choices": [
+      "Troglodytes troglodytes",
+      "Calonectris leucomelas",
+      "Accipiter soloensis",
+      "Spatula clypeata"
+    ],
+    "difficulty": "medium",
+    "explanation": "ハシビロガモの学名はSpatula clypeataです。種番号: 26, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 77,
+    "bird_id": 26,
+    "question_text": "学名「Spatula clypeata」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ハシビロガモ",
+    "choices": [
+      "キタタキ",
+      "ハシビロガモ",
+      "ヒシクイ",
+      "シラヒゲウミスズメ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Spatula clypeataの和名はハシビロガモです。種番号: 26, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 78,
+    "bird_id": 26,
+    "question_text": "「ハシビロガモ」の学名は「Spatula clypeata」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ハシビロガモの正しい学名はSpatula clypeataです。"
+  },
+  {
+    "id": 79,
+    "bird_id": 27,
+    "question_text": "「オカヨシガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Mareca strepera",
+    "choices": [
+      "Cygnus olor",
+      "Larus glaucescens",
+      "Mareca strepera",
+      "Aythya collaris"
+    ],
+    "difficulty": "medium",
+    "explanation": "オカヨシガモの学名はMareca streperaです。種番号: 27, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 80,
+    "bird_id": 27,
+    "question_text": "学名「Mareca strepera」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "オカヨシガモ",
+    "choices": [
+      "クロアゴヒメアオバト",
+      "オカヨシガモ",
+      "マナヅル",
+      "ミソサザイ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Mareca streperaの和名はオカヨシガモです。種番号: 27, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 81,
+    "bird_id": 27,
+    "question_text": "「オカヨシガモ」の学名は「Poecile palustris」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "オカヨシガモの正しい学名はMareca streperaです。"
+  },
+  {
+    "id": 82,
+    "bird_id": 28,
+    "question_text": "「ヨシガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Mareca falcata",
+    "choices": [
+      "Phaethon lepturus",
+      "Hydrobates castro",
+      "Ixobrychus flavicollis",
+      "Mareca falcata"
+    ],
+    "difficulty": "medium",
+    "explanation": "ヨシガモの学名はMareca falcataです。種番号: 28, 著者: (Georgi, 1775)"
+  },
+  {
+    "id": 83,
+    "bird_id": 28,
+    "question_text": "学名「Mareca falcata」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ヨシガモ",
+    "choices": [
+      "ハイイロチュウヒ",
+      "ヨシガモ",
+      "ズグロヤイロチョウ",
+      "スゲヨシキリ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Mareca falcataの和名はヨシガモです。種番号: 28, 著者: (Georgi, 1775)"
+  },
+  {
+    "id": 84,
+    "bird_id": 28,
+    "question_text": "「ヨシガモ」の学名は「Mergus serrator」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ヨシガモの正しい学名はMareca falcataです。"
+  },
+  {
+    "id": 85,
+    "bird_id": 29,
+    "question_text": "「ヒドリガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Mareca penelope",
+    "choices": [
+      "Saxicola rubetra",
+      "Tetrastes bonasia",
+      "Tringa totanus",
+      "Mareca penelope"
+    ],
+    "difficulty": "medium",
+    "explanation": "ヒドリガモの学名はMareca penelopeです。種番号: 29, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 86,
+    "bird_id": 29,
+    "question_text": "学名「Mareca penelope」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ヒドリガモ",
+    "choices": [
+      "ヒドリガモ",
+      "マキバタヒバリ",
+      "ゴジュウカラ",
+      "コミミズク"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Mareca penelopeの和名はヒドリガモです。種番号: 29, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 87,
+    "bird_id": 29,
+    "question_text": "「ヒドリガモ」の学名は「Mareca penelope」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ヒドリガモの正しい学名はMareca penelopeです。"
+  },
+  {
+    "id": 88,
+    "bird_id": 30,
+    "question_text": "「アメリカヒドリ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Mareca americana",
+    "choices": [
+      "Mareca americana",
+      "Larus hyperboreus",
+      "Acridotheres cristatellus",
+      "Phalacrocorax capillatus"
+    ],
+    "difficulty": "medium",
+    "explanation": "アメリカヒドリの学名はMareca americanaです。種番号: 30, 著者: (Gmelin, 1789)"
+  },
+  {
+    "id": 89,
+    "bird_id": 30,
+    "question_text": "学名「Mareca americana」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アメリカヒドリ",
+    "choices": [
+      "アメリカヒドリ",
+      "ヤマガラ",
+      "オグロシギ",
+      "コアジサシ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Mareca americanaの和名はアメリカヒドリです。種番号: 30, 著者: (Gmelin, 1789)"
+  },
+  {
+    "id": 90,
+    "bird_id": 30,
+    "question_text": "「アメリカヒドリ」の学名は「Bombycilla japonica」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アメリカヒドリの正しい学名はMareca americanaです。"
+  },
+  {
+    "id": 91,
+    "bird_id": 31,
+    "question_text": "「アカノドカルガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anas luzonica",
+    "choices": [
+      "Otis tarda",
+      "Cecropis daurica",
+      "Anas luzonica",
+      "Stercorarius longicaudus"
+    ],
+    "difficulty": "medium",
+    "explanation": "アカノドカルガモの学名はAnas luzonicaです。種番号: 31, 著者: Fraser, 1839"
+  },
+  {
+    "id": 92,
+    "bird_id": 31,
+    "question_text": "学名「Anas luzonica」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アカノドカルガモ",
+    "choices": [
+      "ヒメクロウミツバメ",
+      "ライチョウ",
+      "アナドリ",
+      "アカノドカルガモ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anas luzonicaの和名はアカノドカルガモです。種番号: 31, 著者: Fraser, 1839"
+  },
+  {
+    "id": 93,
+    "bird_id": 31,
+    "question_text": "「アカノドカルガモ」の学名は「Anas luzonica」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アカノドカルガモの正しい学名はAnas luzonicaです。"
+  },
+  {
+    "id": 94,
+    "bird_id": 32,
+    "question_text": "「カルガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anas zonorhyncha",
+    "choices": [
+      "Zapornia pusilla",
+      "Anas zonorhyncha",
+      "Falco subbuteo",
+      "Curruca curruca"
+    ],
+    "difficulty": "medium",
+    "explanation": "カルガモの学名はAnas zonorhynchaです。種番号: 32, 著者: Swinhoe, 1866"
+  },
+  {
+    "id": 95,
+    "bird_id": 32,
+    "question_text": "学名「Anas zonorhyncha」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "カルガモ",
+    "choices": [
+      "カルガモ",
+      "ナキイスカ",
+      "コシャクシギ",
+      "オオミズナギドリ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anas zonorhynchaの和名はカルガモです。種番号: 32, 著者: Swinhoe, 1866"
+  },
+  {
+    "id": 96,
+    "bird_id": 32,
+    "question_text": "「カルガモ」の学名は「Clamator coromandus」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "カルガモの正しい学名はAnas zonorhynchaです。"
+  },
+  {
+    "id": 97,
+    "bird_id": 33,
+    "question_text": "「マガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anas platyrhynchos",
+    "choices": [
+      "Anser cygnoid",
+      "Rostratula benghalensis",
+      "Anas platyrhynchos",
+      "Anas zonorhyncha"
+    ],
+    "difficulty": "medium",
+    "explanation": "マガモの学名はAnas platyrhynchosです。種番号: 33, 著者: Linnaeus, 1758"
+  },
+  {
+    "id": 98,
+    "bird_id": 33,
+    "question_text": "学名「Anas platyrhynchos」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "マガモ",
+    "choices": [
+      "マガモ",
+      "クロヅル",
+      "トモエガモ",
+      "オオホンセイインコ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anas platyrhynchosの和名はマガモです。種番号: 33, 著者: Linnaeus, 1758"
+  },
+  {
+    "id": 99,
+    "bird_id": 33,
+    "question_text": "「マガモ」の学名は「Anas platyrhynchos」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "マガモの正しい学名はAnas platyrhynchosです。"
+  },
+  {
+    "id": 100,
+    "bird_id": 34,
+    "question_text": "「オナガガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anas acuta",
+    "choices": [
+      "Melopsittacus undulatus",
+      "Anas acuta",
+      "Hydrobates leucorhous",
+      "Pelecanus onocrotalus"
+    ],
+    "difficulty": "medium",
+    "explanation": "オナガガモの学名はAnas acutaです。種番号: 34, 著者: Linnaeus, 1758"
+  },
+  {
+    "id": 101,
+    "bird_id": 34,
+    "question_text": "学名「Anas acuta」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "オナガガモ",
+    "choices": [
+      "オナガガモ",
+      "ヨタカ",
+      "ズグロチャキンチョウ",
+      "アオサギ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anas acutaの和名はオナガガモです。種番号: 34, 著者: Linnaeus, 1758"
+  },
+  {
+    "id": 102,
+    "bird_id": 34,
+    "question_text": "「オナガガモ」の学名は「Horornis diphone」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "オナガガモの正しい学名はAnas acutaです。"
+  },
+  {
+    "id": 103,
+    "bird_id": 35,
+    "question_text": "「コガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Anas crecca",
+    "choices": [
+      "Locustella pryeri",
+      "Turdus atrogularis",
+      "Anas crecca",
+      "Poecile palustris"
+    ],
+    "difficulty": "medium",
+    "explanation": "コガモの学名はAnas creccaです。種番号: 35, 著者: Linnaeus, 1758"
+  },
+  {
+    "id": 104,
+    "bird_id": 35,
+    "question_text": "学名「Anas crecca」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "コガモ",
+    "choices": [
+      "コシジロウズラシギ",
+      "コガモ",
+      "タシギ",
+      "アオジ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Anas creccaの和名はコガモです。種番号: 35, 著者: Linnaeus, 1758"
+  },
+  {
+    "id": 105,
+    "bird_id": 35,
+    "question_text": "「コガモ」の学名は「Pterodroma longirostris」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "コガモの正しい学名はAnas creccaです。"
+  },
+  {
+    "id": 106,
+    "bird_id": 36,
+    "question_text": "「アカハシハジロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Netta rufina",
+    "choices": [
+      "Anthropoides virgo",
+      "Hydroprogne caspia",
+      "Netta rufina",
+      "Prunella collaris"
+    ],
+    "difficulty": "medium",
+    "explanation": "アカハシハジロの学名はNetta rufinaです。種番号: 36, 著者: (Pallas, 1773)"
+  },
+  {
+    "id": 107,
+    "bird_id": 36,
+    "question_text": "学名「Netta rufina」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アカハシハジロ",
+    "choices": [
+      "ニシコクマルガラス",
+      "ヒバリ",
+      "アカハシハジロ",
+      "コサメビタキ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Netta rufinaの和名はアカハシハジロです。種番号: 36, 著者: (Pallas, 1773)"
+  },
+  {
+    "id": 108,
+    "bird_id": 36,
+    "question_text": "「アカハシハジロ」の学名は「Netta rufina」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アカハシハジロの正しい学名はNetta rufinaです。"
+  },
+  {
+    "id": 109,
+    "bird_id": 37,
+    "question_text": "「オオホシハジロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya valisineria",
+    "choices": [
+      "Picoides tridactylus",
+      "Aythya affinis",
+      "Aythya valisineria",
+      "Phoenicurus auroreus"
+    ],
+    "difficulty": "medium",
+    "explanation": "オオホシハジロの学名はAythya valisineriaです。種番号: 37, 著者: (Wilson, 1814)"
+  },
+  {
+    "id": 110,
+    "bird_id": 37,
+    "question_text": "学名「Aythya valisineria」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "オオホシハジロ",
+    "choices": [
+      "オオホシハジロ",
+      "ヒメクロウミツバメ",
+      "イカルチドリ",
+      "テッケイ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya valisineriaの和名はオオホシハジロです。種番号: 37, 著者: (Wilson, 1814)"
+  },
+  {
+    "id": 111,
+    "bird_id": 37,
+    "question_text": "「オオホシハジロ」の学名は「Aythya valisineria」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "オオホシハジロの正しい学名はAythya valisineriaです。"
+  },
+  {
+    "id": 112,
+    "bird_id": 38,
+    "question_text": "「アメリカホシハジロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya americana",
+    "choices": [
+      "Pica serica",
+      "Fulica atra",
+      "Emberiza yessoensis",
+      "Aythya americana"
+    ],
+    "difficulty": "medium",
+    "explanation": "アメリカホシハジロの学名はAythya americanaです。種番号: 38, 著者: (Eyton, 1838)"
+  },
+  {
+    "id": 113,
+    "bird_id": 38,
+    "question_text": "学名「Aythya americana」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アメリカホシハジロ",
+    "choices": [
+      "コチョウゲンボウ",
+      "シロガシラ",
+      "オジロビタキ",
+      "アメリカホシハジロ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya americanaの和名はアメリカホシハジロです。種番号: 38, 著者: (Eyton, 1838)"
+  },
+  {
+    "id": 114,
+    "bird_id": 38,
+    "question_text": "「アメリカホシハジロ」の学名は「Aythya americana」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アメリカホシハジロの正しい学名はAythya americanaです。"
+  },
+  {
+    "id": 115,
+    "bird_id": 39,
+    "question_text": "「ホシハジロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya ferina",
+    "choices": [
+      "Mergellus albellus",
+      "Aythya ferina",
+      "Eurystomus orientalis",
+      "Charadrius dubius"
+    ],
+    "difficulty": "medium",
+    "explanation": "ホシハジロの学名はAythya ferinaです。種番号: 39, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 116,
+    "bird_id": 39,
+    "question_text": "学名「Aythya ferina」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ホシハジロ",
+    "choices": [
+      "キアシシギ",
+      "アオシギ",
+      "キヅタアメリカムシクイ",
+      "ホシハジロ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya ferinaの和名はホシハジロです。種番号: 39, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 117,
+    "bird_id": 39,
+    "question_text": "「ホシハジロ」の学名は「Aythya ferina」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ホシハジロの正しい学名はAythya ferinaです。"
+  },
+  {
+    "id": 118,
+    "bird_id": 40,
+    "question_text": "「アカハジロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya baeri",
+    "choices": [
+      "Aythya baeri",
+      "Falco naumanni",
+      "Mareca americana",
+      "Zapornia paykullii"
+    ],
+    "difficulty": "medium",
+    "explanation": "アカハジロの学名はAythya baeriです。種番号: 40, 著者: (Radde, 1863)"
+  },
+  {
+    "id": 119,
+    "bird_id": 40,
+    "question_text": "学名「Aythya baeri」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アカハジロ",
+    "choices": [
+      "アカハジロ",
+      "クロサギ",
+      "ノドグロツグミ",
+      "オオソリハシシギ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya baeriの和名はアカハジロです。種番号: 40, 著者: (Radde, 1863)"
+  },
+  {
+    "id": 120,
+    "bird_id": 40,
+    "question_text": "「アカハジロ」の学名は「Sittiparus varius」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アカハジロの正しい学名はAythya baeriです。"
+  },
+  {
+    "id": 121,
+    "bird_id": 41,
+    "question_text": "「メジロガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya nyroca",
+    "choices": [
+      "Ficedula owstoni",
+      "Locustella pryeri",
+      "Cyanistes cyanus",
+      "Aythya nyroca"
+    ],
+    "difficulty": "medium",
+    "explanation": "メジロガモの学名はAythya nyrocaです。種番号: 41, 著者: (Güldenstädt, 1770)"
+  },
+  {
+    "id": 122,
+    "bird_id": 41,
+    "question_text": "学名「Aythya nyroca」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "メジロガモ",
+    "choices": [
+      "カモメ",
+      "マヒワ",
+      "メジロガモ",
+      "クビワカモメ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya nyrocaの和名はメジロガモです。種番号: 41, 著者: (Güldenstädt, 1770)"
+  },
+  {
+    "id": 123,
+    "bird_id": 41,
+    "question_text": "「メジロガモ」の学名は「Aythya nyroca」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "メジロガモの正しい学名はAythya nyrocaです。"
+  },
+  {
+    "id": 124,
+    "bird_id": 42,
+    "question_text": "「クビワキンクロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya collaris",
+    "choices": [
+      "Arenaria interpres",
+      "Aythya collaris",
+      "Pinicola enucleator",
+      "Calidris fuscicollis"
+    ],
+    "difficulty": "medium",
+    "explanation": "クビワキンクロの学名はAythya collarisです。種番号: 42, 著者: (Donovan, 1809)"
+  },
+  {
+    "id": 125,
+    "bird_id": 42,
+    "question_text": "学名「Aythya collaris」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "クビワキンクロ",
+    "choices": [
+      "クビワキンクロ",
+      "ズグロミゾゴイ",
+      "シマノジコ",
+      "ハシブトウミガラス"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya collarisの和名はクビワキンクロです。種番号: 42, 著者: (Donovan, 1809)"
+  },
+  {
+    "id": 126,
+    "bird_id": 42,
+    "question_text": "「クビワキンクロ」の学名は「Aythya collaris」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "クビワキンクロの正しい学名はAythya collarisです。"
+  },
+  {
+    "id": 127,
+    "bird_id": 43,
+    "question_text": "「キンクロハジロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya fuligula",
+    "choices": [
+      "Passer domesticus",
+      "Aythya fuligula",
+      "Egretta eulophotes",
+      "Phylloscopus ijimae"
+    ],
+    "difficulty": "medium",
+    "explanation": "キンクロハジロの学名はAythya fuligulaです。種番号: 43, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 128,
+    "bird_id": 43,
+    "question_text": "学名「Aythya fuligula」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "キンクロハジロ",
+    "choices": [
+      "ツバメ",
+      "タシギ",
+      "キンクロハジロ",
+      "ミカヅキシマアジ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya fuligulaの和名はキンクロハジロです。種番号: 43, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 129,
+    "bird_id": 43,
+    "question_text": "「キンクロハジロ」の学名は「Aythya fuligula」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "キンクロハジロの正しい学名はAythya fuligulaです。"
+  },
+  {
+    "id": 130,
+    "bird_id": 44,
+    "question_text": "「スズガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya marila",
+    "choices": [
+      "Anous ceruleus",
+      "Aythya marila",
+      "Dendrocygna javanica",
+      "Phylloscopus schwarzi"
+    ],
+    "difficulty": "medium",
+    "explanation": "スズガモの学名はAythya marilaです。種番号: 44, 著者: (Linnaeus, 1761)"
+  },
+  {
+    "id": 131,
+    "bird_id": 44,
+    "question_text": "学名「Aythya marila」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "スズガモ",
+    "choices": [
+      "ズアオアトリ",
+      "オウチュウ",
+      "ズグロヤイロチョウ",
+      "スズガモ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya marilaの和名はスズガモです。種番号: 44, 著者: (Linnaeus, 1761)"
+  },
+  {
+    "id": 132,
+    "bird_id": 44,
+    "question_text": "「スズガモ」の学名は「Aythya marila」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "スズガモの正しい学名はAythya marilaです。"
+  },
+  {
+    "id": 133,
+    "bird_id": 45,
+    "question_text": "「コスズガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Aythya affinis",
+    "choices": [
+      "Ptilinopus leclancheri",
+      "Streptopelia tranquebarica",
+      "Ardea purpurea",
+      "Aythya affinis"
+    ],
+    "difficulty": "medium",
+    "explanation": "コスズガモの学名はAythya affinisです。種番号: 45, 著者: (Eyton, 1838)"
+  },
+  {
+    "id": 134,
+    "bird_id": 45,
+    "question_text": "学名「Aythya affinis」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "コスズガモ",
+    "choices": [
+      "コスズガモ",
+      "コクガン",
+      "ハシグロアビ",
+      "ハイイロアジサシ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Aythya affinisの和名はコスズガモです。種番号: 45, 著者: (Eyton, 1838)"
+  },
+  {
+    "id": 135,
+    "bird_id": 45,
+    "question_text": "「コスズガモ」の学名は「Lymnocryptes minimus」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "コスズガモの正しい学名はAythya affinisです。"
+  },
+  {
+    "id": 136,
+    "bird_id": 46,
+    "question_text": "「コケワタガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Polysticta stelleri",
+    "choices": [
+      "Polysticta stelleri",
+      "Xenus cinereus",
+      "Ketupa blakistoni",
+      "Numenius tahitiensis"
+    ],
+    "difficulty": "medium",
+    "explanation": "コケワタガモの学名はPolysticta stelleriです。種番号: 46, 著者: (Pallas, 1769)"
+  },
+  {
+    "id": 137,
+    "bird_id": 46,
+    "question_text": "学名「Polysticta stelleri」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "コケワタガモ",
+    "choices": [
+      "オーストンウミツバメ",
+      "コケワタガモ",
+      "カヤクグリ",
+      "ハイイロヒレアシシギ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Polysticta stelleriの和名はコケワタガモです。種番号: 46, 著者: (Pallas, 1769)"
+  },
+  {
+    "id": 138,
+    "bird_id": 46,
+    "question_text": "「コケワタガモ」の学名は「Mergus squamatus」である。",
+    "question_type": "true_false",
+    "correct_answer": "false",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "コケワタガモの正しい学名はPolysticta stelleriです。"
+  },
+  {
+    "id": 139,
+    "bird_id": 47,
+    "question_text": "「ケワタガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Somateria spectabilis",
+    "choices": [
+      "Mergus squamatus",
+      "Mergus merganser",
+      "Somateria spectabilis",
+      "Tringa totanus"
+    ],
+    "difficulty": "medium",
+    "explanation": "ケワタガモの学名はSomateria spectabilisです。種番号: 47, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 140,
+    "bird_id": 47,
+    "question_text": "学名「Somateria spectabilis」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "ケワタガモ",
+    "choices": [
+      "コアホウドリ",
+      "ケワタガモ",
+      "ケリ",
+      "オナガ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Somateria spectabilisの和名はケワタガモです。種番号: 47, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 141,
+    "bird_id": 47,
+    "question_text": "「ケワタガモ」の学名は「Somateria spectabilis」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "ケワタガモの正しい学名はSomateria spectabilisです。"
+  },
+  {
+    "id": 142,
+    "bird_id": 48,
+    "question_text": "「シノリガモ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Histrionicus histrionicus",
+    "choices": [
+      "Setophaga coronata",
+      "Lanius schach",
+      "Histrionicus histrionicus",
+      "Locustella pryeri"
+    ],
+    "difficulty": "medium",
+    "explanation": "シノリガモの学名はHistrionicus histrionicusです。種番号: 48, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 143,
+    "bird_id": 48,
+    "question_text": "学名「Histrionicus histrionicus」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "シノリガモ",
+    "choices": [
+      "ハマシギ",
+      "スズガモ",
+      "シノリガモ",
+      "コハクチョウ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Histrionicus histrionicusの和名はシノリガモです。種番号: 48, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 144,
+    "bird_id": 48,
+    "question_text": "「シノリガモ」の学名は「Histrionicus histrionicus」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "シノリガモの正しい学名はHistrionicus histrionicusです。"
+  },
+  {
+    "id": 145,
+    "bird_id": 49,
+    "question_text": "「アラナミキンクロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Melanitta perspicillata",
+    "choices": [
+      "Anous ceruleus",
+      "Columba janthina",
+      "Melanitta perspicillata",
+      "Hydrobates leucorhous"
+    ],
+    "difficulty": "medium",
+    "explanation": "アラナミキンクロの学名はMelanitta perspicillataです。種番号: 49, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 146,
+    "bird_id": 49,
+    "question_text": "学名「Melanitta perspicillata」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アラナミキンクロ",
+    "choices": [
+      "アカショウビン",
+      "ツルシギ",
+      "キリアイ",
+      "アラナミキンクロ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Melanitta perspicillataの和名はアラナミキンクロです。種番号: 49, 著者: (Linnaeus, 1758)"
+  },
+  {
+    "id": 147,
+    "bird_id": 49,
+    "question_text": "「アラナミキンクロ」の学名は「Melanitta perspicillata」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アラナミキンクロの正しい学名はMelanitta perspicillataです。"
+  },
+  {
+    "id": 148,
+    "bird_id": 50,
+    "question_text": "「アメリカビロードキンクロ」の学名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "Melanitta deglandi",
+    "choices": [
+      "Melanitta deglandi",
+      "Haematopus ostralegus",
+      "Sterna sumatrana",
+      "Acridotheres javanicus"
+    ],
+    "difficulty": "medium",
+    "explanation": "アメリカビロードキンクロの学名はMelanitta deglandiです。種番号: 50, 著者: (Bonaparte, 1850)"
+  },
+  {
+    "id": 149,
+    "bird_id": 50,
+    "question_text": "学名「Melanitta deglandi」の和名は何ですか？",
+    "question_type": "multiple_choice",
+    "correct_answer": "アメリカビロードキンクロ",
+    "choices": [
+      "オオハシシギ",
+      "オガサワラガビチョウ",
+      "アメリカウズラシギ",
+      "アメリカビロードキンクロ"
+    ],
+    "difficulty": "hard",
+    "explanation": "学名Melanitta deglandiの和名はアメリカビロードキンクロです。種番号: 50, 著者: (Bonaparte, 1850)"
+  },
+  {
+    "id": 150,
+    "bird_id": 50,
+    "question_text": "「アメリカビロードキンクロ」の学名は「Melanitta deglandi」である。",
+    "question_type": "true_false",
+    "correct_answer": "true",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "difficulty": "easy",
+    "explanation": "アメリカビロードキンクロの正しい学名はMelanitta deglandiです。"
+  }
+]
