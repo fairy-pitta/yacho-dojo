@@ -1,16 +1,23 @@
 import { createClient } from '@/lib/supabase/client';
 
 export interface UserAnswerHistory {
-  id: number;
+  id: string;
   user_id: string;
-  question_id: number;
-  user_answer: string;
+  bird_id: string;
+  bird_image_id: string;
+  selected_answer: string;
+  correct_answer: string;
   is_correct: boolean;
   answered_at: string;
-  questions?: {
-    id: number;
-    bird_name: string;
-    image_url: string | null;
+  birds?: {
+    id: string;
+    japanese_name: string;
+    scientific_name: string;
+    family: string;
+  };
+  bird_images?: {
+    id: string;
+    image_url: string;
   };
 }
 

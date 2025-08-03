@@ -25,8 +25,10 @@ describe('Quiz Service', () => {
   describe('saveUserAnswer', () => {
     const mockUserAnswer: Omit<UserAnswer, 'id' | 'answered_at'> = {
       user_id: 'test-user-id',
-      question_id: 1,
-      user_answer: 'スズメ',
+      bird_id: '1',
+      bird_image_id: '1',
+      selected_answer: 'スズメ',
+      correct_answer: 'スズメ',
       is_correct: true,
       time_taken: 30,
     };

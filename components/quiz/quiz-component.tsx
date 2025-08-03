@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { Input } from '@/components/ui/input';
 import { Clock, CheckCircle, XCircle, ArrowRight } from 'lucide-react';
 import { UserAnswer, QuizSession, QuizResult } from '@/types/quiz';
 import { validateAnswer, calculateScore, formatTime } from '@/utils/quiz';
@@ -41,8 +42,6 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
   // 問題を読み込み
   useEffect(() => {
     async function loadQuestions() {
-      if (!user) return;
-
       setIsLoading(true);
       setError(null);
 
@@ -55,20 +54,14 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
       }
 
       const newSession: QuizSession = {
-        id: `quiz_${Date.now()}`,
-        user_id: parseInt(user.id) || 0,
+        id: Date.now(),
+        user_id: user ? parseInt(user.id) || 0 : 0,
         questions,
         answers: [],
         current_question_index: 0,
-        start_time: new Date(),
-        settings: {
-          question_count: questionCount,
-          time_limit: null,
-          difficulty: 'mixed',
-          shuffle_questions: true,
-          shuffle_options: true,
-          include_images: true
-        }
+        score: 0,
+        total_questions: questionCount,
+        started_at: new Date().toISOString()
       };
 
       setSession(newSession);
@@ -80,12 +73,10 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
 
   const currentQuestion = session?.questions[currentQuestionIndex];
 
-  const handleAnswerSelect = (answer: string) => {
-    setSelectedAnswer(answer);
-  };
+
 
   const handleSubmitAnswer = async () => {
-    if (!session || !currentQuestion || !selectedAnswer || !user) return;
+    if (!session || !currentQuestion || !selectedAnswer.trim()) return;
 
     setIsSubmitting(true);
 
@@ -93,24 +84,28 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
     const validation = validateAnswer(selectedAnswer, currentQuestion.correct_answer);
     
     const userAnswer: Omit<UserAnswer, 'id' | 'answered_at'> = {
-      user_id: user.id,
-      question_id: currentQuestion.id,
-      user_answer: selectedAnswer,
+      user_id: user?.id || '',
+      bird_id: currentQuestion.bird_id || '',
+      bird_image_id: currentQuestion.id,
+      selected_answer: selectedAnswer,
+      correct_answer: currentQuestion.correct_answer,
       is_correct: validation.isCorrect,
       time_taken: timeElapsed - (session.answers.length > 0 ? 
         session.answers.reduce((sum, a) => sum + (a.time_taken || 0), 0) : 0)
     };
 
-    // 回答を保存
-    const { error: saveError } = await saveUserAnswer(userAnswer);
-    if (saveError) {
-      console.error('回答の保存に失敗:', saveError);
+    // ログインしている場合のみ回答を保存
+    if (user) {
+      const { error: saveError } = await saveUserAnswer(userAnswer);
+      if (saveError) {
+        console.error('回答の保存に失敗:', saveError);
+      }
     }
 
     // セッションを更新
-    const updatedAnswers = [...session.answers, {
+    const updatedAnswers: UserAnswer[] = [...session.answers, {
       ...userAnswer,
-      id: Date.now(), // 仮のID
+      id: Date.now().toString(), // 仮のID
       answered_at: new Date().toISOString()
     }];
 
@@ -133,38 +128,40 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
   };
 
   const handleQuizComplete = async (finalSession: QuizSession) => {
-    if (!user) return;
-
     const correctAnswers = finalSession.answers.filter(a => a.is_correct).length;
     const totalQuestions = finalSession.questions.length;
     const score = calculateScore(finalSession.answers, finalSession.questions);
 
-    const result: Omit<QuizResult, 'id' | 'created_at'> = {
-      user_id: user.id,
-      total_questions: totalQuestions,
-      correct_answers: correctAnswers,
-      score,
-      time_taken: timeElapsed,
-      metadata: {
-        difficulty_distribution: {
-          easy: finalSession.questions.filter(q => q.difficulty === 'easy').length,
-          medium: finalSession.questions.filter(q => q.difficulty === 'medium').length,
-          hard: finalSession.questions.filter(q => q.difficulty === 'hard').length
+    // ログインしている場合のみ結果を保存
+    if (user) {
+      const result: Omit<QuizResult, 'id' | 'created_at'> = {
+        user_id: user.id,
+        total_questions: totalQuestions,
+        correct_answers: correctAnswers,
+        score,
+        time_taken: timeElapsed,
+        difficulty_level: 'mixed',
+        metadata: {
+          difficulty_distribution: {
+            easy: finalSession.questions.filter(q => q.difficulty === 'easy').length,
+            medium: finalSession.questions.filter(q => q.difficulty === 'medium').length,
+            hard: finalSession.questions.filter(q => q.difficulty === 'hard').length
+          }
         }
-      }
-    };
+      };
 
-    // 結果を保存
-    const { data: savedResult, error: saveError } = await saveQuizResult(result);
-    if (saveError) {
-      console.error('結果の保存に失敗:', saveError);
+      // 結果を保存
+      const { data: savedResult, error: saveError } = await saveQuizResult(result);
+      if (saveError) {
+        console.error('結果の保存に失敗:', saveError);
+      }
+      
+      if (onComplete && savedResult) {
+        onComplete(savedResult);
+      }
     }
 
     setShowResult(true);
-    
-    if (onComplete && savedResult) {
-      onComplete(savedResult);
-    }
   };
 
   const getDifficultyColor = (difficulty: string) => {
@@ -261,6 +258,22 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
             </div>
           </div>
 
+          {!user && (
+            <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
+              <p className="text-sm text-blue-800 mb-2">
+                📝 ログインすると回答履歴が保存され、成績を追跡できます
+              </p>
+              <Button 
+                variant="outline" 
+                size="sm" 
+                onClick={() => window.location.href = '/auth/login'}
+                className="text-blue-700 border-blue-300 hover:bg-blue-100"
+              >
+                ログインする
+              </Button>
+            </div>
+          )}
+
           <div className="flex gap-2">
             <Button onClick={() => window.location.reload()} className="flex-1">
               もう一度挑戦
@@ -317,25 +330,32 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
           </div>
         )}
 
-        <div className="space-y-2">
-          {currentQuestion.options?.map((option, index) => (
-            <Button
-              key={index}
-              variant={selectedAnswer === option ? "default" : "outline"}
-              className="w-full justify-start text-left h-auto p-4"
-              onClick={() => handleAnswerSelect(option)}
+        <div className="space-y-4">
+          <div>
+            <label htmlFor="answer-input" className="block text-sm font-medium text-gray-700 mb-2">
+              この鳥の名前を入力してください
+            </label>
+            <Input
+              id="answer-input"
+              type="text"
+              value={selectedAnswer}
+              onChange={(e) => setSelectedAnswer(e.target.value)}
+              placeholder="鳥の名前を入力..."
               disabled={isSubmitting}
-            >
-              <span className="mr-3 font-semibold">{String.fromCharCode(65 + index)}.</span>
-              {option}
-            </Button>
-          ))}
+              className="w-full"
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' && selectedAnswer.trim() && !isSubmitting) {
+                  handleSubmitAnswer();
+                }
+              }}
+            />
+          </div>
         </div>
 
         <div className="flex justify-end">
           <Button
             onClick={handleSubmitAnswer}
-            disabled={!selectedAnswer || isSubmitting}
+            disabled={!selectedAnswer.trim() || isSubmitting}
             className="flex items-center gap-2"
           >
             {isSubmitting ? (

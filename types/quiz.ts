@@ -1,21 +1,23 @@
 export interface Question {
-  id: number;
+  id: string;
   question_text: string;
   image_url?: string;
   correct_answer: string;
   options: string[];
   difficulty: 'easy' | 'medium' | 'hard';
   category: string;
-  bird_id?: number;
+  bird_id?: string;
   created_at?: string;
   updated_at?: string;
 }
 
 export interface UserAnswer {
-  id?: number;
+  id?: string;
   user_id: string;
-  question_id: number;
-  user_answer: string;
+  bird_id: string;
+  bird_image_id: string;
+  selected_answer: string;
+  correct_answer: string;
   is_correct: boolean;
   answered_at: string;
   time_taken?: number; // seconds
