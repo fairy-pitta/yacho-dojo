@@ -99,30 +99,30 @@
 - [x] **テスト実行**: `npm test`
 - [x] **コミット**: `git add . && git commit -m "[クイズデータ作成]: 野鳥データとクイズ問題の作成・投入完了"`
 
-### 1.4 認証システム（スターターキット活用）
-- [ ] **テスト作成**: 認証システムのテスト
-  - [ ] ログイン/ログアウトのテスト
-  - [ ] 認証状態管理のテスト
-  - [ ] 保護されたルートのテスト
-- [ ] 既存認証機能の確認・カスタマイズ <mcreference link="https://supabase.com/docs/guides/auth/server-side/nextjs" index="2">2</mcreference>
-  - [ ] ログイン/サインアップページの確認（/login, /signup）
-  - [ ] 認証フローの動作確認
-  - [ ] ミドルウェア設定の確認（middleware.ts）
-  - [ ] Server-Side Auth設定の確認
-  - [ ] Cookieベース認証の動作確認
-- [ ] Google OAuth プロバイダー追加設定
-  - [ ] Supabase Auth設定でGoogle Provider有効化
-  - [ ] Google Cloud Console設定
-  - [ ] 認証フロー確認
-- [ ] ユーザープロフィール管理の拡張
-  - [ ] プロフィール編集ページ作成
-  - [ ] アバター画像アップロード機能
-  - [ ] プロフィール情報の追加フィールド
-- [ ] 保護されたルートの追加設定
-  - [ ] クイズページの保護
-  - [ ] 成績ページの保護
-- [ ] **テスト実行**: `npm test`
-- [ ] **コミット**: `git add . && git commit -m "[認証システム]: 認証機能のカスタマイズと拡張"`
+### 1.4 認証システム（スターターキット活用） ✅
+- [x] **テスト作成**: 認証システムのテスト
+  - [x] ログイン/ログアウトのテスト
+  - [x] 認証状態管理のテスト
+  - [x] 保護されたルートのテスト
+- [x] 既存認証機能の確認・カスタマイズ <mcreference link="https://supabase.com/docs/guides/auth/server-side/nextjs" index="2">2</mcreference>
+  - [x] ログイン/サインアップページの確認（/login, /signup）
+  - [x] 認証フローの動作確認
+  - [x] ミドルウェア設定の確認（middleware.ts）
+  - [x] Server-Side Auth設定の確認
+  - [x] Cookieベース認証の動作確認
+- [x] Google OAuth プロバイダー追加設定
+  - [x] Supabase Auth設定でGoogle Provider有効化
+  - [x] Google Cloud Console設定
+  - [x] 認証フロー確認
+- [x] ユーザープロフィール管理の拡張
+  - [x] プロフィール編集ページ作成
+  - [x] アバター画像アップロード機能
+  - [x] プロフィール情報の追加フィールド
+- [x] 保護されたルートの追加設定
+  - [x] クイズページの保護
+  - [x] 成績ページの保護
+- [x] **テスト実行**: `npm test`
+- [x] **コミット**: `git add . && git commit -m "[認証システム]: 認証機能のカスタマイズと拡張"`
 
 ### 1.4 基本UI コンポーネント
 - [ ] **テスト作成**: UIコンポーネントのテスト

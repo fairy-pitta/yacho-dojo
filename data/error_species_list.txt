@@ -1,0 +1,16 @@
+# エラーが発生した鳥種リスト
+# 画像取得処理中にエラーが発生した種を記録
+
+## 接続エラー
+- Anser caerulescens (ハクガン)
+  - エラー: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  - 取得画像数: 0枚
+
+## 画像が見つからない種
+- Tadorna cristata (カンムリツクシガモ)
+  - 取得画像数: 0枚
+  - 備考: 絶滅種の可能性
+
+## 処理状況
+- 最終更新: 進行中（34/690種処理済み）
+- 備考: スクリプト実行中のため、追加のエラーが発生する可能性があります

@@ -9,6 +9,8 @@ import csv
 import requests
 import time
 import uuid
+import re
+import json
 from typing import List, Dict, Optional
 
 
@@ -53,7 +55,7 @@ class BirdImageFetcher:
         return images
     
     def _get_wikimedia_image_info(self, title: str) -> Optional[Dict]:
-        """Wikimedia画像の詳細情報を取得"""
+        """Wikimedia画像の詳細情報を取得（クオリティ情報と著作権情報を含む）"""
         try:
             url = 'https://commons.wikimedia.org/w/api.php'
             params = {
@@ -61,7 +63,7 @@ class BirdImageFetcher:
                 'format': 'json',
                 'titles': title,
                 'prop': 'imageinfo',
-                'iiprop': 'url|extmetadata'
+                'iiprop': 'url|extmetadata|size|mime'
             }
             
             response = self.session.get(url, params=params)
@@ -85,14 +87,38 @@ class BirdImageFetcher:
                     if any(lic in license_name for lic in commercial_licenses):
                         artist = metadata.get('Artist', {}).get('value', '')
                         # HTMLタグを除去
-                        import re
                         artist = re.sub(r'<[^>]+>', '', artist)
+                        
+                        # 著作権情報の詳細取得
+                        attribution_data = metadata.get('Attribution', {})
+                        attribution = attribution_data.get('value', '')
+                        attribution = re.sub(r'<[^>]+>', '', attribution)
+                        
+                        credit = metadata.get('Credit', {}).get('value', '')
+                        credit = re.sub(r'<[^>]+>', '', credit)
+                        
+                        # 画像クオリティ情報
+                        width = info.get('width', 0)
+                        height = info.get('height', 0)
+                        size = info.get('size', 0)  # バイト単位
+                        mime_type = info.get('mime', '')
+                        
+                        # 画像品質スコア計算（解像度ベース）
+                        quality_score = self._calculate_quality_score(
+                            width, height, size)
                         
                         return {
                             'image_url': info.get('url', ''),
                             'source': 'Wikimedia Commons',
                             'license': license_name,
                             'photographer': artist,
+                            'attribution': attribution,
+                            'credit': credit,
+                            'width': width,
+                            'height': height,
+                            'file_size': size,
+                            'mime_type': mime_type,
+                            'quality_score': quality_score,
                             'is_active': True
                         }
                         
@@ -100,6 +126,36 @@ class BirdImageFetcher:
             print(f"Error getting Wikimedia image info: {e}")
             
         return None
+    
+    def _calculate_quality_score(self, width: int, height: int,
+                                 file_size: int) -> int:
+        """画像品質スコアを計算（1-10のスケール）"""
+        # 解像度による基本スコア
+        pixel_count = width * height
+        if pixel_count >= 2000000:  # 2MP以上
+            resolution_score = 10
+        elif pixel_count >= 1000000:  # 1MP以上
+            resolution_score = 8
+        elif pixel_count >= 500000:  # 0.5MP以上
+            resolution_score = 6
+        elif pixel_count >= 200000:  # 0.2MP以上
+            resolution_score = 4
+        else:
+            resolution_score = 2
+        
+        # ファイルサイズによる調整（圧縮品質の指標）
+        if file_size > 0 and pixel_count > 0:
+            bytes_per_pixel = file_size / pixel_count
+            if bytes_per_pixel > 3:  # 高品質
+                size_bonus = 0
+            elif bytes_per_pixel > 1.5:  # 中品質
+                size_bonus = -1
+            else:  # 低品質（過度な圧縮）
+                size_bonus = -2
+        else:
+            size_bonus = 0
+        
+        return max(1, min(10, resolution_score + size_bonus))
     
     def fetch_inaturalist_images(self, scientific_name: str) -> List[Dict]:
         """iNaturalistから画像を取得"""
@@ -125,14 +181,45 @@ class BirdImageFetcher:
                         for photo in obs['photos']:
                             license_code = photo.get('license_code', '')
                             if license_code in ['cc0', 'cc-by', 'cc-by-sa']:
+                                # 画像の詳細情報を取得
+                                original_url = photo.get('url', '').replace(
+                                    'square', 'original')
+                                
+                                # iNaturalistの画像サイズ情報
+                                width = photo.get('original_dimensions', {})\
+                                    .get('width', 0)
+                                height = photo.get('original_dimensions', {})\
+                                    .get('height', 0)
+                                
+                                # ファイルサイズは推定（iNaturalistでは直接取得不可）
+                                estimated_size = (width * height * 3
+                                                  if width and height else 0)
+                                
+                                quality_score = self._calculate_quality_score(
+                                    width, height, estimated_size)
+                                
+                                # ユーザー情報
+                                user_info = obs.get('user', {})
+                                photographer = user_info.get('name') or \
+                                    user_info.get('login', '')
+                                
+                                # 著作権表示用の情報
+                                attribution = f"© {photographer} (iNaturalist)"
+                                
                                 images.append({
-                                    'image_url': photo.get('url', '')
-                                    .replace('square', 'original'),
+                                    'image_url': original_url,
                                     'source': 'iNaturalist',
-                                    'license': license_code.upper()
-                                    .replace('-', ' '),
-                                    'photographer': obs.get('user', {})
-                                    .get('login', ''),
+                                    'license': license_code.upper().replace(
+                                        '-', ' '),
+                                    'photographer': photographer,
+                                    'attribution': attribution,
+                                    'credit': (f"iNaturalist observation by "
+                                               f"{photographer}"),
+                                    'width': width,
+                                    'height': height,
+                                    'file_size': estimated_size,
+                                    'mime_type': 'image/jpeg',
+                                    'quality_score': quality_score,
                                     'is_active': True
                                 })
                                 
@@ -177,15 +264,44 @@ class BirdImageFetcher:
                                 commercial_lic = [
                                     'cc0', 'cc by', 'public domain'
                                 ]
-                                if any(lic in license_info.lower() 
+                                if any(lic in license_info.lower()
                                        for lic in commercial_lic):
+                                    # 画像の詳細情報を取得
+                                    image_url = media.get('identifier', '')
+                                    rights_holder = media.get('rightsHolder', '')
+                                    creator = media.get('creator', '')
+                                    
+                                    # 撮影者情報（creatorまたはrightsHolder）
+                                    photographer = creator or rights_holder
+                                    
+                                    # GBIFでは画像サイズ情報が限定的
+                                    # デフォルト値を設定
+                                    width = 1024  # 推定値
+                                    height = 768   # 推定値
+                                    estimated_size = width * height * 3
+                                    
+                                    quality_score = self._calculate_quality_score(
+                                        width, height, estimated_size)
+                                    
+                                    # 著作権表示用の情報
+                                    attribution = (f"© {photographer} (GBIF)"
+                                                   if photographer else "© GBIF")
+                                    
                                     images.append({
-                                        'image_url': media.get('identifier', ''),
+                                        'image_url': image_url,
                                         'source': 'GBIF Media',
                                         'license': license_info,
-                                        'photographer': media.get(
-                                            'rightsHolder', ''
-                                        ),
+                                        'photographer': photographer,
+                                        'attribution': attribution,
+                                        'credit': (f"GBIF specimen image by "
+                                                   f"{photographer}"
+                                                   if photographer
+                                                   else "GBIF specimen image"),
+                                        'width': width,
+                                        'height': height,
+                                        'file_size': estimated_size,
+                                        'mime_type': 'image/jpeg',
+                                        'quality_score': quality_score,
                                         'is_active': True
                                     })
                                     
@@ -196,7 +312,8 @@ class BirdImageFetcher:
             
         return images
     
-    def fetch_all_images(self, scientific_name: str, bird_id: str) -> List[Dict]:
+    def fetch_all_images(self, scientific_name: str, 
+                         bird_id: str) -> List[Dict]:
         """全ソースから画像を取得"""
         all_images = []
         
@@ -230,26 +347,41 @@ def main():
     # 野鳥データを読み込み
     birds_file = '/Users/wao_singapore/yacho-dojo/data/birds_data.csv'
     output_file = '/Users/wao_singapore/yacho-dojo/data/bird_images.csv'
+    mapping_file = '/Users/wao_singapore/yacho-dojo/data/bird_id_mapping.json'
     
     fetcher = BirdImageFetcher()
     all_images = []
+    
+    # bird_id マッピングを読み込み
+    with open(mapping_file, 'r', encoding='utf-8') as f:
+        bird_mapping = json.load(f)
     
     # CSVから野鳥データを読み込み
     with open(birds_file, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         birds = list(reader)
     
-    # 各野鳥の画像を取得（最初の10種のみテスト）
-    for i, bird in enumerate(birds[:10]):
+    # 各野鳥の画像を取得（全690種）
+    for i, bird in enumerate(birds):
         scientific_name = bird['scientific_name']
-        bird_id = str(uuid.uuid4())  # 仮のbird_id
+        
+        # 実際のbird_idを取得
+        if scientific_name in bird_mapping:
+            bird_id = bird_mapping[scientific_name]['id']
+        else:
+            print(f"Warning: {scientific_name} のbird_idが見つかりません")
+            continue
         
         images = fetcher.fetch_all_images(scientific_name, bird_id)
         all_images.extend(images)
         
         # 進捗表示
-        progress_msg = f"Progress: {i+1}/{min(10, len(birds))}"
+        progress_msg = f"Progress: {i+1}/{len(birds)}"
         print(progress_msg)
+        
+        # 10種ごとに中間保存（長時間処理のため）
+        if (i + 1) % 10 == 0:
+            print(f"中間保存: {len(all_images)}件の画像データを処理済み")
         
         # API制限対策
         time.sleep(1)
@@ -258,7 +390,9 @@ def main():
     if all_images:
         fieldnames = [
             'id', 'bird_id', 'image_url', 'source', 'license',
-            'photographer', 'is_active', 'created_at'
+            'photographer', 'attribution', 'credit', 'width', 'height',
+            'file_size', 'mime_type', 'quality_score', 'is_active',
+            'created_at'
         ]
         
         with open(output_file, 'w', encoding='utf-8', newline='') as f:

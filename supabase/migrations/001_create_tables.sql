@@ -17,6 +17,13 @@ CREATE TABLE IF NOT EXISTS bird_images (
   source TEXT,
   license TEXT,
   photographer TEXT,
+  attribution TEXT,
+  credit TEXT,
+  width INTEGER,
+  height INTEGER,
+  file_size BIGINT,
+  mime_type TEXT,
+  quality_score INTEGER,
   is_active BOOLEAN DEFAULT true,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );

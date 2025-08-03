@@ -1,0 +1,2726 @@
+{
+  "Dendrocygna javanica": {
+    "id": "79cc22af-ea63-4a68-90fe-7d9c8f9b12e0",
+    "japanese_name": "リュウキュウガモ"
+  },
+  "Branta bernicla": {
+    "id": "fc80832c-6a39-4ea9-b528-c1530b08d79c",
+    "japanese_name": "コクガン"
+  },
+  "Branta ruficollis": {
+    "id": "3a9f3a27-e9de-4028-81c5-156c349c8b72",
+    "japanese_name": "アオガン"
+  },
+  "Branta canadensis": {
+    "id": "bdedaa2b-8c40-48a8-a382-d8e076599120",
+    "japanese_name": "カナダガン"
+  },
+  "Branta hutchinsii": {
+    "id": "28dfcfe3-164f-4034-abbd-e1433fbe6027",
+    "japanese_name": "シジュウカラガン"
+  },
+  "Anser indicus": {
+    "id": "99fded34-f13a-4493-b429-ac7739d24f92",
+    "japanese_name": "インドガン"
+  },
+  "Anser canagicus": {
+    "id": "469f3478-c9b7-4db0-8f13-46ede857a7dc",
+    "japanese_name": "ミカドガン"
+  },
+  "Anser caerulescens": {
+    "id": "51dff433-1754-47df-838d-b8675b336622",
+    "japanese_name": "ハクガン"
+  },
+  "Anser anser": {
+    "id": "f02098b9-60f2-437a-844c-8ac3dcfd5e25",
+    "japanese_name": "ハイイロガン"
+  },
+  "Anser cygnoid": {
+    "id": "36aec9c9-dac5-4d35-be6a-b2fca1b83310",
+    "japanese_name": "サカツラガン"
+  },
+  "Anser fabalis": {
+    "id": "8936e021-5c4e-4b2d-82e0-48aff05da4cc",
+    "japanese_name": "ヒシクイ"
+  },
+  "Anser albifrons": {
+    "id": "424771c2-5b9a-4d27-987a-22a41f59f0a7",
+    "japanese_name": "マガン"
+  },
+  "Anser erythropus": {
+    "id": "c6f878db-d371-43a6-a80b-94efacd7aaee",
+    "japanese_name": "カリガネ"
+  },
+  "Cygnus olor": {
+    "id": "ef980e3b-fbcc-422c-98c2-56f5067a8345",
+    "japanese_name": "コブハクチョウ"
+  },
+  "Cygnus buccinator": {
+    "id": "606700e2-5044-4ecc-a8b0-28ccd292e19e",
+    "japanese_name": "ナキハクチョウ"
+  },
+  "Cygnus columbianus": {
+    "id": "4132e382-95a8-4250-a193-d0324f2e3247",
+    "japanese_name": "コハクチョウ"
+  },
+  "Cygnus cygnus": {
+    "id": "fe02bc70-b1ee-4919-b79f-c88bb6b880e9",
+    "japanese_name": "オオハクチョウ"
+  },
+  "Tadorna tadorna": {
+    "id": "f75a08b3-c033-4609-831d-86ad942354e7",
+    "japanese_name": "ツクシガモ"
+  },
+  "Tadorna ferruginea": {
+    "id": "95e5c1e2-a79f-4cca-a5b3-8090fc5642d5",
+    "japanese_name": "アカツクシガモ"
+  },
+  "Tadorna cristata": {
+    "id": "3f30574e-c473-45fa-8a45-35318680d022",
+    "japanese_name": "カンムリツクシガモ"
+  },
+  "Aix galericulata": {
+    "id": "eac26223-db9a-4815-a5b4-0194c3b4f65b",
+    "japanese_name": "オシドリ"
+  },
+  "Nettapus coromandelianus": {
+    "id": "b7267c0d-500b-46cd-9d03-a39d02c6488c",
+    "japanese_name": "ナンキンオシ"
+  },
+  "Sibirionetta formosa": {
+    "id": "fc267b3d-49d8-4fab-a860-28a65872e0df",
+    "japanese_name": "トモエガモ"
+  },
+  "Spatula querquedula": {
+    "id": "cb04d00e-5d88-404b-9c77-7cec01f94bee",
+    "japanese_name": "シマアジ"
+  },
+  "Spatula discors": {
+    "id": "9c6322ec-a03b-453e-a3bd-6d1f2ef3b620",
+    "japanese_name": "ミカヅキシマアジ"
+  },
+  "Spatula clypeata": {
+    "id": "2aaf0903-f527-4f57-ad91-a02eb5c5b162",
+    "japanese_name": "ハシビロガモ"
+  },
+  "Mareca strepera": {
+    "id": "7bcc1415-a29b-48d0-96ad-1c96522200f5",
+    "japanese_name": "オカヨシガモ"
+  },
+  "Mareca falcata": {
+    "id": "088fd62c-e82e-4c07-83af-f5cc73134d08",
+    "japanese_name": "ヨシガモ"
+  },
+  "Mareca penelope": {
+    "id": "1d5ec6b9-515e-4fa4-8e72-fa41c22fc80a",
+    "japanese_name": "ヒドリガモ"
+  },
+  "Mareca americana": {
+    "id": "584d285c-f9fd-4a53-b257-bf74290bb45b",
+    "japanese_name": "アメリカヒドリ"
+  },
+  "Anas luzonica": {
+    "id": "123ea511-1ebd-4c34-a5dc-c9dab24363ce",
+    "japanese_name": "アカノドカルガモ"
+  },
+  "Anas zonorhyncha": {
+    "id": "af3ab585-00bb-4536-b132-0aeeab2cce00",
+    "japanese_name": "カルガモ"
+  },
+  "Anas platyrhynchos": {
+    "id": "4ae7b975-a7df-4241-abbc-20ca24d3ea1f",
+    "japanese_name": "マガモ"
+  },
+  "Anas acuta": {
+    "id": "30e0506c-cf7b-4083-94dd-d8cb2282ec24",
+    "japanese_name": "オナガガモ"
+  },
+  "Anas crecca": {
+    "id": "9c4ad24a-8142-48fb-ba5f-8d3d5f00c2b8",
+    "japanese_name": "コガモ"
+  },
+  "Netta rufina": {
+    "id": "3431ff8e-0a65-45d6-9a9d-13e8a2f13f0e",
+    "japanese_name": "アカハシハジロ"
+  },
+  "Aythya valisineria": {
+    "id": "744549cf-3247-4ab9-a3fc-2f742329704c",
+    "japanese_name": "オオホシハジロ"
+  },
+  "Aythya americana": {
+    "id": "9c2ef248-3e9f-4f19-a312-26c51a2ce3ad",
+    "japanese_name": "アメリカホシハジロ"
+  },
+  "Aythya ferina": {
+    "id": "9a683f25-b151-4178-b024-dec9faf18a6d",
+    "japanese_name": "ホシハジロ"
+  },
+  "Aythya baeri": {
+    "id": "f99b9e63-96ab-4afe-b190-fc2001f04b2d",
+    "japanese_name": "アカハジロ"
+  },
+  "Aythya nyroca": {
+    "id": "c8fc2772-6e1a-4fd9-94dd-5bc590b9ef75",
+    "japanese_name": "メジロガモ"
+  },
+  "Aythya collaris": {
+    "id": "9ba48b37-62ea-4946-afc5-00ecf9cb56ab",
+    "japanese_name": "クビワキンクロ"
+  },
+  "Aythya fuligula": {
+    "id": "67b3008b-18fd-4bc0-a3b2-16a847390f9a",
+    "japanese_name": "キンクロハジロ"
+  },
+  "Aythya marila": {
+    "id": "ec432058-4c0f-4f65-a0e0-5a4495b0740f",
+    "japanese_name": "スズガモ"
+  },
+  "Aythya affinis": {
+    "id": "23eaacd4-5933-49f4-8d43-07f4fa764113",
+    "japanese_name": "コスズガモ"
+  },
+  "Polysticta stelleri": {
+    "id": "a472e156-0b8a-4838-925a-336a8c49d7f0",
+    "japanese_name": "コケワタガモ"
+  },
+  "Somateria spectabilis": {
+    "id": "d8ac2c87-9da9-4579-aee2-dcba9de7d678",
+    "japanese_name": "ケワタガモ"
+  },
+  "Histrionicus histrionicus": {
+    "id": "74271f2d-c299-4659-8cc9-006363c8472e",
+    "japanese_name": "シノリガモ"
+  },
+  "Melanitta perspicillata": {
+    "id": "47ce1f96-9d20-43d2-9aab-1f2f7a9162c2",
+    "japanese_name": "アラナミキンクロ"
+  },
+  "Melanitta deglandi": {
+    "id": "db72868c-3e60-4bbd-afe8-f119f5024ecc",
+    "japanese_name": "アメリカビロードキンクロ"
+  },
+  "Melanitta stejnegeri": {
+    "id": "7c3978a7-11ee-4cdf-b297-da792dd78009",
+    "japanese_name": "ビロードキンクロ"
+  },
+  "Melanitta americana": {
+    "id": "36df0c24-4dff-492a-ab71-f0ade8a19c73",
+    "japanese_name": "クロガモ"
+  },
+  "Clangula hyemalis": {
+    "id": "bf0c622c-94ea-40ca-b582-446c4bf12e37",
+    "japanese_name": "コオリガモ"
+  },
+  "Bucephala albeola": {
+    "id": "1615caf2-f586-4980-b7fb-eb8a61af45bc",
+    "japanese_name": "ヒメハジロ"
+  },
+  "Bucephala clangula": {
+    "id": "89e2a3e5-2791-409d-b6a4-6bd6b9202ab7",
+    "japanese_name": "ホオジロガモ"
+  },
+  "Mergellus albellus": {
+    "id": "5f5a3dd2-fa0a-4941-98ac-4114f286dfeb",
+    "japanese_name": "ミコアイサ"
+  },
+  "Lophodytes cucullatus": {
+    "id": "82fb76b7-42b9-4652-997a-d7c376bf2594",
+    "japanese_name": "オウギアイサ"
+  },
+  "Mergus merganser": {
+    "id": "0b14c05a-2fd6-4ecd-ac6e-49036e4c6c24",
+    "japanese_name": "カワアイサ"
+  },
+  "Mergus serrator": {
+    "id": "4599a5e6-0089-4751-b777-f2e180726f01",
+    "japanese_name": "ウミアイサ"
+  },
+  "Mergus squamatus": {
+    "id": "c3811e98-344b-4f16-85b9-c49ebaa91a7d",
+    "japanese_name": "コウライアイサ"
+  },
+  "Tetrastes bonasia": {
+    "id": "ab3424f2-1c31-418c-8fda-354685b5024f",
+    "japanese_name": "エゾライチョウ"
+  },
+  "Lagopus muta": {
+    "id": "8fcdc1cd-efc5-45bc-aa3d-1ab84c0c4fcf",
+    "japanese_name": "ライチョウ"
+  },
+  "Syrmaticus soemmerringii": {
+    "id": "4db6d125-8be2-43da-a79b-161f93cc1389",
+    "japanese_name": "ヤマドリ"
+  },
+  "Phasianus versicolor": {
+    "id": "8532c914-075f-46f2-bcf4-52a97eb843cc",
+    "japanese_name": "キジ"
+  },
+  "Coturnix japonica": {
+    "id": "9200db99-8dd0-489a-aecf-1633bc3e319d",
+    "japanese_name": "ウズラ"
+  },
+  "Caprimulgus jotaka": {
+    "id": "9e051e5a-de5b-4469-8140-187c62ccdb4c",
+    "japanese_name": "ヨタカ"
+  },
+  "Hirundapus caudacutus": {
+    "id": "6169cc03-ed13-4d3a-826b-1891104dd24b",
+    "japanese_name": "ハリオアマツバメ"
+  },
+  "Hirundapus cochinchinensis": {
+    "id": "9892292c-bbb8-4948-a0e4-e71d06541343",
+    "japanese_name": "クロビタイハリオアマツバメ"
+  },
+  "Apus pacificus": {
+    "id": "6b96f662-b8ff-431d-9536-b8d19a0d7343",
+    "japanese_name": "アマツバメ"
+  },
+  "Apus nipalensis": {
+    "id": "073713cb-0c25-4df8-8859-b82787dd9e19",
+    "japanese_name": "ヒメアマツバメ"
+  },
+  "Otis tarda": {
+    "id": "e7efeae9-99da-40c5-8045-49384183b882",
+    "japanese_name": "ノガン"
+  },
+  "Tetrax tetrax": {
+    "id": "04cd84f8-31d8-4f42-a7ec-2b498e010eae",
+    "japanese_name": "ヒメノガン"
+  },
+  "Centropus bengalensis": {
+    "id": "14655b9e-cef5-4791-9fce-1485f163ee96",
+    "japanese_name": "バンケン"
+  },
+  "Clamator coromandus": {
+    "id": "7a53c30e-f938-4a28-a246-e8f605f2a35e",
+    "japanese_name": "カンムリカッコウ"
+  },
+  "Eudynamys scolopaceus": {
+    "id": "75d63929-8bf8-46c3-8ebf-75237b683459",
+    "japanese_name": "オニカッコウ"
+  },
+  "Urodynamis taitensis": {
+    "id": "1cd9c5cb-c70d-4ee5-b051-3e24838ad57e",
+    "japanese_name": "キジカッコウ"
+  },
+  "Cacomantis merulinus": {
+    "id": "07fea621-cd4d-47bd-8200-1661e94c46ec",
+    "japanese_name": "ヒメカッコウ"
+  },
+  "Hierococcyx sparverioides": {
+    "id": "20b09846-0200-4211-bbd7-302384567b83",
+    "japanese_name": "オオジュウイチ"
+  },
+  "Hierococcyx hyperythrus": {
+    "id": "5c7b6e9c-e834-4c3d-a2f3-f08c44cc1e2e",
+    "japanese_name": "ジュウイチ"
+  },
+  "Cuculus poliocephalus": {
+    "id": "7c600608-36d7-4bd3-9835-1d259b3789aa",
+    "japanese_name": "ホトトギス"
+  },
+  "Cuculus micropterus": {
+    "id": "e800bd78-0842-4a40-92e1-11b5825b6b7c",
+    "japanese_name": "セグロカッコウ"
+  },
+  "Cuculus optatus": {
+    "id": "6ad57607-8ace-4f26-a37c-85c3c31f838f",
+    "japanese_name": "ツツドリ"
+  },
+  "Cuculus canorus": {
+    "id": "b4de1662-674d-46e9-b14c-985c449ed582",
+    "japanese_name": "カッコウ"
+  },
+  "Syrrhaptes paradoxus": {
+    "id": "8ad80f3f-9857-4a9b-a6c9-1d9b359b3280",
+    "japanese_name": "サケイ"
+  },
+  "Columba oenas": {
+    "id": "4feaa179-6d2b-43f3-a2c7-afd52dc3ac44",
+    "japanese_name": "ヒメモリバト"
+  },
+  "Columba janthina": {
+    "id": "d83cff80-5eff-4c4f-bbcb-95460d23aed4",
+    "japanese_name": "カラスバト"
+  },
+  "Columba versicolor": {
+    "id": "da1e97da-ce56-436e-bfc6-b9376e30d668",
+    "japanese_name": "オガサワラカラスバト"
+  },
+  "Columba jouyi": {
+    "id": "7a222889-0d16-41ff-aa78-f92862567c5e",
+    "japanese_name": "リュウキュウカラスバト"
+  },
+  "Streptopelia orientalis": {
+    "id": "bdf187b4-e3d8-4fd2-9334-b85e79261e62",
+    "japanese_name": "キジバト"
+  },
+  "Streptopelia decaocto": {
+    "id": "e7a2aa31-1338-4758-aaf3-44ede91397ea",
+    "japanese_name": "シラコバト"
+  },
+  "Streptopelia tranquebarica": {
+    "id": "93d4f289-071b-47e2-b0f1-298f6f58f2eb",
+    "japanese_name": "ベニバト"
+  },
+  "Chalcophaps indica": {
+    "id": "59b6f332-b7af-49a7-bae4-10ba6102c927",
+    "japanese_name": "キンバト"
+  },
+  "Treron sieboldii": {
+    "id": "8aabf835-c016-4f48-bb64-5036f2e69561",
+    "japanese_name": "アオバト"
+  },
+  "Treron formosae": {
+    "id": "9342b0c3-2900-452a-b1a0-bbbc98529340",
+    "japanese_name": "ズアカアオバト"
+  },
+  "Ptilinopus leclancheri": {
+    "id": "febdd785-3e23-4893-8244-c003875e0c6b",
+    "japanese_name": "クロアゴヒメアオバト"
+  },
+  "Rallus indicus": {
+    "id": "c1725c78-80ec-4467-ad8c-78f8d3a8f347",
+    "japanese_name": "クイナ"
+  },
+  "Crex crex": {
+    "id": "950019ba-de09-4750-8b63-79a15751cb43",
+    "japanese_name": "ウズラクイナ"
+  },
+  "Lewinia striata": {
+    "id": "47a58e5d-d33d-4650-b00c-ebf4e96b9357",
+    "japanese_name": "ミナミクイナ"
+  },
+  "Hypotaenidia okinawae": {
+    "id": "29b6f7a8-a8db-4236-a708-385b91e4d823",
+    "japanese_name": "ヤンバルクイナ"
+  },
+  "Gallinula chloropus": {
+    "id": "48d4c245-ddd9-4061-9825-843d0c2cfa78",
+    "japanese_name": "バン"
+  },
+  "Fulica atra": {
+    "id": "454c056a-47b4-46c6-b2af-26342aa28670",
+    "japanese_name": "オオバン"
+  },
+  "Coturnicops exquisitus": {
+    "id": "c43404cc-502f-40c7-9201-856248a3dbc9",
+    "japanese_name": "シマクイナ"
+  },
+  "Zapornia fusca": {
+    "id": "f5093118-0a6e-4cf2-aa55-7b805d051729",
+    "japanese_name": "ヒクイナ"
+  },
+  "Zapornia paykullii": {
+    "id": "82e27d25-16ae-4f1b-ba47-04d22309109c",
+    "japanese_name": "コウライクイナ"
+  },
+  "Zapornia pusilla": {
+    "id": "99c5938a-a187-4fff-a65d-23cc36c92f15",
+    "japanese_name": "ヒメクイナ"
+  },
+  "Rallina eurizonoides": {
+    "id": "fc247915-dcb9-4d0d-a092-2b2081d96b3f",
+    "japanese_name": "オオクイナ"
+  },
+  "Poliolimnas cinereus": {
+    "id": "4fd350bf-6c4a-4be6-85b9-c597d3d20277",
+    "japanese_name": "マミジロクイナ"
+  },
+  "Gallicrex cinerea": {
+    "id": "f4deb23a-a134-4246-8783-24287086a7d2",
+    "japanese_name": "ツルクイナ"
+  },
+  "Amaurornis phoenicurus": {
+    "id": "e66db4f8-bd13-4d51-bd81-00e111bba69f",
+    "japanese_name": "シロハラクイナ"
+  },
+  "Leucogeranus leucogeranus": {
+    "id": "36a42ac2-d76d-47e7-9b9b-666b2ec4af3f",
+    "japanese_name": "ソデグロヅル"
+  },
+  "Antigone canadensis": {
+    "id": "ad34582c-b79d-4354-b400-158342bd4aa4",
+    "japanese_name": "カナダヅル"
+  },
+  "Antigone vipio": {
+    "id": "ff24ef7e-f56f-4a39-b823-d4484d73e22d",
+    "japanese_name": "マナヅル"
+  },
+  "Anthropoides virgo": {
+    "id": "c8b88204-f388-4fc2-a499-a7eea22e29a3",
+    "japanese_name": "アネハヅル"
+  },
+  "Grus japonensis": {
+    "id": "c825bbec-15d4-441e-b3d6-8fdd9f8d4db2",
+    "japanese_name": "タンチョウ"
+  },
+  "Grus grus": {
+    "id": "860e2226-fe9a-441e-a052-6f5efd2710b3",
+    "japanese_name": "クロヅル"
+  },
+  "Grus monacha": {
+    "id": "116651d8-5ea3-4dab-ac12-b9998506c47f",
+    "japanese_name": "ナベヅル"
+  },
+  "Tachybaptus ruficollis": {
+    "id": "2c67b7d0-86d4-4a13-9d3f-b52a4e06ad4e",
+    "japanese_name": "カイツブリ"
+  },
+  "Podiceps grisegena": {
+    "id": "12d64294-c49d-46ff-8343-d654fd8b17a3",
+    "japanese_name": "アカエリカイツブリ"
+  },
+  "Podiceps cristatus": {
+    "id": "3363aa53-0e74-4acd-a7ed-6bc76f9ac8dc",
+    "japanese_name": "カンムリカイツブリ"
+  },
+  "Podiceps auritus": {
+    "id": "48f4877a-9c7e-4c13-bacc-d1c65401b3ea",
+    "japanese_name": "ミミカイツブリ"
+  },
+  "Podiceps nigricollis": {
+    "id": "b7956104-5679-4ef1-be83-d09bc431ae69",
+    "japanese_name": "ハジロカイツブリ"
+  },
+  "Turnix suscitator": {
+    "id": "dbcd0f01-15aa-41f0-a2a8-d5a5cccb0ae3",
+    "japanese_name": "ミフウズラ"
+  },
+  "Haematopus ostralegus": {
+    "id": "e4d1c941-2c1b-49b2-bcc6-f01d04018ba0",
+    "japanese_name": "ミヤコドリ"
+  },
+  "Himantopus himantopus": {
+    "id": "a6ceaba2-8012-4b23-8eb3-adec1a9587a9",
+    "japanese_name": "セイタカシギ"
+  },
+  "Himantopus leucocephalus": {
+    "id": "bdd53b81-de9d-4774-876a-c03da54e2531",
+    "japanese_name": "オーストラリアセイタカシギ"
+  },
+  "Recurvirostra avosetta": {
+    "id": "613fd9b7-c231-493d-8e58-04527c639e93",
+    "japanese_name": "ソリハシセイタカシギ"
+  },
+  "Vanellus vanellus": {
+    "id": "59ee60c1-b736-4f70-afcd-2768f99108b2",
+    "japanese_name": "タゲリ"
+  },
+  "Vanellus cinereus": {
+    "id": "a9dcad23-1579-45fb-8209-c8de493b44d4",
+    "japanese_name": "ケリ"
+  },
+  "Pluvialis apricaria": {
+    "id": "2f52c550-6001-4a48-88d9-3d0fcbaefc80",
+    "japanese_name": "ヨーロッパムナグロ"
+  },
+  "Pluvialis fulva": {
+    "id": "2e4ca096-b1ea-48b0-811a-36e02d2c744f",
+    "japanese_name": "ムナグロ"
+  },
+  "Pluvialis squatarola": {
+    "id": "1625fd15-1f7c-4712-bb77-e14573fc9c5d",
+    "japanese_name": "ダイゼン"
+  },
+  "Charadrius hiaticula": {
+    "id": "43e430ea-7feb-473a-91a7-01f4f91d3e22",
+    "japanese_name": "ハジロコチドリ"
+  },
+  "Charadrius semipalmatus": {
+    "id": "46f36874-cb8a-4550-968c-c03b14482a30",
+    "japanese_name": "ミズカキチドリ"
+  },
+  "Charadrius placidus": {
+    "id": "65f9bdcb-2b48-42c1-b5b2-4d20477d5c2c",
+    "japanese_name": "イカルチドリ"
+  },
+  "Charadrius dubius": {
+    "id": "17540cdf-d764-43de-b9c2-a4dd2be04a4f",
+    "japanese_name": "コチドリ"
+  },
+  "Charadrius alexandrinus": {
+    "id": "b4d6c4de-61ef-461a-b7d3-761cbeacb799",
+    "japanese_name": "シロチドリ"
+  },
+  "Charadrius leschenaultii": {
+    "id": "4aa1f7f6-eaca-48ae-b57f-b67367630e17",
+    "japanese_name": "オオメダイチドリ"
+  },
+  "Charadrius mongolus": {
+    "id": "8d019418-0b3c-43d6-9610-2f1591bdd0d0",
+    "japanese_name": "メダイチドリ"
+  },
+  "Charadrius veredus": {
+    "id": "51c5805e-3a2e-4395-9fc3-2a7ba1a2f1ba",
+    "japanese_name": "オオチドリ"
+  },
+  "Eudromias morinellus": {
+    "id": "d6c52972-b3dd-468f-af58-5fa5ed7fcaac",
+    "japanese_name": "コバシチドリ"
+  },
+  "Rostratula benghalensis": {
+    "id": "232dcbb4-c737-4f27-b657-ecef8bbdc2d7",
+    "japanese_name": "タマシギ"
+  },
+  "Hydrophasianus chirurgus": {
+    "id": "d703ca46-7b1e-4385-9cf1-1a4c76df45ea",
+    "japanese_name": "レンカク"
+  },
+  "Numenius tahitiensis": {
+    "id": "f391ecd3-cc1c-47ae-9b1c-99575bff5ca5",
+    "japanese_name": "ハリモモチュウシャク"
+  },
+  "Numenius phaeopus": {
+    "id": "f539f91f-9dc8-4518-9803-fa5ea46a2ec0",
+    "japanese_name": "チュウシャクシギ"
+  },
+  "Numenius minutus": {
+    "id": "937404f4-c5c2-41f2-ada5-a7378216c313",
+    "japanese_name": "コシャクシギ"
+  },
+  "Numenius madagascariensis": {
+    "id": "9a6b0c41-31e3-40e2-aa0b-2d350d11bcc5",
+    "japanese_name": "ホウロクシギ"
+  },
+  "Numenius tenuirostris": {
+    "id": "8aa02fe1-1ad0-4b0d-8375-9cc7fb078167",
+    "japanese_name": "シロハラチュウシャクシギ"
+  },
+  "Numenius arquata": {
+    "id": "591ff55b-473d-403b-a7d0-2b09f72ae277",
+    "japanese_name": "ダイシャクシギ"
+  },
+  "Limosa lapponica": {
+    "id": "8ec86b3a-5ca6-4ac5-84c0-b3ee58f3a9b7",
+    "japanese_name": "オオソリハシシギ"
+  },
+  "Limosa limosa": {
+    "id": "cfd28078-d1a7-49ac-88d3-bdaa19679973",
+    "japanese_name": "オグロシギ"
+  },
+  "Limosa haemastica": {
+    "id": "9cd4c2f4-abef-4d04-9f42-e7eb65a9c34f",
+    "japanese_name": "アメリカオグロシギ"
+  },
+  "Arenaria interpres": {
+    "id": "1bbfd94a-d207-42a5-bd61-52d65fdef901",
+    "japanese_name": "キョウジョシギ"
+  },
+  "Calidris tenuirostris": {
+    "id": "a3564c54-d7c3-4eec-b474-da15c2c38544",
+    "japanese_name": "オバシギ"
+  },
+  "Calidris canutus": {
+    "id": "3bf679b5-6ad9-4e33-8d8f-64f1d5adcdfc",
+    "japanese_name": "コオバシギ"
+  },
+  "Calidris pugnax": {
+    "id": "8f66e01d-12e8-44f5-b768-a92d59cb9ae2",
+    "japanese_name": "エリマキシギ"
+  },
+  "Calidris falcinellus": {
+    "id": "c95dcfd2-d307-44d6-b5ae-3c8ff4c5d630",
+    "japanese_name": "キリアイ"
+  },
+  "Calidris acuminata": {
+    "id": "d2db2a73-7e34-4666-9c98-d4e4607434e9",
+    "japanese_name": "ウズラシギ"
+  },
+  "Calidris himantopus": {
+    "id": "8aee5886-4656-433e-a96f-2f64688f80a2",
+    "japanese_name": "アシナガシギ"
+  },
+  "Calidris ferruginea": {
+    "id": "2a305ee9-c6ba-4582-88cc-cd5e82fedc7e",
+    "japanese_name": "サルハマシギ"
+  },
+  "Calidris temminckii": {
+    "id": "d4afbc4a-6200-4ea1-a200-1ee325df8dd3",
+    "japanese_name": "オジロトウネン"
+  },
+  "Calidris subminuta": {
+    "id": "f1290c29-cd4f-4804-a134-9a4e29e94f64",
+    "japanese_name": "ヒバリシギ"
+  },
+  "Calidris pygmaea": {
+    "id": "e8c4c650-5121-4080-a187-1b8f4ddcc8fa",
+    "japanese_name": "ヘラシギ"
+  },
+  "Calidris ruficollis": {
+    "id": "ce5b3c05-b62f-4477-b004-7895e5e6c53b",
+    "japanese_name": "トウネン"
+  },
+  "Calidris alba": {
+    "id": "886fbdb3-e05b-4fb7-8198-484817f7ec36",
+    "japanese_name": "ミユビシギ"
+  },
+  "Calidris alpina": {
+    "id": "12ff5b06-375e-4e1f-90e2-caac12107da0",
+    "japanese_name": "ハマシギ"
+  },
+  "Calidris ptilocnemis": {
+    "id": "f84c6e52-ca19-4e53-95de-d4882c41c870",
+    "japanese_name": "チシマシギ"
+  },
+  "Calidris bairdii": {
+    "id": "21c97870-30ee-48ce-8bd5-dde05fe5fc2b",
+    "japanese_name": "ヒメウズラシギ"
+  },
+  "Calidris minuta": {
+    "id": "77233e2e-4917-4fc9-a2fb-f910113fb6a4",
+    "japanese_name": "ヨーロッパトウネン"
+  },
+  "Calidris fuscicollis": {
+    "id": "fc45ebb1-30dd-477a-8540-da062c13837b",
+    "japanese_name": "コシジロウズラシギ"
+  },
+  "Calidris subruficollis": {
+    "id": "95a7bddc-54b6-4185-8c69-ddd5d12649d2",
+    "japanese_name": "コモンシギ"
+  },
+  "Calidris melanotos": {
+    "id": "b9ccdd43-d8c7-4025-b400-9b2bba5a0a3b",
+    "japanese_name": "アメリカウズラシギ"
+  },
+  "Calidris mauri": {
+    "id": "5c932cd0-3e6f-407d-b0f3-3cbd80343ca8",
+    "japanese_name": "ヒメハマシギ"
+  },
+  "Limnodromus semipalmatus": {
+    "id": "c1d7cc8d-65a3-4d9d-907f-d03fd228ca34",
+    "japanese_name": "シベリアオオハシシギ"
+  },
+  "Limnodromus scolopaceus": {
+    "id": "305aeea7-9467-4022-9002-bb4ab608b8fa",
+    "japanese_name": "オオハシシギ"
+  },
+  "Limnodromus griseus": {
+    "id": "b8a08567-268a-4066-bb21-c1326179f87b",
+    "japanese_name": "アメリカオオハシシギ"
+  },
+  "Scolopax rusticola": {
+    "id": "fdbf51e8-b802-43c9-ae37-44145e4235f4",
+    "japanese_name": "ヤマシギ"
+  },
+  "Scolopax mira": {
+    "id": "baf5a386-6140-4646-8f3d-07a6b36d2c08",
+    "japanese_name": "アマミヤマシギ"
+  },
+  "Lymnocryptes minimus": {
+    "id": "afad4b0f-169e-40a6-be21-179bef43d6eb",
+    "japanese_name": "コシギ"
+  },
+  "Gallinago solitaria": {
+    "id": "881e1d7e-f93e-4e96-a546-60a9d8bd1ccf",
+    "japanese_name": "アオシギ"
+  },
+  "Gallinago hardwickii": {
+    "id": "e36af3e2-0072-478d-a72f-0cbe813e69cd",
+    "japanese_name": "オオジシギ"
+  },
+  "Gallinago stenura": {
+    "id": "c76cc55e-4fc2-429c-b074-6aee21f2e6b3",
+    "japanese_name": "ハリオシギ"
+  },
+  "Gallinago megala": {
+    "id": "717b74d6-0eb7-4300-b8ef-7d01fc85a9b2",
+    "japanese_name": "チュウジシギ"
+  },
+  "Gallinago gallinago": {
+    "id": "4a8199a1-3b07-4999-b987-49c8c961a933",
+    "japanese_name": "タシギ"
+  },
+  "Xenus cinereus": {
+    "id": "6700a609-6d6a-45c1-a5af-3c5032cf8008",
+    "japanese_name": "ソリハシシギ"
+  },
+  "Phalaropus tricolor": {
+    "id": "ed5e5cc8-a5d4-4d2c-a638-027184c2a0a2",
+    "japanese_name": "アメリカヒレアシシギ"
+  },
+  "Phalaropus lobatus": {
+    "id": "7ca78228-76ab-4c20-88f3-99b5519cf86e",
+    "japanese_name": "アカエリヒレアシシギ"
+  },
+  "Phalaropus fulicarius": {
+    "id": "139ea127-dfd9-47c7-986e-e389a72e4314",
+    "japanese_name": "ハイイロヒレアシシギ"
+  },
+  "Actitis hypoleucos": {
+    "id": "f64172c8-faa3-496c-9a66-7b20049ef0ca",
+    "japanese_name": "イソシギ"
+  },
+  "Actitis macularius": {
+    "id": "1ed44785-7c54-43ca-851b-4cbb8ba3b6d7",
+    "japanese_name": "アメリカイソシギ"
+  },
+  "Tringa ochropus": {
+    "id": "2dbc5247-acad-42bc-80e9-1416514df087",
+    "japanese_name": "クサシギ"
+  },
+  "Tringa incana": {
+    "id": "a2d5ae0c-ab1f-4d3f-bcca-28c7ed78da01",
+    "japanese_name": "メリケンキアシシギ"
+  },
+  "Tringa brevipes": {
+    "id": "d5f27116-d02f-468e-b08e-4965bd79763d",
+    "japanese_name": "キアシシギ"
+  },
+  "Tringa flavipes": {
+    "id": "5821b739-30c9-467a-ab3f-564d69af01dd",
+    "japanese_name": "コキアシシギ"
+  },
+  "Tringa totanus": {
+    "id": "5510dfd2-5dab-4695-9830-c2c8f888b91a",
+    "japanese_name": "アカアシシギ"
+  },
+  "Tringa stagnatilis": {
+    "id": "fb7d9ed5-8695-4c8f-a081-a80c823d1672",
+    "japanese_name": "コアオアシシギ"
+  },
+  "Tringa glareola": {
+    "id": "b2f27472-7d3b-4b48-8a46-4d8b8df7890f",
+    "japanese_name": "タカブシギ"
+  },
+  "Tringa erythropus": {
+    "id": "af0c69b4-48b8-4b5a-8f4e-04b27498a891",
+    "japanese_name": "ツルシギ"
+  },
+  "Tringa nebularia": {
+    "id": "fec572ae-e7f7-4c92-aa29-53215974b55c",
+    "japanese_name": "アオアシシギ"
+  },
+  "Tringa guttifer": {
+    "id": "147d9499-ba0e-455d-9f2d-923b07e78fb5",
+    "japanese_name": "カラフトアオアシシギ"
+  },
+  "Tringa melanoleuca": {
+    "id": "8e318c2c-9e75-4e07-9e0f-0655536b22ce",
+    "japanese_name": "オオキアシシギ"
+  },
+  "Glareola maldivarum": {
+    "id": "e097be63-d1db-4572-8d94-b739e0647328",
+    "japanese_name": "ツバメチドリ"
+  },
+  "Anous stolidus": {
+    "id": "946c8fb3-2ed4-45e5-8e84-46f5bf006264",
+    "japanese_name": "クロアジサシ"
+  },
+  "Anous minutus": {
+    "id": "4a55a565-8277-4f77-8f66-393702ae690a",
+    "japanese_name": "ヒメクロアジサシ"
+  },
+  "Anous ceruleus": {
+    "id": "5d088926-f9ee-45d4-8a8e-8dd5caee6763",
+    "japanese_name": "ハイイロアジサシ"
+  },
+  "Gygis alba": {
+    "id": "38473c90-c319-4c22-9a2e-ab5fc2a978e0",
+    "japanese_name": "シロアジサシ"
+  },
+  "Rissa tridactyla": {
+    "id": "457d7b08-6cf9-44c1-ac83-e2814c248172",
+    "japanese_name": "ミツユビカモメ"
+  },
+  "Rissa brevirostris": {
+    "id": "d03e494f-61fe-4aec-a83d-081e04633e5c",
+    "japanese_name": "アカアシミツユビカモメ"
+  },
+  "Pagophila eburnea": {
+    "id": "52814e47-b537-4d71-bf50-46543fc55ebc",
+    "japanese_name": "ゾウゲカモメ"
+  },
+  "Xema sabini": {
+    "id": "847bbce2-f426-4408-8a11-c25f9d1413a4",
+    "japanese_name": "クビワカモメ"
+  },
+  "Chroicocephalus genei": {
+    "id": "dd7c712e-4f37-4e5d-a24e-48154febeb4e",
+    "japanese_name": "ハシボソカモメ"
+  },
+  "Chroicocephalus philadelphia": {
+    "id": "1f0e065a-6aa3-41f7-af6a-6ec908a5d069",
+    "japanese_name": "ボナパルトカモメ"
+  },
+  "Chroicocephalus brunnicephalus": {
+    "id": "a0968404-2a90-4ecc-99a2-9e30337a1c56",
+    "japanese_name": "チャガシラカモメ"
+  },
+  "Chroicocephalus ridibundus": {
+    "id": "39409599-eb61-4668-b8b6-a95607e284da",
+    "japanese_name": "ユリカモメ"
+  },
+  "Saundersilarus saundersi": {
+    "id": "dc1a6e6c-9f48-4aa0-9731-852d915abe48",
+    "japanese_name": "ズグロカモメ"
+  },
+  "Hydrocoloeus minutus": {
+    "id": "670522f9-b897-4a46-87f6-62437daa5f80",
+    "japanese_name": "ヒメカモメ"
+  },
+  "Rhodostethia rosea": {
+    "id": "2cfadcfe-cb3d-41bf-8b56-5b0b87623a40",
+    "japanese_name": "ヒメクビワカモメ"
+  },
+  "Leucophaeus atricilla": {
+    "id": "38a62cde-d27a-4009-9fcf-a7d4a34891ae",
+    "japanese_name": "ワライカモメ"
+  },
+  "Leucophaeus pipixcan": {
+    "id": "9b0a1bae-e384-4b13-bd36-553879de7b23",
+    "japanese_name": "アメリカズグロカモメ"
+  },
+  "Ichthyaetus relictus": {
+    "id": "2b364669-0113-451f-863d-fdd4be902d51",
+    "japanese_name": "ゴビズキンカモメ"
+  },
+  "Ichthyaetus ichthyaetus": {
+    "id": "0ad47996-2d5e-4916-8b53-5fcee47e7c2a",
+    "japanese_name": "オオズグロカモメ"
+  },
+  "Larus crassirostris": {
+    "id": "95e010df-d9aa-4c05-9411-121b6a07eb71",
+    "japanese_name": "ウミネコ"
+  },
+  "Larus canus": {
+    "id": "36cf5d53-11df-44f3-b9a3-6591df1e9429",
+    "japanese_name": "カモメ"
+  },
+  "Larus glaucescens": {
+    "id": "d4cfd4a5-ed8c-41b4-98fc-196fd9ebd039",
+    "japanese_name": "ワシカモメ"
+  },
+  "Larus hyperboreus": {
+    "id": "b4dce72c-12ee-4d92-bb6d-e52757488ccb",
+    "japanese_name": "シロカモメ"
+  },
+  "Larus glaucoides": {
+    "id": "93808f60-600a-4ac4-93c4-1674d256d244",
+    "japanese_name": "アイスランドカモメ"
+  },
+  "Larus vegae": {
+    "id": "7242cefc-d122-4d3d-9937-b9208cedd3ec",
+    "japanese_name": "セグロカモメ"
+  },
+  "Larus schistisagus": {
+    "id": "407e1ccb-ade0-4bc2-a638-d714a4d32e46",
+    "japanese_name": "オオセグロカモメ"
+  },
+  "Larus fuscus": {
+    "id": "5ae7dbcd-ec19-429c-b6c0-242cbc8d2796",
+    "japanese_name": "ニシセグロカモメ"
+  },
+  "Gelochelidon nilotica": {
+    "id": "bcc3f61e-b397-4b61-87a6-f802bfc4bb79",
+    "japanese_name": "ハシブトアジサシ"
+  },
+  "Hydroprogne caspia": {
+    "id": "6f00cc7d-a38e-47b5-b2aa-de010a4db676",
+    "japanese_name": "オニアジサシ"
+  },
+  "Thalasseus bergii": {
+    "id": "75e63102-2d20-4dc5-b019-b2b7bfcfa7a7",
+    "japanese_name": "オオアジサシ"
+  },
+  "Thalasseus bengalensis": {
+    "id": "7753fb91-3bb6-4d5e-854d-3c1ab620f376",
+    "japanese_name": "ベンガルアジサシ"
+  },
+  "Sternula albifrons": {
+    "id": "8f906b07-8bc2-4af8-936c-6b2a97a7683f",
+    "japanese_name": "コアジサシ"
+  },
+  "Sternula antillarum": {
+    "id": "38e462f6-329f-42ed-848f-27b00e10a431",
+    "japanese_name": "アメリカコアジサシ"
+  },
+  "Onychoprion aleuticus": {
+    "id": "c7c0fcf3-b843-4f75-9c87-c78b475d3a60",
+    "japanese_name": "コシジロアジサシ"
+  },
+  "Onychoprion lunatus": {
+    "id": "101eeecd-ae2b-472c-8623-2b27c758e9df",
+    "japanese_name": "ナンヨウマミジロアジサシ"
+  },
+  "Onychoprion anaethetus": {
+    "id": "7ea323ec-ea23-4a46-8926-46e9fc876b82",
+    "japanese_name": "マミジロアジサシ"
+  },
+  "Onychoprion fuscatus": {
+    "id": "db2e7f8b-e88c-4146-bd85-e113215f0f19",
+    "japanese_name": "セグロアジサシ"
+  },
+  "Sterna dougallii": {
+    "id": "090712c2-4306-4e55-9651-e20f1b8cfc8c",
+    "japanese_name": "ベニアジサシ"
+  },
+  "Sterna sumatrana": {
+    "id": "7733f0b1-fe4e-4ab3-81db-7cd33dfa3a3e",
+    "japanese_name": "エリグロアジサシ"
+  },
+  "Sterna hirundo": {
+    "id": "1ebbb199-41c0-4946-838a-477af3dcafc6",
+    "japanese_name": "アジサシ"
+  },
+  "Sterna paradisaea": {
+    "id": "e8278fe5-597c-404e-b71a-40d2deba7b40",
+    "japanese_name": "キョクアジサシ"
+  },
+  "Chlidonias hybrida": {
+    "id": "df7da939-4daa-4819-bcdd-23eea004886f",
+    "japanese_name": "クロハラアジサシ"
+  },
+  "Chlidonias leucopterus": {
+    "id": "bebb94c7-48b2-4e45-9119-a82acbd87ec2",
+    "japanese_name": "ハジロクロハラアジサシ"
+  },
+  "Chlidonias niger": {
+    "id": "cb0a4e4c-7724-4b48-b8b9-d0e538161e54",
+    "japanese_name": "ハシグロクロハラアジサシ"
+  },
+  "Stercorarius maccormicki": {
+    "id": "4efd7a0e-d7a3-45a4-923d-e53fe8324ab1",
+    "japanese_name": "オオトウゾクカモメ"
+  },
+  "Stercorarius pomarinus": {
+    "id": "9fe28f48-5b23-43e2-88ea-15e9ce11a9c8",
+    "japanese_name": "トウゾクカモメ"
+  },
+  "Stercorarius parasiticus": {
+    "id": "1bf97c67-6769-4ca3-b5f0-184c052d2ad9",
+    "japanese_name": "クロトウゾクカモメ"
+  },
+  "Stercorarius longicaudus": {
+    "id": "7c8a2ad0-bb4d-40ff-90c6-a72dcec39b8e",
+    "japanese_name": "シロハラトウゾクカモメ"
+  },
+  "Alle alle": {
+    "id": "e53a408a-488b-4d93-ab62-5ee30ed8f38c",
+    "japanese_name": "ヒメウミスズメ"
+  },
+  "Uria lomvia": {
+    "id": "19d379b8-328a-41ca-808e-a9a1389167a6",
+    "japanese_name": "ハシブトウミガラス"
+  },
+  "Uria aalge": {
+    "id": "81df531d-f741-4766-927d-79cb2b8e8dfd",
+    "japanese_name": "ウミガラス"
+  },
+  "Cepphus columba": {
+    "id": "08e74091-94b6-4f25-9bbf-8a6f3d34e6ba",
+    "japanese_name": "ウミバト"
+  },
+  "Cepphus carbo": {
+    "id": "73272316-86b0-4d42-9266-d33a9fa6df09",
+    "japanese_name": "ケイマフリ"
+  },
+  "Brachyramphus perdix": {
+    "id": "8ce7525f-fde2-479f-8d28-5d959517fd91",
+    "japanese_name": "マダラウミスズメ"
+  },
+  "Synthliboramphus antiquus": {
+    "id": "47c308ef-cda1-4c23-b64e-32325e2e3c00",
+    "japanese_name": "ウミスズメ"
+  },
+  "Synthliboramphus wumizusume": {
+    "id": "545b6bd2-ddb7-4fca-b084-82317f4befdf",
+    "japanese_name": "カンムリウミスズメ"
+  },
+  "Ptychoramphus aleuticus": {
+    "id": "8ae799fd-a476-45e4-807b-0dcc40f2b73a",
+    "japanese_name": "アメリカウミスズメ"
+  },
+  "Aethia psittacula": {
+    "id": "f3fa442a-21de-40dd-8fb9-b70b54298990",
+    "japanese_name": "ウミオウム"
+  },
+  "Aethia pusilla": {
+    "id": "29ec8dce-4ada-4cb4-935b-aa99d5e81bd4",
+    "japanese_name": "コウミスズメ"
+  },
+  "Aethia pygmaea": {
+    "id": "674437da-72bd-485c-a86e-6b66fe8c01c2",
+    "japanese_name": "シラヒゲウミスズメ"
+  },
+  "Aethia cristatella": {
+    "id": "7e88e5bc-8933-4c62-ad1c-e1cb235e9788",
+    "japanese_name": "エトロフウミスズメ"
+  },
+  "Cerorhinca monocerata": {
+    "id": "d9ca563c-2603-41a9-b2ef-30ed5fc6dd8d",
+    "japanese_name": "ウトウ"
+  },
+  "Fratercula corniculata": {
+    "id": "865bd91e-50bc-41c1-b469-957a43879404",
+    "japanese_name": "ツノメドリ"
+  },
+  "Fratercula cirrhata": {
+    "id": "466186e3-e655-4f4d-9da4-809e515d9cab",
+    "japanese_name": "エトピリカ"
+  },
+  "Phaethon rubricauda": {
+    "id": "c3077780-7f8a-41c5-85c9-f80d500478e6",
+    "japanese_name": "アカオネッタイチョウ"
+  },
+  "Phaethon lepturus": {
+    "id": "ab8fd526-0f4f-4ab6-9b00-e6383c304f52",
+    "japanese_name": "シラオネッタイチョウ"
+  },
+  "Gavia stellata": {
+    "id": "86ad61bb-c4bb-46e4-ac43-7c466e8fd656",
+    "japanese_name": "アビ"
+  },
+  "Gavia arctica": {
+    "id": "447d4323-5439-4d3c-8f5e-5e9c339aae5e",
+    "japanese_name": "オオハム"
+  },
+  "Gavia pacifica": {
+    "id": "5dba0fee-eb98-488b-a55f-71693dba3e3e",
+    "japanese_name": "シロエリオオハム"
+  },
+  "Gavia immer": {
+    "id": "157a1eea-f8b0-4288-a075-c49ee335a7b9",
+    "japanese_name": "ハシグロアビ"
+  },
+  "Gavia adamsii": {
+    "id": "b7dcafcb-50ed-4911-a5ec-26fa5fcc4218",
+    "japanese_name": "ハシジロアビ"
+  },
+  "Oceanites oceanicus": {
+    "id": "d24616c7-c584-4c78-b465-7fbd79cb1014",
+    "japanese_name": "アシナガウミツバメ"
+  },
+  "Phoebastria immutabilis": {
+    "id": "0cc8ad72-f633-4fed-ab4b-f94e710f088c",
+    "japanese_name": "コアホウドリ"
+  },
+  "Phoebastria nigripes": {
+    "id": "6782a125-23ee-4b98-bfd1-1280c95e93af",
+    "japanese_name": "クロアシアホウドリ"
+  },
+  "Phoebastria albatrus": {
+    "id": "cb7e4a61-cd5f-415f-9a9b-8a632f589f08",
+    "japanese_name": "アホウドリ"
+  },
+  "Hydrobates furcatus": {
+    "id": "54d56e6f-7831-4ea7-9fb6-1852ae304384",
+    "japanese_name": "ハイイロウミツバメ"
+  },
+  "Hydrobates monorhis": {
+    "id": "84a69978-6173-4b61-81a7-75c21926a23b",
+    "japanese_name": "ヒメクロウミツバメ"
+  },
+  "Hydrobates matsudairae": {
+    "id": "2fc19877-5af5-489f-8ca0-90df44fe6274",
+    "japanese_name": "クロウミツバメ"
+  },
+  "Hydrobates leucorhous": {
+    "id": "1ea3491b-d72c-48fc-bb21-d857a80e1177",
+    "japanese_name": "コシジロウミツバメ"
+  },
+  "Hydrobates castro": {
+    "id": "24505947-c4f7-466e-8ade-74575eb0f359",
+    "japanese_name": "クロコシジロウミツバメ"
+  },
+  "Hydrobates tristrami": {
+    "id": "82cfd891-12f2-416c-9656-49a12d6a348b",
+    "japanese_name": "オーストンウミツバメ"
+  },
+  "Fulmarus glacialis": {
+    "id": "e9e2c4f7-432b-4850-a368-0e1b0a196638",
+    "japanese_name": "フルマカモメ"
+  },
+  "Pterodroma solandri": {
+    "id": "38b4f36a-b177-4a3d-9297-af60c41c3c70",
+    "japanese_name": "ハジロミズナギドリ"
+  },
+  "Pterodroma externa": {
+    "id": "c42265cc-d31c-47ab-9d84-ab9c1802d77a",
+    "japanese_name": "オオシロハラミズナギドリ"
+  },
+  "Pterodroma neglecta": {
+    "id": "c5deba33-b298-4c22-a58f-7a8ffe003373",
+    "japanese_name": "カワリシロハラミズナギドリ"
+  },
+  "Pterodroma sandwichensis": {
+    "id": "1bee03f1-43d3-4401-80a4-e0e743442a52",
+    "japanese_name": "ハワイシロハラミズナギドリ"
+  },
+  "Pterodroma inexpectata": {
+    "id": "9b1b775c-d3f7-46d2-a7b9-fae82bee6e08",
+    "japanese_name": "マダラシロハラミズナギドリ"
+  },
+  "Pterodroma cervicalis": {
+    "id": "e27bd0f2-9e32-4551-b045-7f83dfd83c99",
+    "japanese_name": "クビワオオシロハラミズナギドリ"
+  },
+  "Pterodroma nigripennis": {
+    "id": "b9e47519-9ec6-40de-be89-00338511d0c6",
+    "japanese_name": "ハグロシロハラミズナギドリ"
+  },
+  "Pterodroma hypoleuca": {
+    "id": "fad42ee2-ce72-4a1d-96bf-44c0825c04fe",
+    "japanese_name": "シロハラミズナギドリ"
+  },
+  "Pterodroma longirostris": {
+    "id": "34b7b645-1ec1-44ca-8589-1cc895a3decd",
+    "japanese_name": "ヒメシロハラミズナギドリ"
+  },
+  "Calonectris leucomelas": {
+    "id": "9973fcbe-a84c-4011-9967-af7be3ba4af7",
+    "japanese_name": "オオミズナギドリ"
+  },
+  "Ardenna pacifica": {
+    "id": "f29e9e4d-6091-45cf-8dab-9548d5a1bde6",
+    "japanese_name": "オナガミズナギドリ"
+  },
+  "Ardenna bulleri": {
+    "id": "f004b52d-d567-4c2b-8f7a-74941a597acd",
+    "japanese_name": "ミナミオナガミズナギドリ"
+  },
+  "Ardenna grisea": {
+    "id": "1be2f398-a260-4c85-bcb2-130126a838bc",
+    "japanese_name": "ハイイロミズナギドリ"
+  },
+  "Ardenna tenuirostris": {
+    "id": "63141d9a-4d23-402d-bd91-e45a3766427c",
+    "japanese_name": "ハシボソミズナギドリ"
+  },
+  "Ardenna creatopus": {
+    "id": "9b057631-2b7a-48d6-9e9d-9af3b4fd951a",
+    "japanese_name": "シロハラアカアシミズナギドリ"
+  },
+  "Ardenna carneipes": {
+    "id": "c86f9fd4-2119-40b2-91fe-dec0eff8f87b",
+    "japanese_name": "アカアシミズナギドリ"
+  },
+  "Puffinus nativitatis": {
+    "id": "d8574db1-56fe-4585-914f-9483a0764095",
+    "japanese_name": "コミズナギドリ"
+  },
+  "Puffinus bryani": {
+    "id": "bc3de684-ab06-41bb-9786-4d6b39a7e529",
+    "japanese_name": "オガサワラヒメミズナギドリ"
+  },
+  "Puffinus newelli": {
+    "id": "4ffb293e-e1c7-4289-b176-727673184778",
+    "japanese_name": "ハワイセグロミズナギドリ"
+  },
+  "Puffinus bannermani": {
+    "id": "ee6999c6-e586-4df0-a3b9-3eb415938e4e",
+    "japanese_name": "オガサワラミズナギドリ"
+  },
+  "Bulweria bulwerii": {
+    "id": "5697312a-3409-4982-a191-cc0b394709ae",
+    "japanese_name": "アナドリ"
+  },
+  "Ciconia nigra": {
+    "id": "0f1b9817-cb3c-4d17-ab82-c479d0eb689f",
+    "japanese_name": "ナベコウ"
+  },
+  "Ciconia boyciana": {
+    "id": "79086b3c-bf2e-4df8-9529-c4625f192fa4",
+    "japanese_name": "コウノトリ"
+  },
+  "Fregata minor": {
+    "id": "ba87efd3-31e5-4204-956f-62c9928c22b1",
+    "japanese_name": "オオグンカンドリ"
+  },
+  "Fregata ariel": {
+    "id": "2ae84c66-a7f4-477d-8a37-8d6c5dea5838",
+    "japanese_name": "コグンカンドリ"
+  },
+  "Sula dactylatra": {
+    "id": "e6da3d99-bb60-4106-b0fe-b15477226171",
+    "japanese_name": "アオツラカツオドリ"
+  },
+  "Sula sula": {
+    "id": "8024952b-3040-4b5e-9d14-1334db17530c",
+    "japanese_name": "アカアシカツオドリ"
+  },
+  "Sula leucogaster": {
+    "id": "72a2b0d2-e75e-41de-babd-92365c68819f",
+    "japanese_name": "カツオドリ"
+  },
+  "Urile urile": {
+    "id": "dfba3202-a5b4-4499-8146-aeddbc7ef5b4",
+    "japanese_name": "チシマウガラス"
+  },
+  "Urile pelagicus": {
+    "id": "1833340a-51b6-4a9b-b66c-3519ada56247",
+    "japanese_name": "ヒメウ"
+  },
+  "Phalacrocorax capillatus": {
+    "id": "5a72e7d8-0f43-46e5-beba-04fc657d6f00",
+    "japanese_name": "ウミウ"
+  },
+  "Phalacrocorax carbo": {
+    "id": "76a2ee52-f7c5-486e-a69e-337de528ce3b",
+    "japanese_name": "カワウ"
+  },
+  "Threskiornis melanocephalus": {
+    "id": "6fdf81b4-5674-40f7-a8bd-a18dd297a36f",
+    "japanese_name": "クロトキ"
+  },
+  "Nipponia nippon": {
+    "id": "5ae6a2ce-e700-49ee-9a0c-32e68095691e",
+    "japanese_name": "トキ"
+  },
+  "Plegadis falcinellus": {
+    "id": "90838885-32a8-4d92-90f0-1cc2e49e9e58",
+    "japanese_name": "ブロンズトキ"
+  },
+  "Platalea leucorodia": {
+    "id": "d8a4b384-9d03-4d35-8101-bce20c6e35b5",
+    "japanese_name": "ヘラサギ"
+  },
+  "Platalea minor": {
+    "id": "2ac6912c-bdd6-42dc-ae30-3a208cefea63",
+    "japanese_name": "クロツラヘラサギ"
+  },
+  "Botaurus stellaris": {
+    "id": "c412abb6-ca81-4f48-8146-c5e5224ad71a",
+    "japanese_name": "サンカノゴイ"
+  },
+  "Ixobrychus sinensis": {
+    "id": "d6bc73f5-f924-4a74-82d1-0e25867b207a",
+    "japanese_name": "ヨシゴイ"
+  },
+  "Ixobrychus eurhythmus": {
+    "id": "b4586380-c877-4de0-8ae9-1d31ee6108b0",
+    "japanese_name": "オオヨシゴイ"
+  },
+  "Ixobrychus cinnamomeus": {
+    "id": "ec2b9bfe-d3bd-4a48-b17a-ff7df8fa6092",
+    "japanese_name": "リュウキュウヨシゴイ"
+  },
+  "Ixobrychus flavicollis": {
+    "id": "b19c5e6b-06d2-45a4-92cb-9549846a20f5",
+    "japanese_name": "タカサゴクロサギ"
+  },
+  "Gorsachius goisagi": {
+    "id": "2498fa5c-8e93-4312-9666-53f969bd2f0b",
+    "japanese_name": "ミゾゴイ"
+  },
+  "Gorsachius melanolophus": {
+    "id": "39d0e45c-1149-44ba-96aa-6d20228c8e95",
+    "japanese_name": "ズグロミゾゴイ"
+  },
+  "Nycticorax nycticorax": {
+    "id": "d53b404c-f030-4fed-8090-ddba10f178dd",
+    "japanese_name": "ゴイサギ"
+  },
+  "Nycticorax caledonicus": {
+    "id": "8bbead9b-cda3-4c2a-be9e-54db1f339bda",
+    "japanese_name": "ハシブトゴイ"
+  },
+  "Butorides striata": {
+    "id": "1e95527c-64e1-4e87-8bd8-0cfa243573a3",
+    "japanese_name": "ササゴイ"
+  },
+  "Ardeola bacchus": {
+    "id": "e0d4cbb7-5739-46e0-9283-ff6fdc12cbb3",
+    "japanese_name": "アカガシラサギ"
+  },
+  "Bubulcus ibis": {
+    "id": "2785c3e7-dc6b-401d-9d92-2d73ae009079",
+    "japanese_name": "アマサギ"
+  },
+  "Ardea cinerea": {
+    "id": "8d947591-6fab-49ef-bd6d-1c8bfcc3d1a8",
+    "japanese_name": "アオサギ"
+  },
+  "Ardea purpurea": {
+    "id": "063e2a1c-9ea7-41c7-8036-803adb591e17",
+    "japanese_name": "ムラサキサギ"
+  },
+  "Ardea alba": {
+    "id": "25686848-7544-4d4f-9473-7167a6ddd0db",
+    "japanese_name": "ダイサギ"
+  },
+  "Ardea intermedia": {
+    "id": "1dea27f7-5632-4cd7-93f8-65525162d28c",
+    "japanese_name": "チュウサギ"
+  },
+  "Egretta garzetta": {
+    "id": "64ed8108-6e8a-4f77-a383-e8f4050a92a7",
+    "japanese_name": "コサギ"
+  },
+  "Egretta sacra": {
+    "id": "c97b907a-ec2f-4724-97ab-f67f6cf40ce4",
+    "japanese_name": "クロサギ"
+  },
+  "Egretta eulophotes": {
+    "id": "73ec0e5a-245a-4cb7-b3e4-f936adf6490b",
+    "japanese_name": "カラシラサギ"
+  },
+  "Pelecanus onocrotalus": {
+    "id": "059067da-d4e4-4e85-933a-bd1795470c4a",
+    "japanese_name": "モモイロペリカン"
+  },
+  "Pelecanus philippensis": {
+    "id": "47d7ff47-5505-47dc-8e24-0c92189da4b4",
+    "japanese_name": "ホシバシペリカン"
+  },
+  "Pelecanus crispus": {
+    "id": "3232f8a7-ebec-493a-a241-5d08c70d5cc8",
+    "japanese_name": "ハイイロペリカン"
+  },
+  "Pandion haliaetus": {
+    "id": "3c04f492-cef9-4961-a195-def8c75e9947",
+    "japanese_name": "ミサゴ"
+  },
+  "Pernis ptilorhynchus": {
+    "id": "e93d6655-9e44-49bf-9215-65d4f315045e",
+    "japanese_name": "ハチクマ"
+  },
+  "Aegypius monachus": {
+    "id": "7ca55736-089c-40b4-adfe-70bf7cd6579f",
+    "japanese_name": "クロハゲワシ"
+  },
+  "Spilornis cheela": {
+    "id": "27d16274-0d3e-4101-9722-29dbfba6353b",
+    "japanese_name": "カンムリワシ"
+  },
+  "Nisaetus nipalensis": {
+    "id": "ad40c627-bbcc-4d21-b29c-bace90786928",
+    "japanese_name": "クマタカ"
+  },
+  "Clanga clanga": {
+    "id": "070c1b5b-1191-482b-bed3-846c095fdd97",
+    "japanese_name": "カラフトワシ"
+  },
+  "Aquila heliaca": {
+    "id": "09308131-7ad5-4f4b-b2b5-621daf866a53",
+    "japanese_name": "カタシロワシ"
+  },
+  "Aquila chrysaetos": {
+    "id": "13cba329-89cd-4c6c-b50b-41b2e63148be",
+    "japanese_name": "イヌワシ"
+  },
+  "Accipiter soloensis": {
+    "id": "2b9601c1-60a0-4686-ab1c-71b7bf035dcd",
+    "japanese_name": "アカハラダカ"
+  },
+  "Accipiter gularis": {
+    "id": "d70e99f8-2375-45be-94b5-d6cc6104cbe2",
+    "japanese_name": "ツミ"
+  },
+  "Accipiter nisus": {
+    "id": "94022de1-7e7b-40f1-aa39-de5cf906b42d",
+    "japanese_name": "ハイタカ"
+  },
+  "Accipiter gentilis": {
+    "id": "5e2e475b-dd1b-4142-b6c7-d6b707b9f30a",
+    "japanese_name": "オオタカ"
+  },
+  "Circus spilonotus": {
+    "id": "84d758fd-9bbe-43de-915f-21e7d3b335cb",
+    "japanese_name": "チュウヒ"
+  },
+  "Circus cyaneus": {
+    "id": "416df388-faa2-4809-b36d-023b52417f17",
+    "japanese_name": "ハイイロチュウヒ"
+  },
+  "Circus hudsonius": {
+    "id": "ab64f5a6-e810-45a8-99b7-c5e624b14a95",
+    "japanese_name": "アメリカハイイロチュウヒ"
+  },
+  "Circus melanoleucos": {
+    "id": "5d09abde-ed1c-4c7b-b79f-1507beade630",
+    "japanese_name": "マダラチュウヒ"
+  },
+  "Milvus migrans": {
+    "id": "18caf3dd-a295-4404-a9d4-e4c2dafe097f",
+    "japanese_name": "トビ"
+  },
+  "Haliaeetus pelagicus": {
+    "id": "6bc18665-a4f4-4b9d-be34-cbb9362389ea",
+    "japanese_name": "オオワシ"
+  },
+  "Haliaeetus albicilla": {
+    "id": "ca1f8f65-b21f-4eb6-986d-65a1359d44ae",
+    "japanese_name": "オジロワシ"
+  },
+  "Haliaeetus leucocephalus": {
+    "id": "77be43d1-4f76-40cf-aea4-19fad32327f8",
+    "japanese_name": "ハクトウワシ"
+  },
+  "Butastur indicus": {
+    "id": "fcc7797f-f2c8-472e-a55c-c45a36764aed",
+    "japanese_name": "サシバ"
+  },
+  "Buteo lagopus": {
+    "id": "e0f033c9-db83-427a-9744-d223b5b2942d",
+    "japanese_name": "ケアシノスリ"
+  },
+  "Buteo hemilasius": {
+    "id": "0b1cb51f-265c-4a63-a7e8-0acff599d68a",
+    "japanese_name": "オオノスリ"
+  },
+  "Buteo japonicus": {
+    "id": "1c1a2940-e88c-4513-a4fc-a16669b57510",
+    "japanese_name": "ノスリ"
+  },
+  "Ninox japonica": {
+    "id": "f69e9558-a01c-438c-8c02-d07ef0da7cf7",
+    "japanese_name": "アオバズク"
+  },
+  "Aegolius funereus": {
+    "id": "1000912f-3e39-4257-83ff-9fdadeef39f9",
+    "japanese_name": "キンメフクロウ"
+  },
+  "Otus sunia": {
+    "id": "a43b9ff6-425a-45ea-94b0-9da68fb6724c",
+    "japanese_name": "コノハズク"
+  },
+  "Otus elegans": {
+    "id": "9138704e-115c-422c-9c60-b0eef6c45764",
+    "japanese_name": "リュウキュウコノハズク"
+  },
+  "Otus semitorques": {
+    "id": "58cd6af8-d426-4f6a-8092-b69ce8f6627b",
+    "japanese_name": "オオコノハズク"
+  },
+  "Asio otus": {
+    "id": "d0d19dda-cdf3-4b9c-bf74-927495dd7cee",
+    "japanese_name": "トラフズク"
+  },
+  "Asio flammeus": {
+    "id": "bb079b70-83a3-421f-b2d4-0b3d9aee1ccf",
+    "japanese_name": "コミミズク"
+  },
+  "Bubo scandiacus": {
+    "id": "adc06a72-078b-4d4c-9f2c-860446389c28",
+    "japanese_name": "シロフクロウ"
+  },
+  "Bubo bubo": {
+    "id": "3f2fe31a-8704-4102-80d2-42fa1addb9bd",
+    "japanese_name": "ワシミミズク"
+  },
+  "Ketupa blakistoni": {
+    "id": "66b39574-6ad4-4f0a-94d4-83352deaa455",
+    "japanese_name": "シマフクロウ"
+  },
+  "Strix uralensis": {
+    "id": "4540cc44-bca0-4e62-813e-6af5fb613ac6",
+    "japanese_name": "フクロウ"
+  },
+  "Upupa epops": {
+    "id": "79c0a950-4073-4e93-8e20-ed05208c0aed",
+    "japanese_name": "ヤツガシラ"
+  },
+  "Eurystomus orientalis": {
+    "id": "2133b84c-1c6f-407c-9fcd-6a1327ba247c",
+    "japanese_name": "ブッポウソウ"
+  },
+  "Halcyon coromanda": {
+    "id": "0efaaf93-55f5-4fa1-a344-020bda0add66",
+    "japanese_name": "アカショウビン"
+  },
+  "Halcyon pileata": {
+    "id": "72991b57-f4ca-40ea-abb6-270737c22179",
+    "japanese_name": "ヤマショウビン"
+  },
+  "Todiramphus chloris": {
+    "id": "cb34773c-2b98-4b6b-8bbc-913f003ceba5",
+    "japanese_name": "ナンヨウショウビン"
+  },
+  "Todiramphus miyakoensis": {
+    "id": "60f7a010-0994-48b4-8260-fe561398899d",
+    "japanese_name": "ミヤコショウビン"
+  },
+  "Alcedo atthis": {
+    "id": "a3a77077-ff30-4765-a19e-25db8ddc9e07",
+    "japanese_name": "カワセミ"
+  },
+  "Ceyx erithaca": {
+    "id": "0c0ca7f7-6224-4902-8a10-9fce0857bc26",
+    "japanese_name": "ミツユビカワセミ"
+  },
+  "Megaceryle lugubris": {
+    "id": "4860ac65-8864-434b-a46b-025e6f554e78",
+    "japanese_name": "ヤマセミ"
+  },
+  "Merops philippinus": {
+    "id": "ffa0f752-23fe-490d-b1d7-09028dc30bff",
+    "japanese_name": "ルリオハチクイ"
+  },
+  "Merops ornatus": {
+    "id": "22d0054e-7fca-41e8-aa73-64e6d67d6f0e",
+    "japanese_name": "ハチクイ"
+  },
+  "Jynx torquilla": {
+    "id": "b9343bf1-e785-4b4b-9f21-2d5a590f72a3",
+    "japanese_name": "アリスイ"
+  },
+  "Yungipicus kizuki": {
+    "id": "4b6db141-0217-4ed6-9340-55ff5e303a9f",
+    "japanese_name": "コゲラ"
+  },
+  "Picoides tridactylus": {
+    "id": "f318f6a0-0546-4036-ad6f-7dbf556d169d",
+    "japanese_name": "ミユビゲラ"
+  },
+  "Dryobates minor": {
+    "id": "90744b4b-2f97-4d66-b9c6-b55fd81e8329",
+    "japanese_name": "コアカゲラ"
+  },
+  "Dendrocopos hyperythrus": {
+    "id": "ff6f96ec-bf61-42af-afef-94e392c8a8dd",
+    "japanese_name": "チャバラアカゲラ"
+  },
+  "Dendrocopos major": {
+    "id": "07508fa3-3191-468d-bf29-660fb772893d",
+    "japanese_name": "アカゲラ"
+  },
+  "Dendrocopos noguchii": {
+    "id": "123a4238-3b04-4506-8cbd-fc8b475283c9",
+    "japanese_name": "ノグチゲラ"
+  },
+  "Dendrocopos leucotos": {
+    "id": "32330b65-d554-4c9c-9b29-bc9a6b5991a4",
+    "japanese_name": "オオアカゲラ"
+  },
+  "Dryocopus javensis": {
+    "id": "9650d1ee-420f-4a26-b773-a49d7be9b21d",
+    "japanese_name": "キタタキ"
+  },
+  "Dryocopus martius": {
+    "id": "dd6d0906-0d74-4c93-b33d-b6ad43c70a46",
+    "japanese_name": "クマゲラ"
+  },
+  "Picus awokera": {
+    "id": "049ec4d9-6769-4b5c-98ed-a1e58506c227",
+    "japanese_name": "アオゲラ"
+  },
+  "Picus canus": {
+    "id": "f78895c7-9ffb-42d5-bb7c-0781e78741e4",
+    "japanese_name": "ヤマゲラ"
+  },
+  "Falco naumanni": {
+    "id": "9e08a582-23a2-4040-b97e-2fb137de1669",
+    "japanese_name": "ヒメチョウゲンボウ"
+  },
+  "Falco tinnunculus": {
+    "id": "494c3830-8847-453f-b352-a3b650960e58",
+    "japanese_name": "チョウゲンボウ"
+  },
+  "Falco amurensis": {
+    "id": "bd0f9004-235d-4b2f-a7df-23662eccebeb",
+    "japanese_name": "アカアシチョウゲンボウ"
+  },
+  "Falco columbarius": {
+    "id": "e3e8f6eb-3b25-4dda-aeb7-19eed9b79a71",
+    "japanese_name": "コチョウゲンボウ"
+  },
+  "Falco subbuteo": {
+    "id": "d3d2e31b-f4f6-4fbb-b3f3-ce5d31631c2a",
+    "japanese_name": "チゴハヤブサ"
+  },
+  "Falco rusticolus": {
+    "id": "7c9945e9-5d20-4d6e-bc66-5faf284fbf0f",
+    "japanese_name": "シロハヤブサ"
+  },
+  "Falco peregrinus": {
+    "id": "35e181ec-37b5-411d-9629-99902d4e3b12",
+    "japanese_name": "ハヤブサ"
+  },
+  "Pitta sordida": {
+    "id": "ee8c01a9-ea3b-4960-ae02-fd0d4e0bbf5a",
+    "japanese_name": "ズグロヤイロチョウ"
+  },
+  "Pitta nympha": {
+    "id": "ea379e37-f834-4c08-a638-be80fb5e2b9f",
+    "japanese_name": "ヤイロチョウ"
+  },
+  "Artamus leucorynchus": {
+    "id": "42067492-09a2-41c0-ab84-e6c2fed0159a",
+    "japanese_name": "モリツバメ"
+  },
+  "Pericrocotus divaricatus": {
+    "id": "db334ac3-1bb1-4834-9164-4facd7cba428",
+    "japanese_name": "サンショウクイ"
+  },
+  "Pericrocotus tegimae": {
+    "id": "e5e5a5e1-4e0a-4895-bb71-ebaa06393c38",
+    "japanese_name": "リュウキュウサンショウクイ"
+  },
+  "Lalage melaschistos": {
+    "id": "26274ef9-6ddf-41b9-9f97-6adb4fbbce69",
+    "japanese_name": "アサクラサンショウクイ"
+  },
+  "Oriolus chinensis": {
+    "id": "9ed3ca2f-f943-47b7-b848-eea7a85e1bf4",
+    "japanese_name": "コウライウグイス"
+  },
+  "Dicrurus hottentottus": {
+    "id": "446b628b-9bdb-49a1-81dc-0346cf5d8607",
+    "japanese_name": "カンムリオウチュウ"
+  },
+  "Dicrurus leucophaeus": {
+    "id": "15d8862d-ca3e-4e66-a69f-517299351cc8",
+    "japanese_name": "ハイイロオウチュウ"
+  },
+  "Dicrurus macrocercus": {
+    "id": "c2425760-7f66-4a8a-a807-511c3c6e5c6a",
+    "japanese_name": "オウチュウ"
+  },
+  "Hypothymis azurea": {
+    "id": "95a846e0-f88d-4177-81a4-a204d7a0768e",
+    "japanese_name": "クロエリヒタキ"
+  },
+  "Terpsiphone atrocaudata": {
+    "id": "f19891d2-46d2-4171-a1d7-067dfec884f5",
+    "japanese_name": "サンコウチョウ"
+  },
+  "Lanius sphenocercus": {
+    "id": "266f40ec-2565-434f-ac2d-5ddbceb21c37",
+    "japanese_name": "オオカラモズ"
+  },
+  "Lanius borealis": {
+    "id": "d799e4aa-ba89-4863-aab3-9c0fe462a1e5",
+    "japanese_name": "オオモズ"
+  },
+  "Lanius tigrinus": {
+    "id": "8d0dae5b-9684-4cbf-928a-09124c1b0fcc",
+    "japanese_name": "チゴモズ"
+  },
+  "Lanius collurio": {
+    "id": "14ba4ebd-6684-4786-94fa-98a0f034cc9d",
+    "japanese_name": "セアカモズ"
+  },
+  "Lanius cristatus": {
+    "id": "f824d812-95bd-4a5d-af1d-6302633592ab",
+    "japanese_name": "アカモズ"
+  },
+  "Lanius bucephalus": {
+    "id": "0e6d6409-c84a-410f-a690-12e4da4d92cd",
+    "japanese_name": "モズ"
+  },
+  "Lanius schach": {
+    "id": "47cfa7b0-360f-4670-a696-83aaa1445713",
+    "japanese_name": "タカサゴモズ"
+  },
+  "Garrulus glandarius": {
+    "id": "0afd63aa-8ba4-4b58-819b-6fb69d32bd12",
+    "japanese_name": "カケス"
+  },
+  "Garrulus lidthi": {
+    "id": "4b56c682-0c11-4caa-92a4-8855836fae07",
+    "japanese_name": "ルリカケス"
+  },
+  "Cyanopica cyanus": {
+    "id": "65f3021a-3c3c-4e46-b50d-40a9aa036b7c",
+    "japanese_name": "オナガ"
+  },
+  "Pica serica": {
+    "id": "ea397765-41cd-4692-a65f-bb38bf9a974a",
+    "japanese_name": "カササギ"
+  },
+  "Nucifraga caryocatactes": {
+    "id": "1f7fb556-9d6f-4722-bc88-8fde56cf21f9",
+    "japanese_name": "ホシガラス"
+  },
+  "Corvus monedula": {
+    "id": "bb7ec972-7400-4638-8c0f-99847146981a",
+    "japanese_name": "ニシコクマルガラス"
+  },
+  "Corvus dauuricus": {
+    "id": "499a4fc6-ce41-47ea-8d7a-832135ae9d08",
+    "japanese_name": "コクマルガラス"
+  },
+  "Corvus frugilegus": {
+    "id": "8a53bf9f-c3a9-4802-80d0-54cb4b207b10",
+    "japanese_name": "ミヤマガラス"
+  },
+  "Corvus corone": {
+    "id": "20dae6f4-5e58-401b-acf7-6ace12a797bb",
+    "japanese_name": "ハシボソガラス"
+  },
+  "Corvus macrorhynchos": {
+    "id": "35ef7153-d4c0-48a2-8b95-9d6576eac73c",
+    "japanese_name": "ハシブトガラス"
+  },
+  "Corvus corax": {
+    "id": "0189b0f8-cbc2-4387-84aa-5794d1d532a3",
+    "japanese_name": "ワタリガラス"
+  },
+  "Bombycilla garrulus": {
+    "id": "8dd47926-1447-49e9-9f19-e337ed3b374a",
+    "japanese_name": "キレンジャク"
+  },
+  "Bombycilla japonica": {
+    "id": "ee6ade59-3ef4-4635-b315-ecb5842ae954",
+    "japanese_name": "ヒレンジャク"
+  },
+  "Periparus ater": {
+    "id": "cf9aa5ba-b413-4071-ac60-48349f8302b1",
+    "japanese_name": "ヒガラ"
+  },
+  "Pardaliparus venustulus": {
+    "id": "1ee42522-db9d-4c8f-add7-0a14ef402171",
+    "japanese_name": "キバラガラ"
+  },
+  "Sittiparus varius": {
+    "id": "d9a67533-2974-4572-b9e0-0e4088e3f0bd",
+    "japanese_name": "ヤマガラ"
+  },
+  "Sittiparus olivaceus": {
+    "id": "6ef39ef9-982c-4693-92fb-f4a7206f94e7",
+    "japanese_name": "オリイヤマガラ"
+  },
+  "Poecile palustris": {
+    "id": "0a563dd7-3782-41d4-a503-4f066910b27b",
+    "japanese_name": "ハシブトガラ"
+  },
+  "Poecile montanus": {
+    "id": "44f550c9-2ef7-418b-a0c3-f471a3a49a84",
+    "japanese_name": "コガラ"
+  },
+  "Cyanistes cyanus": {
+    "id": "e35d8acb-410f-4671-b08b-8f08a902487b",
+    "japanese_name": "ルリガラ"
+  },
+  "Parus cinereus": {
+    "id": "6ebe8302-f17a-486e-99e6-974011fbd699",
+    "japanese_name": "シジュウカラ"
+  },
+  "Remiz consobrinus": {
+    "id": "338e0f21-f37f-4a23-b063-1b1e2f43f55e",
+    "japanese_name": "ツリスガラ"
+  },
+  "Panurus biarmicus": {
+    "id": "c3a61886-5d06-47b6-a582-ca0e3993b74a",
+    "japanese_name": "ヒゲガラ"
+  },
+  "Alauda arvensis": {
+    "id": "1ed39310-17db-4693-b861-f7ccce450092",
+    "japanese_name": "ヒバリ"
+  },
+  "Eremophila alpestris": {
+    "id": "883f15b5-4791-4023-80ab-6781a8e93902",
+    "japanese_name": "ハマヒバリ"
+  },
+  "Calandrella brachydactyla": {
+    "id": "7e8d8fe1-9305-4f31-ae20-b500184aa11b",
+    "japanese_name": "ヒメコウテンシ"
+  },
+  "Melanocorypha bimaculata": {
+    "id": "a0825566-7e27-4ba6-b9b7-9ece6b5dcfc0",
+    "japanese_name": "クビワコウテンシ"
+  },
+  "Melanocorypha mongolica": {
+    "id": "8f5e0581-52f3-44c1-9b42-c0da9693dd08",
+    "japanese_name": "コウテンシ"
+  },
+  "Alaudala cheleensis": {
+    "id": "3ea038f6-9e80-44d0-87ce-3ea989cb83df",
+    "japanese_name": "コヒバリ"
+  },
+  "Hypsipetes amaurotis": {
+    "id": "3a9add7c-0700-4e6d-83ac-0c7dd04a74ab",
+    "japanese_name": "ヒヨドリ"
+  },
+  "Pycnonotus sinensis": {
+    "id": "81216591-8f17-492d-b6af-6cb33069f8ae",
+    "japanese_name": "シロガシラ"
+  },
+  "Riparia riparia": {
+    "id": "c8f3f521-65a6-43ab-8220-1efa0536b801",
+    "japanese_name": "ショウドウツバメ"
+  },
+  "Riparia paludicola": {
+    "id": "9494c0f2-d31c-44d0-9ebf-9e50045752e7",
+    "japanese_name": "タイワンショウドウツバメ"
+  },
+  "Hirundo tahitica": {
+    "id": "b3cedb45-e8f2-4ca9-8e55-b2edd674598b",
+    "japanese_name": "リュウキュウツバメ"
+  },
+  "Hirundo rustica": {
+    "id": "d0c972c2-eb99-4862-8d32-569b4f48a656",
+    "japanese_name": "ツバメ"
+  },
+  "Delichon dasypus": {
+    "id": "6afade17-b9a2-4184-a24b-6de6afc99240",
+    "japanese_name": "イワツバメ"
+  },
+  "Cecropis daurica": {
+    "id": "ff39c30c-d40d-4bc4-8b7c-40d6d5d46678",
+    "japanese_name": "コシアカツバメ"
+  },
+  "Horornis diphone": {
+    "id": "9acfb57d-2d12-405c-a71f-88df8c079f4b",
+    "japanese_name": "ウグイス"
+  },
+  "Horornis canturians": {
+    "id": "53878d55-eab9-402b-804b-d60a7b49c055",
+    "japanese_name": "チョウセンウグイス"
+  },
+  "Urosphena squameiceps": {
+    "id": "0e07a6f7-1a1b-45be-aa6a-b84a581f33f3",
+    "japanese_name": "ヤブサメ"
+  },
+  "Aegithalos caudatus": {
+    "id": "43218fd7-72a8-4d72-9b94-fce869b4e750",
+    "japanese_name": "エナガ"
+  },
+  "Phylloscopus sibilatrix": {
+    "id": "88ad1570-bd86-431f-b80f-98d00bbda4bb",
+    "japanese_name": "モリムシクイ"
+  },
+  "Phylloscopus inornatus": {
+    "id": "de40bac5-f484-4c6b-a4f1-2c2577b1ed47",
+    "japanese_name": "キマユムシクイ"
+  },
+  "Phylloscopus yunnanensis": {
+    "id": "a85fc206-bb90-4fe6-a5b1-adfc2b36b6f1",
+    "japanese_name": "シセンムシクイ"
+  },
+  "Phylloscopus proregulus": {
+    "id": "af6db126-28f1-4cf7-bb42-b8d7bbe0ee4e",
+    "japanese_name": "カラフトムシクイ"
+  },
+  "Phylloscopus schwarzi": {
+    "id": "a6c9dcfa-9438-4fda-91d8-ba03b4742d73",
+    "japanese_name": "カラフトムジセッカ"
+  },
+  "Phylloscopus fuscatus": {
+    "id": "f5a10b52-eb0c-46f8-89d7-633af1963052",
+    "japanese_name": "ムジセッカ"
+  },
+  "Phylloscopus trochilus": {
+    "id": "7729d07f-c2da-4137-b010-450e9f28e98f",
+    "japanese_name": "キタヤナギムシクイ"
+  },
+  "Phylloscopus collybita": {
+    "id": "e56c9561-eba8-4d9d-a90a-4ce9994b4898",
+    "japanese_name": "チフチャフ"
+  },
+  "Phylloscopus coronatus": {
+    "id": "87d10abc-685a-4737-a7e2-c28e1ca203d3",
+    "japanese_name": "センダイムシクイ"
+  },
+  "Phylloscopus ijimae": {
+    "id": "e011f9e2-be49-4816-906e-a5577cd1223e",
+    "japanese_name": "イイジマムシクイ"
+  },
+  "Phylloscopus plumbeitarsus": {
+    "id": "0f2e467d-61f6-46bd-9004-ec27571321be",
+    "japanese_name": "ヤナギムシクイ"
+  },
+  "Phylloscopus borealoides": {
+    "id": "920a11bb-a33f-46c4-b268-f798cb8455e9",
+    "japanese_name": "エゾムシクイ"
+  },
+  "Phylloscopus tenellipes": {
+    "id": "16565415-0956-495d-b020-65d02f2fa375",
+    "japanese_name": "アムールムシクイ"
+  },
+  "Phylloscopus xanthodryas": {
+    "id": "0396fd7f-ec56-469a-a217-a4be495e096f",
+    "japanese_name": "メボソムシクイ"
+  },
+  "Phylloscopus examinandus": {
+    "id": "5ea30edc-b1bc-4718-932e-31d0fac8759a",
+    "japanese_name": "オオムシクイ"
+  },
+  "Phylloscopus borealis": {
+    "id": "bf5f9b68-e279-445a-b3b7-5d905906e7af",
+    "japanese_name": "コムシクイ"
+  },
+  "Acrocephalus orientalis": {
+    "id": "24105229-4065-4e22-b00d-fe251ca9bc72",
+    "japanese_name": "オオヨシキリ"
+  },
+  "Acrocephalus bistrigiceps": {
+    "id": "2c7e3e71-9c47-4cc2-9f35-37cb8a853b96",
+    "japanese_name": "コヨシキリ"
+  },
+  "Acrocephalus schoenobaenus": {
+    "id": "8900ee24-33b7-4405-bf0c-0925beed7aaa",
+    "japanese_name": "スゲヨシキリ"
+  },
+  "Acrocephalus tangorum": {
+    "id": "8edeb81f-3375-46bc-8fe4-bf1bcdc2ca45",
+    "japanese_name": "マンシュウイナダヨシキリ"
+  },
+  "Acrocephalus dumetorum": {
+    "id": "34d6f5d4-e5db-4fea-bc2c-68680ce548c7",
+    "japanese_name": "ヤブヨシキリ"
+  },
+  "Arundinax aedon": {
+    "id": "867f3a7a-f595-4d99-af44-25906344c613",
+    "japanese_name": "ハシブトオオヨシキリ"
+  },
+  "Iduna caligata": {
+    "id": "ac86289f-98d8-4030-9e51-8a127aab7cf0",
+    "japanese_name": "ヒメウタイムシクイ"
+  },
+  "Locustella amnicola": {
+    "id": "69661cba-451c-47f2-88be-2c48485c8461",
+    "japanese_name": "エゾセンニュウ"
+  },
+  "Locustella pryeri": {
+    "id": "5d225e7e-ee88-4869-a3a9-4ec7acc1413d",
+    "japanese_name": "オオセッカ"
+  },
+  "Locustella certhiola": {
+    "id": "e7f6d0c5-2aa9-4399-970e-8dd5a5fdc533",
+    "japanese_name": "シベリアセンニュウ"
+  },
+  "Locustella ochotensis": {
+    "id": "2df1aacf-40d4-4631-82af-f5c9f01b96a8",
+    "japanese_name": "シマセンニュウ"
+  },
+  "Locustella pleskei": {
+    "id": "fbaade0d-af3d-40f2-8af0-18d8abd6901a",
+    "japanese_name": "ウチヤマセンニュウ"
+  },
+  "Locustella lanceolata": {
+    "id": "f1c27282-0aad-48e9-9bd9-c5beaf9e8a69",
+    "japanese_name": "マキノセンニュウ"
+  },
+  "Cisticola juncidis": {
+    "id": "2004c687-0e03-4085-aca7-6d21c3086b2e",
+    "japanese_name": "セッカ"
+  },
+  "Curruca curruca": {
+    "id": "b2f94623-32cf-4930-b5c3-c58b6f1db41c",
+    "japanese_name": "コノドジロムシクイ"
+  },
+  "Apalopteron familiare": {
+    "id": "5379023c-a65f-4088-962d-f5fc2402f9bf",
+    "japanese_name": "メグロ"
+  },
+  "Zosterops erythropleurus": {
+    "id": "6abec201-1b2e-490f-9078-0784f3e82f80",
+    "japanese_name": "チョウセンメジロ"
+  },
+  "Zosterops japonicus": {
+    "id": "570f0000-86a1-4715-aa5d-54b78b9e7d5a",
+    "japanese_name": "メジロ"
+  },
+  "Regulus regulus": {
+    "id": "09602d96-19e4-400e-bdf6-c6d910d19fc3",
+    "japanese_name": "キクイタダキ"
+  },
+  "Troglodytes troglodytes": {
+    "id": "a428b82a-dea6-4e6c-8532-44b5bcad533f",
+    "japanese_name": "ミソサザイ"
+  },
+  "Sitta europaea": {
+    "id": "952c7c15-acef-4864-adda-2cd2fdb7759d",
+    "japanese_name": "ゴジュウカラ"
+  },
+  "Certhia familiaris": {
+    "id": "8ba2443d-e4e6-4240-bb7d-98088ec50e59",
+    "japanese_name": "キバシリ"
+  },
+  "Spodiopsar sericeus": {
+    "id": "d3940d25-435e-43ac-ad16-396797e79621",
+    "japanese_name": "ギンムクドリ"
+  },
+  "Spodiopsar cineraceus": {
+    "id": "cfffdc8d-4bf3-441f-bf61-8a40c0e9f578",
+    "japanese_name": "ムクドリ"
+  },
+  "Agropsar sturninus": {
+    "id": "7c9ff43f-a1d5-48cd-8e53-332cf08e4e89",
+    "japanese_name": "シベリアムクドリ"
+  },
+  "Agropsar philippensis": {
+    "id": "71c252be-652a-47a0-8b76-3a678437d28f",
+    "japanese_name": "コムクドリ"
+  },
+  "Sturnia sinensis": {
+    "id": "3041e700-30d2-451b-8d40-7302e9dcbafe",
+    "japanese_name": "カラムクドリ"
+  },
+  "Pastor roseus": {
+    "id": "97422973-a446-467e-8a43-aa7e7676d53b",
+    "japanese_name": "バライロムクドリ"
+  },
+  "Sturnus vulgaris": {
+    "id": "c9583580-ba58-469c-a6e9-5a0caaaed117",
+    "japanese_name": "ホシムクドリ"
+  },
+  "Catharus minimus": {
+    "id": "739563d8-6057-44bf-803f-3419fc16549e",
+    "japanese_name": "ハイイロチャツグミ"
+  },
+  "Zoothera aurea": {
+    "id": "6b356425-839e-472e-85b9-401adfa9594d",
+    "japanese_name": "トラツグミ"
+  },
+  "Zoothera dauma": {
+    "id": "b6582cb3-df60-4f7f-9950-b311f081d212",
+    "japanese_name": "ミナミトラツグミ"
+  },
+  "Cichlopasser terrestris": {
+    "id": "93fda499-02db-4a09-af1d-182fa640d802",
+    "japanese_name": "オガサワラガビチョウ"
+  },
+  "Geokichla sibirica": {
+    "id": "ffba2d35-dad4-4ada-97eb-382a60705063",
+    "japanese_name": "マミジロ"
+  },
+  "Geokichla citrina": {
+    "id": "3a42b8b2-c0a0-4827-8677-1114852daaf0",
+    "japanese_name": "オレンジジツグミ"
+  },
+  "Turdus philomelos": {
+    "id": "fad43b4f-ae5a-4b12-8f31-2b0d5cc44d06",
+    "japanese_name": "ウタツグミ"
+  },
+  "Turdus viscivorus": {
+    "id": "82bbcbda-fd71-469d-9f36-26bd75cccfae",
+    "japanese_name": "ヤドリギツグミ"
+  },
+  "Turdus mandarinus": {
+    "id": "65fdb476-eda2-4c17-bdf9-406f7bcd6910",
+    "japanese_name": "クロウタドリ"
+  },
+  "Turdus iliacus": {
+    "id": "3f5a1053-b98e-47ec-951c-b1967f8bc39d",
+    "japanese_name": "ワキアカツグミ"
+  },
+  "Turdus cardis": {
+    "id": "c8fd3557-e15d-4235-9903-fcad01bf209a",
+    "japanese_name": "クロツグミ"
+  },
+  "Turdus hortulorum": {
+    "id": "8fce5702-e8b2-477f-9f54-97224242cbe5",
+    "japanese_name": "カラアカハラ"
+  },
+  "Turdus obscurus": {
+    "id": "8441872f-f289-409a-9946-60f63cab8de6",
+    "japanese_name": "マミチャジナイ"
+  },
+  "Turdus pallidus": {
+    "id": "62e17c40-04c8-419a-9ee6-ed120f9a546d",
+    "japanese_name": "シロハラ"
+  },
+  "Turdus chrysolaus": {
+    "id": "45d962c9-ea29-40f8-93a6-2702a26a30f0",
+    "japanese_name": "アカハラ"
+  },
+  "Turdus celaenops": {
+    "id": "5ccc4bea-e2dd-4058-9ddc-ce1862425be5",
+    "japanese_name": "アカコッコ"
+  },
+  "Turdus pilaris": {
+    "id": "2f023150-b0d7-4915-89db-7429d8c7444b",
+    "japanese_name": "ノハラツグミ"
+  },
+  "Turdus atrogularis": {
+    "id": "8aa29a23-16d8-4c97-ba2f-9a761cb5100b",
+    "japanese_name": "ノドグロツグミ"
+  },
+  "Turdus eunomus": {
+    "id": "8dbc0fae-f370-4d30-8516-7720c4c03c23",
+    "japanese_name": "ツグミ"
+  },
+  "Turdus naumanni": {
+    "id": "6a3eb2d9-32d7-4875-8f0f-4e70c99fb4b3",
+    "japanese_name": "ハチジョウツグミ"
+  },
+  "Muscicapa griseisticta": {
+    "id": "f9efa176-be07-4f3f-99de-85a4e4551e19",
+    "japanese_name": "エゾビタキ"
+  },
+  "Muscicapa sibirica": {
+    "id": "9bd6e21c-7d36-438d-95f5-ed6ddee4fb8d",
+    "japanese_name": "サメビタキ"
+  },
+  "Muscicapa ferruginea": {
+    "id": "0b46718f-0976-4f30-89ce-e73918b60ca7",
+    "japanese_name": "ミヤマヒタキ"
+  },
+  "Muscicapa muttui": {
+    "id": "de33c196-afd1-412e-81e5-1facb85414ad",
+    "japanese_name": "チャムネサメビタキ"
+  },
+  "Muscicapa dauurica": {
+    "id": "d88ee446-32d1-4c6d-851a-3d39bd47b57f",
+    "japanese_name": "コサメビタキ"
+  },
+  "Muscicapa striata": {
+    "id": "df1a759e-9dd3-422e-b796-5f6d13addd81",
+    "japanese_name": "ムナフヒタキ"
+  },
+  "Cyanoptila cyanomelana": {
+    "id": "5655f944-d9fa-4418-94c8-1f3109ad0023",
+    "japanese_name": "オオルリ"
+  },
+  "Eumyias thalassinus": {
+    "id": "82b9faec-61dd-4f69-96b7-5e5b92da6471",
+    "japanese_name": "ロクショウヒタキ"
+  },
+  "Erithacus rubecula": {
+    "id": "1f05a66b-f3e0-4ecf-82e7-08d33b5401b8",
+    "japanese_name": "ヨーロッパコマドリ"
+  },
+  "Luscinia svecica": {
+    "id": "4b33f9d9-deb5-46b7-89f0-94b1fbd90a88",
+    "japanese_name": "オガワコマドリ"
+  },
+  "Calliope calliope": {
+    "id": "18e21d96-9c54-4926-94ef-c64bdde18d5e",
+    "japanese_name": "ノゴマ"
+  },
+  "Larvivora cyane": {
+    "id": "c44b28a1-b670-4ccd-b585-f614dabd19f3",
+    "japanese_name": "コルリ"
+  },
+  "Larvivora akahige": {
+    "id": "6c92e0e4-0d29-4026-a5ae-3352953f34bd",
+    "japanese_name": "コマドリ"
+  },
+  "Larvivora komadori": {
+    "id": "82b74b31-9939-4c7e-b776-b0204086ad3a",
+    "japanese_name": "アカヒゲ"
+  },
+  "Larvivora namiyei": {
+    "id": "9d4ff42a-e826-4f3b-810b-01f59f376384",
+    "japanese_name": "ホントウアカヒゲ"
+  },
+  "Larvivora sibilans": {
+    "id": "c66722eb-3232-4d62-999a-7966c83ddf16",
+    "japanese_name": "シマゴマ"
+  },
+  "Ficedula zanthopygia": {
+    "id": "89cd21b4-eac2-4d2d-a583-9a0fdc11877d",
+    "japanese_name": "マミジロキビタキ"
+  },
+  "Ficedula narcissina": {
+    "id": "6288cea8-0c1e-4bbe-b731-7c03ebdb7ad1",
+    "japanese_name": "キビタキ"
+  },
+  "Ficedula owstoni": {
+    "id": "d0916ff3-33cf-4d4a-ba35-0490120a5c51",
+    "japanese_name": "リュウキュウキビタキ"
+  },
+  "Ficedula mugimaki": {
+    "id": "cd1bd42e-83a2-4fd2-a289-a61c2298a31c",
+    "japanese_name": "ムギマキ"
+  },
+  "Ficedula parva": {
+    "id": "555bea21-0450-4a32-8f0d-65123c2894f6",
+    "japanese_name": "ニシオジロビタキ"
+  },
+  "Ficedula albicilla": {
+    "id": "4eca7b79-fba5-4c76-a5dd-d4f1524a3a86",
+    "japanese_name": "オジロビタキ"
+  },
+  "Ficedula hypoleuca": {
+    "id": "dfc71da9-5913-41eb-ac5f-e3c93b6b7497",
+    "japanese_name": "マダラヒタキ"
+  },
+  "Tarsiger cyanurus": {
+    "id": "03db246b-6c56-4dc9-93e7-a06aa5361732",
+    "japanese_name": "ルリビタキ"
+  },
+  "Phoenicurus erythronotus": {
+    "id": "d8949902-56e3-427e-8ebe-6b892869361f",
+    "japanese_name": "セアカジョウビタキ"
+  },
+  "Phoenicurus fuliginosus": {
+    "id": "19c6b052-0748-4e76-9b82-1c5c9fbc1de6",
+    "japanese_name": "カワビタキ"
+  },
+  "Phoenicurus ochruros": {
+    "id": "9e0f0d8f-7314-45bd-b42a-59fac49d1abb",
+    "japanese_name": "クロジョウビタキ"
+  },
+  "Phoenicurus phoenicurus": {
+    "id": "1ea71d55-5c1b-45fa-840e-ae9328c15d3f",
+    "japanese_name": "シロビタイジョウビタキ"
+  },
+  "Phoenicurus auroreus": {
+    "id": "b5c6fe71-0cf4-439d-8fa4-f1df095fdd5d",
+    "japanese_name": "ジョウビタキ"
+  },
+  "Monticola gularis": {
+    "id": "1e752ad7-b5e0-4cea-9baa-ad62a343f542",
+    "japanese_name": "ヒメイソヒヨ"
+  },
+  "Monticola saxatilis": {
+    "id": "cf085591-7bad-475c-840d-c9b5d6182315",
+    "japanese_name": "コシジロイソヒヨドリ"
+  },
+  "Monticola solitarius": {
+    "id": "6e25f3fd-2846-4d20-af23-30af74796a49",
+    "japanese_name": "イソヒヨドリ"
+  },
+  "Saxicola ferreus": {
+    "id": "49177439-c9e3-4efb-bf0f-262bdaff6f7d",
+    "japanese_name": "ヤマザキヒタキ"
+  },
+  "Saxicola rubetra": {
+    "id": "78233564-db73-438b-80c8-f5b8e5d25508",
+    "japanese_name": "マミジロノビタキ"
+  },
+  "Saxicola caprata": {
+    "id": "b9def418-b991-4879-9ef4-47feaa783562",
+    "japanese_name": "クロノビタキ"
+  },
+  "Saxicola stejnegeri": {
+    "id": "c696d041-ffe8-4059-b9f3-3c4bd755d3fa",
+    "japanese_name": "ノビタキ"
+  },
+  "Oenanthe oenanthe": {
+    "id": "d444aee5-0f75-4cb2-b10d-1be00422eb50",
+    "japanese_name": "ハシグロヒタキ"
+  },
+  "Oenanthe isabellina": {
+    "id": "76820dce-fd83-4430-8729-6ffc316a8e96",
+    "japanese_name": "イナバヒタキ"
+  },
+  "Oenanthe deserti": {
+    "id": "85206b1d-fdd4-4b69-9406-24f630691e03",
+    "japanese_name": "サバクヒタキ"
+  },
+  "Oenanthe pleschanka": {
+    "id": "5cba054d-0894-43ef-98db-97eb2fef0ac2",
+    "japanese_name": "セグロサバクヒタキ"
+  },
+  "Cinclus pallasii": {
+    "id": "85c0eec8-48e5-4251-877f-50b25f0b0809",
+    "japanese_name": "カワガラス"
+  },
+  "Passer cinnamomeus": {
+    "id": "2ceebc60-e4b5-41b7-874f-aded21636a35",
+    "japanese_name": "ニュウナイスズメ"
+  },
+  "Passer montanus": {
+    "id": "ea6580e2-a048-4696-8bfd-13201ea11bff",
+    "japanese_name": "スズメ"
+  },
+  "Passer domesticus": {
+    "id": "55a98f7c-37ce-4fb1-942a-f7b91744f3bd",
+    "japanese_name": "イエスズメ"
+  },
+  "Prunella collaris": {
+    "id": "3c34ab8c-07ae-4261-aedd-6b985f94a3ea",
+    "japanese_name": "イワヒバリ"
+  },
+  "Prunella montanella": {
+    "id": "31b29685-7879-4407-b39d-a2d09b6142a8",
+    "japanese_name": "ヤマヒバリ"
+  },
+  "Prunella rubida": {
+    "id": "7c15dcc1-8e48-481b-b9e4-3070c00885b6",
+    "japanese_name": "カヤクグリ"
+  },
+  "Dendronanthus indicus": {
+    "id": "70a9f9fe-6a86-4976-b86e-b209e210dad1",
+    "japanese_name": "イワミセキレイ"
+  },
+  "Motacilla flava": {
+    "id": "87fad3bf-7069-4abd-bdb0-31c748c3312c",
+    "japanese_name": "ニシツメナガセキレイ"
+  },
+  "Motacilla tschutschensis": {
+    "id": "27f32ba2-e7f5-4d5f-9465-62f1c0af845e",
+    "japanese_name": "ツメナガセキレイ"
+  },
+  "Motacilla citreola": {
+    "id": "a3f0995d-cbb0-4210-9065-e79fc83aea0e",
+    "japanese_name": "キガシラセキレイ"
+  },
+  "Motacilla cinerea": {
+    "id": "7ed9949e-4568-440f-955d-738d4851c815",
+    "japanese_name": "キセキレイ"
+  },
+  "Motacilla alba": {
+    "id": "9ef9690c-1a26-4a51-b2f2-42414d82749d",
+    "japanese_name": "ハクセキレイ"
+  },
+  "Motacilla grandis": {
+    "id": "62c659dc-5d8e-4f37-96fa-f878fb251815",
+    "japanese_name": "セグロセキレイ"
+  },
+  "Anthus richardi": {
+    "id": "877966ea-a251-4a0a-ac3d-a6a0d3f360e7",
+    "japanese_name": "マミジロタヒバリ"
+  },
+  "Anthus godlewskii": {
+    "id": "d842a77d-1e4c-4038-88de-ff1834a906f3",
+    "japanese_name": "コマミジロタヒバリ"
+  },
+  "Anthus pratensis": {
+    "id": "d1059d91-3be7-4ca1-8820-b3e11fa0a965",
+    "japanese_name": "マキバタヒバリ"
+  },
+  "Anthus trivialis": {
+    "id": "2b386329-5039-4cd1-9a32-893ef3b85538",
+    "japanese_name": "ヨーロッパビンズイ"
+  },
+  "Anthus hodgsoni": {
+    "id": "c97a833f-4989-4209-99cb-77ec441509e1",
+    "japanese_name": "ビンズイ"
+  },
+  "Anthus gustavi": {
+    "id": "e5636d25-525c-4b23-9ef7-9f8cdf869d39",
+    "japanese_name": "セジロタヒバリ"
+  },
+  "Anthus roseatus": {
+    "id": "51365670-2c61-428d-8a7a-0083fb4a7e1d",
+    "japanese_name": "ウスベニタヒバリ"
+  },
+  "Anthus cervinus": {
+    "id": "ddf3e403-8d03-42be-a1d9-3882412ef763",
+    "japanese_name": "ムネアカタヒバリ"
+  },
+  "Anthus rubescens": {
+    "id": "06e0236d-ab15-4c48-86e9-4fb9c2c8ac65",
+    "japanese_name": "タヒバリ"
+  },
+  "Fringilla coelebs": {
+    "id": "267bf999-9b39-4d42-9da9-853d68e13072",
+    "japanese_name": "ズアオアトリ"
+  },
+  "Fringilla montifringilla": {
+    "id": "a57d74a1-b19a-4853-87a9-6133fea05fec",
+    "japanese_name": "アトリ"
+  },
+  "Coccothraustes coccothraustes": {
+    "id": "efac4c8a-cce8-4801-94ee-1ce512183b40",
+    "japanese_name": "シメ"
+  },
+  "Eophona migratoria": {
+    "id": "a6790bee-9d46-47c6-8333-88edf0313860",
+    "japanese_name": "コイカル"
+  },
+  "Eophona personata": {
+    "id": "1d33ad2e-fb14-4ea8-be12-7b91c20874a8",
+    "japanese_name": "イカル"
+  },
+  "Pinicola enucleator": {
+    "id": "46349643-258e-4e95-b365-05ac587113c7",
+    "japanese_name": "ギンザンマシコ"
+  },
+  "Pyrrhula pyrrhula": {
+    "id": "86583301-ea55-4a46-917b-3f1b8c1cb0d2",
+    "japanese_name": "ウソ"
+  },
+  "Leucosticte arctoa": {
+    "id": "df991618-3ffa-41c8-b672-fa25dec12a66",
+    "japanese_name": "ハギマシコ"
+  },
+  "Carpodacus erythrinus": {
+    "id": "64e8d70d-14c1-4827-a667-8bddae04a643",
+    "japanese_name": "アカマシコ"
+  },
+  "Carpodacus ferreorostris": {
+    "id": "1dd7dd6a-48c2-49ac-99fa-0c7b1a387dc5",
+    "japanese_name": "オガサワラマシコ"
+  },
+  "Carpodacus sibiricus": {
+    "id": "03648799-55cb-44a7-a14d-3c6d74216472",
+    "japanese_name": "ベニマシコ"
+  },
+  "Carpodacus roseus": {
+    "id": "a0667208-0a5b-4470-9ae4-71264289e949",
+    "japanese_name": "オオマシコ"
+  },
+  "Chloris sinica": {
+    "id": "d03ce987-2484-4f1d-a698-8c87bce81ee1",
+    "japanese_name": "カワラヒワ"
+  },
+  "Chloris kittlitzi": {
+    "id": "106154d9-40ac-4989-b054-4000bcf5b944",
+    "japanese_name": "オガサワラカワラヒワ"
+  },
+  "Acanthis flammea": {
+    "id": "45ef538b-4908-4222-9efa-5123292c9da5",
+    "japanese_name": "ベニヒワ"
+  },
+  "Loxia curvirostra": {
+    "id": "333177c8-5d7c-4f18-8217-133f76c1c02c",
+    "japanese_name": "イスカ"
+  },
+  "Loxia leucoptera": {
+    "id": "1d7e1dfc-4272-4baf-a64d-e761eadd2c2f",
+    "japanese_name": "ナキイスカ"
+  },
+  "Spinus spinus": {
+    "id": "9063924a-65fc-4f16-a9bc-11e810e6e9f3",
+    "japanese_name": "マヒワ"
+  },
+  "Calcarius lapponicus": {
+    "id": "39ae2fb3-679b-405e-a18e-5cb002e04368",
+    "japanese_name": "ツメナガホオジロ"
+  },
+  "Plectrophenax nivalis": {
+    "id": "a18088f0-0b62-4347-acdb-c11ee73dc59e",
+    "japanese_name": "ユキホオジロ"
+  },
+  "Emberiza citrinella": {
+    "id": "7afec9d0-6754-43af-8f9e-765dcfa84e5d",
+    "japanese_name": "キアオジ"
+  },
+  "Emberiza leucocephalos": {
+    "id": "bc035951-8e29-472c-984d-f5968349b35b",
+    "japanese_name": "シラガホオジロ"
+  },
+  "Emberiza cioides": {
+    "id": "a5df67bc-536a-4f4a-b6b0-334789f2e115",
+    "japanese_name": "ホオジロ"
+  },
+  "Emberiza buchanani": {
+    "id": "cbbc58bf-9e5d-4b3b-b4fa-8d43b9f2e90b",
+    "japanese_name": "イワバホオジロ"
+  },
+  "Emberiza hortulana": {
+    "id": "2afc2f14-eac9-40a3-b588-4cdbcbb30735",
+    "japanese_name": "ズアオホオジロ"
+  },
+  "Emberiza tristrami": {
+    "id": "36c15baf-5137-4244-b599-814f41bdbca8",
+    "japanese_name": "シロハラホオジロ"
+  },
+  "Emberiza fucata": {
+    "id": "77d27537-2b4f-4b9f-a2ae-955c5c485066",
+    "japanese_name": "ホオアカ"
+  },
+  "Emberiza pusilla": {
+    "id": "29ce7dec-b4e2-4fd7-8263-09e733aab521",
+    "japanese_name": "コホオアカ"
+  },
+  "Emberiza chrysophrys": {
+    "id": "2192c2ed-2cd0-4fab-9a50-07c29063a390",
+    "japanese_name": "キマユホオジロ"
+  },
+  "Emberiza rustica": {
+    "id": "7f3a2888-9164-47fa-a153-3652a7135dc7",
+    "japanese_name": "カシラダカ"
+  },
+  "Emberiza elegans": {
+    "id": "2329b043-479a-4251-adc3-5949306494bf",
+    "japanese_name": "ミヤマホオジロ"
+  },
+  "Emberiza aureola": {
+    "id": "6ef43ee1-866e-4cdf-ab36-86e8dd256e61",
+    "japanese_name": "シマアオジ"
+  },
+  "Emberiza rutila": {
+    "id": "affb705a-dba2-4230-9838-efa710d1237b",
+    "japanese_name": "シマノジコ"
+  },
+  "Emberiza melanocephala": {
+    "id": "f3e9f5f9-e57b-4987-893e-cb975d28382f",
+    "japanese_name": "ズグロチャキンチョウ"
+  },
+  "Emberiza bruniceps": {
+    "id": "357d1d1a-3222-4735-a3d1-7c9d6158528c",
+    "japanese_name": "チャキンチョウ"
+  },
+  "Emberiza sulphurata": {
+    "id": "0f449e64-8249-42e1-ab3b-13089e908e8f",
+    "japanese_name": "ノジコ"
+  },
+  "Emberiza spodocephala": {
+    "id": "e0df75ed-b79d-4b13-9932-53cc3a5d9934",
+    "japanese_name": "シベリアアオジ"
+  },
+  "Emberiza personata": {
+    "id": "9a4467e0-8c3c-4934-8e69-b793ce899b6e",
+    "japanese_name": "アオジ"
+  },
+  "Emberiza variabilis": {
+    "id": "99846746-acfe-4bc8-bb3b-6f5facf1b353",
+    "japanese_name": "クロジ"
+  },
+  "Emberiza pallasi": {
+    "id": "c53b803c-62bb-40a4-ba2c-fbfa10947f7a",
+    "japanese_name": "シベリアジュリン"
+  },
+  "Emberiza yessoensis": {
+    "id": "eb8126fd-22e6-404e-9fcc-14eb813a16fb",
+    "japanese_name": "コジュリン"
+  },
+  "Emberiza schoeniclus": {
+    "id": "2408b74c-d6d7-47c7-a5d8-d4f8baf57ea9",
+    "japanese_name": "オオジュリン"
+  },
+  "Passerella iliaca": {
+    "id": "7892041c-b32a-4bb3-a744-28f6477a0a40",
+    "japanese_name": "ゴマフスズメ"
+  },
+  "Zonotrichia leucophrys": {
+    "id": "33697aee-0ad2-4cfd-94fc-c240cd529bca",
+    "japanese_name": "ミヤマシトド"
+  },
+  "Zonotrichia atricapilla": {
+    "id": "955ed087-b2c9-41ed-b51d-901ff0abeee2",
+    "japanese_name": "キガシラシトド"
+  },
+  "Passerculus sandwichensis": {
+    "id": "4a8d7e60-4ff6-4761-93e8-f3ed4e9386df",
+    "japanese_name": "サバンナシトド"
+  },
+  "Melospiza melodia": {
+    "id": "c13c567c-9483-4ea5-a6f8-7d11fe2b499e",
+    "japanese_name": "ウタスズメ"
+  },
+  "Geothlypis trichas": {
+    "id": "706f836c-830c-4584-a144-d7e3bc2597a7",
+    "japanese_name": "カオグロアメリカムシクイ"
+  },
+  "Setophaga coronata": {
+    "id": "dcb82a1f-a5af-4c8e-886c-e3107469ec82",
+    "japanese_name": "キヅタアメリカムシクイ"
+  },
+  "Cygnus atratus": {
+    "id": "bd4eb6d9-c6da-4c9d-9cde-6336bf47f129",
+    "japanese_name": "コクチョウ"
+  },
+  "Colinus virginianus": {
+    "id": "c08f6006-3736-4787-9c1f-42345b8c8925",
+    "japanese_name": "コリンウズラ"
+  },
+  "Phasianus colchicus": {
+    "id": "f6d34f7d-ab42-48de-b341-35c6609593cb",
+    "japanese_name": "タイリクキジ"
+  },
+  "Pavo cristatus": {
+    "id": "508fb2d4-4fd5-493e-83f0-70dd3f30fb46",
+    "japanese_name": "インドクジャク"
+  },
+  "Bambusicola thoracicus": {
+    "id": "d2be03ab-ab44-479c-9299-e3366c693632",
+    "japanese_name": "コジュケイ"
+  },
+  "Bambusicola sonorivox": {
+    "id": "84fa5978-0dac-4408-b76b-2add5b00ee8b",
+    "japanese_name": "テッケイ"
+  },
+  "Columba livia": {
+    "id": "0e2418b6-1a62-4439-a2b2-9c36a120b46d",
+    "japanese_name": "カワラバト（ドバト）"
+  },
+  "Himantopus mexicanus": {
+    "id": "575b7bf9-8342-412c-bdb9-f9d74dd30a1a",
+    "japanese_name": "クロエリセイタカシギ"
+  },
+  "Myiopsitta monachus": {
+    "id": "ad2de283-8729-4cde-8e36-83c6c66eac3e",
+    "japanese_name": "オキナインコ"
+  },
+  "Psittacula alexandri": {
+    "id": "c05861fe-ff99-47f8-b94e-d767720922f2",
+    "japanese_name": "ダルマインコ"
+  },
+  "Psittacula eupatria": {
+    "id": "86699dff-fc50-49d9-b2b3-83064fe92fe3",
+    "japanese_name": "オオホンセイインコ"
+  },
+  "Psittacula krameri": {
+    "id": "8a9401f9-842b-4197-a929-3372f9309e6a",
+    "japanese_name": "ホンセイインコ"
+  },
+  "Melopsittacus undulatus": {
+    "id": "0ba56370-e883-4a27-bbe2-2dac7e85cef3",
+    "japanese_name": "セキセイインコ"
+  },
+  "Urocissa caerulea": {
+    "id": "058a9289-a828-4002-9505-54778fc773f0",
+    "japanese_name": "ヤマムスメ"
+  },
+  "Urocissa erythroryncha": {
+    "id": "4929def4-7c6a-47a2-b5b3-fc0779c662ca",
+    "japanese_name": "サンジャク"
+  },
+  "Leiothrix lutea": {
+    "id": "bff25b04-d902-4a7f-8f7e-70b15cbba9c4",
+    "japanese_name": "ソウシチョウ"
+  },
+  "Garrulax canorus": {
+    "id": "4e769b0e-4f98-4f40-8f5c-e8b4add0b4a4",
+    "japanese_name": "ガビチョウ"
+  },
+  "Ianthocincla cineracea": {
+    "id": "d65b7e08-3e92-4c51-9492-b246a90eab56",
+    "japanese_name": "ヒゲガビチョウ"
+  },
+  "Pterorhinus sannio": {
+    "id": "7a7ef816-b62a-446b-8c3e-84558153de08",
+    "japanese_name": "カオジロガビチョウ"
+  },
+  "Pterorhinus perspicillatus": {
+    "id": "1ee50df4-ccce-4159-a980-9814d47eaf1c",
+    "japanese_name": "カオグロガビチョウ"
+  },
+  "Acridotheres cristatellus": {
+    "id": "8c1973e6-be51-47db-a50e-c13744e6ff2d",
+    "japanese_name": "ハッカチョウ"
+  },
+  "Acridotheres javanicus": {
+    "id": "9d283f80-7a4d-4d3f-81b9-fc3c18053d00",
+    "japanese_name": "ジャワハッカ"
+  },
+  "Acridotheres ginginianus": {
+    "id": "abbede8b-b10d-4268-8deb-f6224d7bc413",
+    "japanese_name": "ハイイロハッカ"
+  },
+  "Acridotheres tristis": {
+    "id": "ffb6328e-31c9-4e34-bce5-aa374bd04ca0",
+    "japanese_name": "インドハッカ"
+  },
+  "Ploceus intermedius": {
+    "id": "7b17e018-ab20-4dc3-918f-de1b376cfc3a",
+    "japanese_name": "メンハタオリドリ"
+  },
+  "Euplectes orix": {
+    "id": "3a932f82-3d30-4b21-a3d3-8c1e53ec180a",
+    "japanese_name": "オオキンランチョウ"
+  },
+  "Padda oryzivora": {
+    "id": "facdecc7-e3b8-4798-9867-21f5c0e86c42",
+    "japanese_name": "ブンチョウ"
+  },
+  "Lonchura punctulata": {
+    "id": "8bed70ba-1b65-45aa-9b9f-b13c7aa7ac01",
+    "japanese_name": "シマキンパラ"
+  },
+  "Lonchura striata": {
+    "id": "1dc4f200-28c7-4748-8175-150122117aa0",
+    "japanese_name": "コシジロキンパラ"
+  },
+  "Lonchura malacca": {
+    "id": "b7fc489c-8109-41f4-8d44-4bfd189d3d07",
+    "japanese_name": "ギンパラ"
+  },
+  "Lonchura atricapilla": {
+    "id": "48326528-64ed-436c-95c1-d2998b6cf104",
+    "japanese_name": "キンパラ"
+  },
+  "Lonchura maja": {
+    "id": "a2074a68-a8c0-47de-a12b-d5bbf49d65bf",
+    "japanese_name": "ヘキチョウ"
+  },
+  "Estrilda melpoda": {
+    "id": "195e7a2d-5c6a-4915-9c6a-4f6078637197",
+    "japanese_name": "ホオアカカエデチョウ"
+  },
+  "Estrilda troglodytes": {
+    "id": "cbf965db-788b-4c3a-b962-c32efe600f0b",
+    "japanese_name": "カエデチョウ"
+  },
+  "Amandava amandava": {
+    "id": "5a346010-790f-4b34-aad7-0ae6c80de513",
+    "japanese_name": "ベニスズメ"
+  },
+  "Vidua paradisaea": {
+    "id": "9cd8d34d-a1b0-41c4-9313-9e8e5dd298a7",
+    "japanese_name": "ホウオウジャク"
+  },
+  "Paroaria coronata": {
+    "id": "32519edf-cd26-4813-a415-5f9216e85e80",
+    "japanese_name": "コウカンチョウ"
+  }
+}
