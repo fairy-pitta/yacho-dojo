@@ -38,9 +38,8 @@
 ### QuizResults（クイズ結果）
 - id: UUID PRIMARY KEY
 - user_id: UUID NOT NULL REFERENCES auth.users(id)（ユーザーID）
-- quiz_type: TEXT CHECK (quiz_type IN ('normal', 'review_red', 'review_yellow', 'review_green', 'review_all', 'family_filtered', 'order_filtered'))（クイズタイプ）
+- quiz_type: TEXT CHECK (quiz_type IN ('normal', 'review_red', 'review_yellow', 'review_green', 'review_all'))（クイズタイプ）
 - filter_criteria: JSONB（絞り込み条件：科・目等）
-  -- 例: {'family': ['カラス科', 'スズメ科']}, {'order': ['スズメ目']}, {'family': ['カラス科'], 'order': ['スズメ目']}
 - session_id: INTEGER（セッションID）
 - score: INTEGER NOT NULL（スコア）
 - total_questions: INTEGER NOT NULL（総問題数：10,20,30,40,50,60）
@@ -126,20 +125,6 @@ CREATE INDEX idx_user_answers_session ON user_answers(quiz_session_id);
 CREATE INDEX idx_quiz_results_user_type ON quiz_results(user_id, quiz_type);
 ```
 
-### 科・目フィルタリング用インデックス
-```sql
--- 科での絞り込み用
-CREATE INDEX idx_birds_family ON birds(family);
--- 目での絞り込み用
-CREATE INDEX idx_birds_order ON birds(order);
--- 科・目複合インデックス
-CREATE INDEX idx_birds_family_order ON birds(family, order);
--- 画像の有効性チェック用
-CREATE INDEX idx_bird_images_active ON bird_images(is_active) WHERE is_active = true;
--- 科・目別学習進捗分析用
-CREATE INDEX idx_user_question_status_bird_image ON user_question_status(bird_image_id);
-```
-
 ## 主要クエリパターン
 
 ### 復習問題の抽出
@@ -154,37 +139,6 @@ ORDER BY uqs.last_answered_at ASC
 LIMIT $2;
 ```
 
-### 科・目での絞り込みクイズ問題抽出
-```sql
--- 特定の科での問題抽出
-SELECT bi.*, b.japanese_name, b.family, b.order
-FROM bird_images bi
-JOIN birds b ON bi.bird_id = b.id
-WHERE b.family = ANY($1::text[])  -- 複数科指定可能
-  AND bi.is_active = true
-ORDER BY RANDOM()
-LIMIT $2;
-
--- 特定の目での問題抽出
-SELECT bi.*, b.japanese_name, b.family, b.order
-FROM bird_images bi
-JOIN birds b ON bi.bird_id = b.id
-WHERE b.order = ANY($1::text[])  -- 複数目指定可能
-  AND bi.is_active = true
-ORDER BY RANDOM()
-LIMIT $2;
-
--- 科と目の組み合わせフィルタ
-SELECT bi.*, b.japanese_name, b.family, b.order
-FROM bird_images bi
-JOIN birds b ON bi.bird_id = b.id
-WHERE (b.family = ANY($1::text[]) OR $1 IS NULL)
-  AND (b.order = ANY($2::text[]) OR $2 IS NULL)
-  AND bi.is_active = true
-ORDER BY RANDOM()
-LIMIT $3;
-```
-
 ### 学習進捗の集計
 ```sql
 -- ユーザーの学習状況サマリー
@@ -195,44 +149,6 @@ SELECT
 FROM user_question_status 
 WHERE user_id = $1 
 GROUP BY flag_color;
-
--- 科・目別の学習進捗
-SELECT 
-  b.family,
-  b.order,
-  COUNT(*) as total_questions,
-  COUNT(CASE WHEN uqs.flag_color = 'green' THEN 1 END) as mastered,
-  COUNT(CASE WHEN uqs.flag_color = 'red' THEN 1 END) as struggling,
-  AVG(uqs.correct_count::float / NULLIF(uqs.total_attempts, 0)) as avg_accuracy
-FROM user_question_status uqs
-JOIN bird_images bi ON uqs.bird_image_id = bi.id
-JOIN birds b ON bi.bird_id = b.id
-WHERE uqs.user_id = $1
-GROUP BY b.family, b.order
-ORDER BY avg_accuracy DESC;
-```
-
-### 利用可能な科・目の一覧取得
-```sql
--- 科の一覧（問題数付き）
-SELECT 
-  b.family,
-  COUNT(DISTINCT bi.id) as image_count
-FROM birds b
-JOIN bird_images bi ON b.id = bi.bird_id
-WHERE bi.is_active = true
-GROUP BY b.family
-ORDER BY b.family;
-
--- 目の一覧（問題数付き）
-SELECT 
-  b.order,
-  COUNT(DISTINCT bi.id) as image_count
-FROM birds b
-JOIN bird_images bi ON b.id = bi.bird_id
-WHERE bi.is_active = true
-GROUP BY b.order
-ORDER BY b.order;
 ```
 
 ## 設計方針
@@ -244,9 +160,7 @@ ORDER BY b.order;
 
 ### 2. 問題数の柔軟性
 - 10, 20, 30, 40, 50, 60問から選択可能
-- クイズタイプによる分類（通常・復習別・科目別・目別）
-- 科・目での絞り込み機能（複数選択可能）
-- フィルタ条件の履歴保存（filter_criteria JSONB）
+- クイズタイプによる分類（通常・復習別）
 
 ### 3. パフォーマンス最適化
 - 復習機能での高速な問題抽出

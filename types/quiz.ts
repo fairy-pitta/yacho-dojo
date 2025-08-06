@@ -2,6 +2,7 @@ export interface Question {
   id: string;
   question_text: string;
   image_url?: string;
+  image_id?: string;
   correct_answer: string;
   options: string[];
   difficulty: 'easy' | 'medium' | 'hard';

@@ -1,6 +1,5 @@
 import { createClient } from '@/lib/supabase/client';
 import { Question, UserAnswer, QuizResult, QuizSettings } from '@/types/quiz';
-import { shuffleQuestions } from '@/utils/quiz';
 
 /**
  * ランダムな問題を動的に生成する
@@ -77,6 +76,7 @@ export async function getRandomQuestions(
         id: `generated-${bird.id}-${randomImage.id}`,
         question_text: `この鳥の名前は何ですか？`,
         image_url: randomImage.image_url,
+        image_id: randomImage.id,
         correct_answer: bird.japanese_name,
         options,
         difficulty,
@@ -235,10 +235,14 @@ export async function saveUserAnswer(
   try {
     const supabase = createClient();
     
+    // time_takenフィールドを除外してデータベースに保存
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const { time_taken: _, ...answerWithoutTimeTaken } = answer;
+    
     const { data, error } = await supabase
       .from('user_answers')
       .insert({
-        ...answer,
+        ...answerWithoutTimeTaken,
         answered_at: new Date().toISOString()
       })
       .select()

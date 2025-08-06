@@ -204,7 +204,7 @@ describe('ホーム画面', () => {
       expect(screen.getByRole('heading', { name: '野鳥識別士道場' })).toBeInTheDocument();
       
       // ユーザーがログインしていることを確認
-      await screen.findByText(/ようこそ、test@example\.com/, {}, { timeout: 10000 });
+      await screen.findByText(/ようこそ、testさん/, {}, { timeout: 10000 });
       
       // ログインしているユーザーには基本的な要素が表示される
       expect(screen.getByText('野鳥識別士試験の合格を目指して学習しましょう')).toBeInTheDocument();

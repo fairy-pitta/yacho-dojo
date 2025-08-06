@@ -86,7 +86,7 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
     const userAnswer: Omit<UserAnswer, 'id' | 'answered_at'> = {
       user_id: user?.id || '',
       bird_id: currentQuestion.bird_id || '',
-      bird_image_id: currentQuestion.id,
+      bird_image_id: currentQuestion.image_id || '',
       selected_answer: selectedAnswer,
       correct_answer: currentQuestion.correct_answer,
       is_correct: validation.isCorrect,
