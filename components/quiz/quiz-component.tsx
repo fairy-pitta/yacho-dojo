@@ -1,16 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Input } from '@/components/ui/input';
-import { Clock, CheckCircle, XCircle, ArrowRight } from 'lucide-react';
 import { UserAnswer, QuizSession, QuizResult } from '@/types/quiz';
-import { validateAnswer, calculateScore, formatTime } from '@/utils/quiz';
+import { validateAnswer, calculateScore } from '@/utils/quiz';
 import { getRandomQuestions, saveUserAnswer, saveQuizResult } from '@/lib/quiz-service';
 import { useUser } from '@/hooks/use-user';
-import Image from 'next/image';
+import { QuizError } from './quiz-error';
+import { QuizResult as QuizResultComponent } from './quiz-result';
+import { QuizQuestion } from './quiz-question';
+import { QuizLoading } from './quiz-loading';
 
 interface QuizComponentProps {
   questionCount?: number;
@@ -27,6 +25,7 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
   const [error, setError] = useState<string | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+
 
   // タイマー
   useEffect(() => {
@@ -164,126 +163,25 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
     setShowResult(true);
   };
 
-  const getDifficultyColor = (difficulty: string) => {
-    switch (difficulty) {
-      case 'easy': return 'bg-green-100 text-green-800';
-      case 'medium': return 'bg-yellow-100 text-yellow-800';
-      case 'hard': return 'bg-red-100 text-red-800';
-      default: return 'bg-gray-100 text-gray-800';
-    }
-  };
+
 
   if (isLoading) {
-    return (
-      <Card className="w-full max-w-2xl mx-auto">
-        <CardContent className="p-8 text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
-          <p>問題を読み込んでいます...</p>
-        </CardContent>
-      </Card>
-    );
+    return <QuizLoading />;
   }
 
   if (error) {
-    return (
-      <Card className="w-full max-w-2xl mx-auto">
-        <CardContent className="p-8 text-center">
-          <XCircle className="h-12 w-12 text-red-500 mx-auto mb-4" />
-          <h3 className="text-lg font-semibold mb-2">エラーが発生しました</h3>
-          <p className="text-gray-600 mb-4">{error}</p>
-          <Button onClick={() => window.location.reload()}>再試行</Button>
-        </CardContent>
-      </Card>
-    );
+    return <QuizError error={error} onRetry={() => window.location.reload()} />;
   }
 
   if (showResult && session) {
-    const correctAnswers = session.answers.filter(a => a.is_correct).length;
-    const totalQuestions = session.questions.length;
-    const accuracy = Math.round((correctAnswers / totalQuestions) * 100);
-    const score = calculateScore(session.answers, session.questions);
-
     return (
-      <Card className="w-full max-w-2xl mx-auto">
-        <CardHeader className="text-center">
-          <CardTitle className="flex items-center justify-center gap-2">
-            <CheckCircle className="h-6 w-6 text-green-500" />
-            クイズ完了！
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-6">
-          <div className="text-center">
-            <div className="text-4xl font-bold text-primary mb-2">{score}点</div>
-            <div className="text-lg text-gray-600">
-              {correctAnswers}/{totalQuestions}問正解 ({accuracy}%)
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 gap-4">
-            <div className="text-center p-4 bg-gray-50 rounded-lg">
-              <Clock className="h-6 w-6 mx-auto mb-2 text-gray-600" />
-              <div className="font-semibold">{formatTime(timeElapsed)}</div>
-              <div className="text-sm text-gray-600">所要時間</div>
-            </div>
-            <div className="text-center p-4 bg-gray-50 rounded-lg">
-              <div className="font-semibold">{Math.round(timeElapsed / totalQuestions)}秒</div>
-              <div className="text-sm text-gray-600">平均回答時間</div>
-            </div>
-          </div>
-
-          <div className="space-y-2">
-            <h4 className="font-semibold">問題別結果</h4>
-            <div className="space-y-2 max-h-60 overflow-y-auto">
-              {session.answers.map((answer, index) => {
-                const question = session.questions[index];
-                return (
-                  <div key={index} className="flex items-center justify-between p-3 bg-gray-50 rounded">
-                    <div className="flex items-center gap-2">
-                      {answer.is_correct ? (
-                        <CheckCircle className="h-4 w-4 text-green-500" />
-                      ) : (
-                        <XCircle className="h-4 w-4 text-red-500" />
-                      )}
-                      <span className="text-sm">問題 {index + 1}</span>
-                      <Badge className={getDifficultyColor(question.difficulty)}>
-                        {question.difficulty}
-                      </Badge>
-                    </div>
-                    <div className="text-sm text-gray-600">
-                      {formatTime(answer.time_taken || 0)}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {!user && (
-            <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-              <p className="text-sm text-blue-800 mb-2">
-                📝 ログインすると回答履歴が保存され、成績を追跡できます
-              </p>
-              <Button 
-                variant="outline" 
-                size="sm" 
-                onClick={() => window.location.href = '/auth/login'}
-                className="text-blue-700 border-blue-300 hover:bg-blue-100"
-              >
-                ログインする
-              </Button>
-            </div>
-          )}
-
-          <div className="flex gap-2">
-            <Button onClick={() => window.location.reload()} className="flex-1">
-              もう一度挑戦
-            </Button>
-            <Button variant="outline" onClick={() => window.history.back()} className="flex-1">
-              ホームに戻る
-            </Button>
-          </div>
-        </CardContent>
-      </Card>
+      <QuizResultComponent
+        session={session}
+        timeElapsed={timeElapsed}
+        user={user}
+        onRetry={() => window.location.reload()}
+        onGoHome={() => window.history.back()}
+      />
     );
   }
 
@@ -291,82 +189,16 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
     return null;
   }
 
-  const progress = ((currentQuestionIndex + 1) / session.questions.length) * 100;
-
   return (
-    <Card className="w-full max-w-2xl mx-auto">
-      <CardHeader>
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-gray-600">
-              問題 {currentQuestionIndex + 1} / {session.questions.length}
-            </span>
-            <Badge className={getDifficultyColor(currentQuestion.difficulty)}>
-              {currentQuestion.difficulty}
-            </Badge>
-          </div>
-          <div className="flex items-center gap-2 text-sm text-gray-600">
-            <Clock className="h-4 w-4" />
-            {formatTime(timeElapsed)}
-          </div>
-        </div>
-        <div className="w-full bg-gray-200 rounded-full h-2 mb-4">
-          <div 
-            className="bg-primary h-2 rounded-full transition-all duration-300" 
-            style={{ width: `${progress}%` }}
-          ></div>
-        </div>
-        <CardTitle className="text-lg">{currentQuestion.question_text}</CardTitle>
-      </CardHeader>
-      <CardContent className="space-y-6">
-        {currentQuestion.image_url && (
-          <div className="relative w-full h-64 rounded-lg overflow-hidden">
-            <Image
-              src={currentQuestion.image_url}
-              alt="問題画像"
-              fill
-              className="object-cover"
-            />
-          </div>
-        )}
-
-        <div className="space-y-4">
-          <div>
-            <label htmlFor="answer-input" className="block text-sm font-medium text-gray-700 mb-2">
-              この鳥の名前を入力してください
-            </label>
-            <Input
-              id="answer-input"
-              type="text"
-              value={selectedAnswer}
-              onChange={(e) => setSelectedAnswer(e.target.value)}
-              placeholder="鳥の名前を入力..."
-              disabled={isSubmitting}
-              className="w-full"
-              onKeyDown={(e) => {
-                if (e.key === 'Enter' && selectedAnswer.trim() && !isSubmitting) {
-                  handleSubmitAnswer();
-                }
-              }}
-            />
-          </div>
-        </div>
-
-        <div className="flex justify-end">
-          <Button
-            onClick={handleSubmitAnswer}
-            disabled={!selectedAnswer.trim() || isSubmitting}
-            className="flex items-center gap-2"
-          >
-            {isSubmitting ? (
-              <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>
-            ) : (
-              <ArrowRight className="h-4 w-4" />
-            )}
-            {currentQuestionIndex + 1 >= session.questions.length ? '結果を見る' : '次の問題'}
-          </Button>
-        </div>
-      </CardContent>
-    </Card>
+    <QuizQuestion
+      question={currentQuestion}
+      currentQuestionIndex={currentQuestionIndex}
+      totalQuestions={session.questions.length}
+      timeElapsed={timeElapsed}
+      selectedAnswer={selectedAnswer}
+      onAnswerChange={setSelectedAnswer}
+      onSubmit={handleSubmitAnswer}
+      isSubmitting={isSubmitting}
+    />
   );
 }
