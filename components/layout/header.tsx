@@ -34,86 +34,56 @@ export function Header() {
   };
 
   return (
-    <header role="banner" className="border-b bg-background">
-      <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
+    <header role="banner" className="bg-white border-b border-gray-200 shadow-sm">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="flex h-14 items-center justify-between">
           {/* ロゴ */}
           <Link href="/" className="flex items-center space-x-2" data-testid="logo">
-            <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">鳥</span>
+            <div className="h-7 w-7 rounded bg-primary flex items-center justify-center">
+              <span className="text-white font-bold text-sm">鳥</span>
             </div>
-            <span className="font-bold text-xl">野鳥識別士道場</span>
+            <span className="font-bold text-lg text-foreground">野鳥識別士道場</span>
           </Link>
 
           {/* ナビゲーションメニュー */}
-          <nav className="hidden md:flex items-center space-x-6">
-            <Link href="/" className="text-foreground hover:text-primary transition-colors">
+          <nav className="hidden md:flex items-center space-x-8">
+            <Link href="/" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
               ホーム
             </Link>
-            <Link href="/quiz" className="text-foreground hover:text-primary transition-colors">
-              クイズ
+            <Link href="/quiz" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
+              問題演習
             </Link>
-            <Link href="/results" className="text-foreground hover:text-primary transition-colors">
+            <Link href="/results" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
               成績
-            </Link>
-            <Link href="/study" className="text-foreground hover:text-primary transition-colors">
-              学習
             </Link>
           </nav>
 
           {/* ユーザーメニュー */}
-          <div className="flex items-center space-x-4" data-testid="user-menu">
+          <div className="flex items-center space-x-3" data-testid="user-menu">
             {user ? (
-              <div className="flex items-center space-x-2">
-                <span className="text-sm text-muted-foreground">
-                  {user.email}
+              <div className="flex items-center space-x-3">
+                <span className="text-sm text-muted-foreground hidden sm:inline">
+                  {user.email?.split('@')[0]}
                 </span>
-                <Link href="/profile">
-                  <Button variant="outline" size="sm">
-                    プロフィール
-                  </Button>
-                </Link>
-                <Button variant="outline" size="sm" onClick={handleSignOut}>
+                <Button variant="outline" size="sm" onClick={handleSignOut} className="text-xs">
                   ログアウト
                 </Button>
               </div>
             ) : (
               <div className="flex items-center space-x-2">
                 <Link href="/auth/login">
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="text-xs">
                     ログイン
                   </Button>
                 </Link>
                 <Link href="/auth/sign-up">
-                  <Button size="sm">
-                    サインアップ
+                  <Button size="sm" className="text-xs">
+                    新規登録
                   </Button>
                 </Link>
               </div>
             )}
           </div>
-
-          {/* モバイルメニューボタン */}
-          <Button
-            variant="ghost"
-            size="sm"
-            className="md:hidden"
-            data-testid="mobile-menu-button"
-          >
-            <svg
-              className="h-6 w-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </Button>
         </div>
       </div>
     </header>
