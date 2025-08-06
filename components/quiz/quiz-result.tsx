@@ -102,11 +102,11 @@ export function QuizResult({ session, timeElapsed, user, onRetry, onGoHome }: Qu
           </div>
         )}
 
-        <div className="flex gap-2">
-          <Button onClick={onRetry} className="flex-1 bg-primary hover:bg-primary/90 border border-primary/20 shadow-md">
+        <div className="flex gap-3">
+          <Button onClick={onRetry} className="flex-1 bg-primary hover:bg-primary/90 text-white font-semibold border-2 border-primary shadow-lg hover:shadow-xl transition-all">
             もう一度挑戦
           </Button>
-          <Button variant="outline" onClick={onGoHome} className="flex-1 border-2 border-primary/20 hover:bg-primary/5 shadow-md">
+          <Button variant="outline" onClick={onGoHome} className="flex-1 border-2 border-primary bg-white hover:bg-primary/10 text-primary font-semibold shadow-lg hover:shadow-xl transition-all">
             ホームに戻る
           </Button>
         </div>

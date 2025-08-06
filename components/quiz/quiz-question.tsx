@@ -50,7 +50,7 @@ export function QuizQuestion({
   };
 
   return (
-    <Card className="w-full max-w-2xl mx-auto border-2 border-primary/20 shadow-lg">
+    <Card className="w-full max-w-2xl mx-auto border-2 border-primary/30 shadow-xl bg-white">
       <CardHeader>
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-2">
@@ -66,9 +66,9 @@ export function QuizQuestion({
             {formatTime(timeElapsed)}
           </div>
         </div>
-        <div className="w-full bg-gray-200 rounded-full h-2 mb-4 border border-gray-300">
+        <div className="w-full bg-gray-200 rounded-full h-3 mb-4 border border-gray-300 shadow-inner">
           <div 
-            className="bg-primary h-2 rounded-full transition-all duration-300 shadow-sm" 
+            className="bg-primary h-3 rounded-full transition-all duration-300 shadow-sm" 
             style={{ width: `${progress}%` }}
           ></div>
         </div>
@@ -85,7 +85,7 @@ export function QuizQuestion({
 
         <div className="space-y-4">
           <div>
-            <label htmlFor="answer-input" className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="answer-input" className="block text-base font-semibold text-gray-800 mb-3">
               この鳥の名前を入力してください
             </label>
             <Input
@@ -95,7 +95,7 @@ export function QuizQuestion({
               onChange={(e) => onAnswerChange(e.target.value)}
               placeholder="鳥の名前を入力..."
               disabled={isSubmitting}
-              className="w-full border-2 border-primary/20 focus:border-primary/50 transition-colors"
+              className="w-full border-2 border-primary/30 bg-white focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all text-gray-900 placeholder:text-gray-500"
               onKeyDown={handleKeyDown}
             />
           </div>
@@ -105,7 +105,7 @@ export function QuizQuestion({
           <Button
             onClick={onSubmit}
             disabled={!selectedAnswer.trim() || isSubmitting}
-            className="flex items-center gap-2 bg-primary hover:bg-primary/90 border border-primary/20 shadow-md"
+            className="flex items-center gap-2 bg-primary hover:bg-primary/90 text-white font-semibold border-2 border-primary shadow-lg hover:shadow-xl transition-all"
           >
             {isSubmitting ? (
               <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white"></div>

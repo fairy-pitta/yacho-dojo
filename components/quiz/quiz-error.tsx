@@ -24,7 +24,7 @@ export function QuizError({ error, onRetry }: QuizErrorProps) {
         <XCircle className="h-12 w-12 text-red-500 mx-auto mb-4" />
         <h3 className="text-lg font-semibold mb-2 text-red-800">エラーが発生しました</h3>
         <p className="text-red-600 mb-4">{error}</p>
-        <Button onClick={handleRetry} className="bg-red-500 hover:bg-red-600 border border-red-400 shadow-md">
+        <Button onClick={handleRetry} className="bg-red-500 hover:bg-red-600 text-white font-semibold border-2 border-red-500 shadow-lg hover:shadow-xl transition-all">
           再試行
         </Button>
       </CardContent>
