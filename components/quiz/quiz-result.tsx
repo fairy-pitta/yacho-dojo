@@ -18,10 +18,10 @@ interface QuizResultProps {
 
 function getDifficultyColor(difficulty: string) {
   switch (difficulty) {
-    case 'easy': return 'bg-green-100 text-green-800 border-green-200';
-    case 'medium': return 'bg-yellow-100 text-yellow-800 border-yellow-200';
-    case 'hard': return 'bg-red-100 text-red-800 border-red-200';
-    default: return 'bg-gray-100 text-gray-800 border-gray-200';
+    case 'easy': return 'bg-theme-100 text-theme-800 border-theme-200';
+    case 'medium': return 'bg-theme-200 text-theme-900 border-theme-300';
+    case 'hard': return 'bg-theme-300 text-theme-900 border-theme-400';
+    default: return 'bg-theme-100 text-theme-800 border-theme-200';
   }
 }
 
@@ -32,7 +32,7 @@ export function QuizResult({ session, timeElapsed, user, onRetry, onGoHome }: Qu
   const score = calculateScore(session.answers, session.questions);
 
   return (
-    <Card className="w-full max-w-2xl mx-auto border-2 border-primary/20 shadow-lg">
+    <Card className="w-full max-w-2xl mx-auto border-2 border-primary/20 shadow-lg bg-card">
       <CardHeader className="text-center">
         <CardTitle className="flex items-center justify-center gap-2">
           <CheckCircle className="h-6 w-6 text-green-500" />
@@ -42,30 +42,30 @@ export function QuizResult({ session, timeElapsed, user, onRetry, onGoHome }: Qu
       <CardContent className="space-y-6">
         <div className="text-center">
           <div className="text-4xl font-bold text-primary mb-2">{score}点</div>
-          <div className="text-lg text-gray-600">
+          <div className="text-lg text-muted-foreground">
             {correctAnswers}/{totalQuestions}問正解 ({accuracy}%)
           </div>
         </div>
 
         <div className="grid grid-cols-2 gap-4">
-          <div className="text-center p-4 bg-gray-50 rounded-lg border border-gray-200 shadow-sm">
+          <div className="text-center p-4 bg-muted rounded-lg border border-border shadow-sm">
             <Clock className="h-6 w-6 mx-auto mb-2 text-primary" />
             <div className="font-semibold">{formatTime(timeElapsed)}</div>
-            <div className="text-sm text-gray-600">所要時間</div>
+            <div className="text-sm text-muted-foreground">所要時間</div>
           </div>
-          <div className="text-center p-4 bg-gray-50 rounded-lg border border-gray-200 shadow-sm">
+          <div className="text-center p-4 bg-muted rounded-lg border border-border shadow-sm">
             <div className="font-semibold">{Math.round(timeElapsed / totalQuestions)}秒</div>
-            <div className="text-sm text-gray-600">平均回答時間</div>
+            <div className="text-sm text-muted-foreground">平均回答時間</div>
           </div>
         </div>
 
         <div className="space-y-2">
           <h4 className="font-semibold">問題別結果</h4>
-          <div className="space-y-2 max-h-60 overflow-y-auto border border-gray-200 rounded-lg p-2">
+          <div className="space-y-2 max-h-60 overflow-y-auto border border-border rounded-lg p-2">
             {session.answers.map((answer, index) => {
               const question = session.questions[index];
               return (
-                <div key={index} className="flex items-center justify-between p-3 bg-gray-50 rounded border border-gray-200 shadow-sm">
+                <div key={index} className="flex items-center justify-between p-3 bg-muted rounded border border-border shadow-sm">
                   <div className="flex items-center gap-2">
                     {answer.is_correct ? (
                       <CheckCircle className="h-4 w-4 text-green-500" />
@@ -77,7 +77,7 @@ export function QuizResult({ session, timeElapsed, user, onRetry, onGoHome }: Qu
                       {question.difficulty}
                     </Badge>
                   </div>
-                  <div className="text-sm text-gray-600">
+                  <div className="text-sm text-muted-foreground">
                     {formatTime(answer.time_taken || 0)}
                   </div>
                 </div>
