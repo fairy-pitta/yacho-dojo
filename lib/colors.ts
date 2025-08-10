@@ -39,8 +39,8 @@ export const SYSTEM_COLORS = {
   
   // 前景色（テキスト）
   foreground: {
-    DEFAULT: '#333333',
-    rgb: '51 51 51'
+    DEFAULT: '#000000',
+    rgb: '0 0 0'
   },
   
   // ボーダー
@@ -65,17 +65,17 @@ export const SYSTEM_COLORS = {
 // カード関連
 export const CARD_COLORS = {
   DEFAULT: '#FFFFFF',
-  foreground: '#333333',
+  foreground: '#000000',
   rgb: '255 255 255',
-  foregroundRgb: '51 51 51'
+  foregroundRgb: '0 0 0'
 } as const;
 
 // ポップオーバー関連
 export const POPOVER_COLORS = {
   DEFAULT: '#FFFFFF',
-  foreground: '#333333',
+  foreground: '#000000',
   rgb: '255 255 255',
-  foregroundRgb: '51 51 51'
+  foregroundRgb: '0 0 0'
 } as const;
 
 // 状態カラー
@@ -123,7 +123,7 @@ export const BRAND_COLORS = {
   google: {
     blue: '#4285F4',
     green: '#34A853',
-    yellow: '#FBBC05',
+    yellow: '#F5F5F5',
     red: '#EA4335'
   },
   
@@ -172,11 +172,11 @@ export const CSS_VARIABLES = {
   '--primary': THEME_COLORS.primary.hsl,
   '--primary-foreground': '255 255 255',
   '--secondary': '248 250 252',
-  '--secondary-foreground': '51 51 51',
+  '--secondary-foreground': '0 0 0',
   '--muted': '248 250 252',
   '--muted-foreground': '100 116 139',
   '--accent': '248 250 252',
-  '--accent-foreground': '51 51 51',
+  '--accent-foreground': '0 0 0',
   '--destructive': STATE_COLORS.destructive.rgb,
   '--destructive-foreground': '255 255 255',
   '--border': SYSTEM_COLORS.border.rgb,
