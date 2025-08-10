@@ -63,7 +63,7 @@ export function getDifficultyColor(difficulty: 'easy' | 'medium' | 'hard'): stri
     case 'easy':
       return 'text-green-600 bg-green-100'
     case 'medium':
-      return 'text-yellow-600 bg-yellow-100'
+      return 'text-gray-600 bg-gray-100'
     case 'hard':
       return 'text-red-600 bg-red-100'
     default:

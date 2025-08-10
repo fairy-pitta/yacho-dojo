@@ -63,7 +63,7 @@ describe('Utils', () => {
   describe('getDifficultyColor', () => {
     it('難易度に応じた色クラスを返す', () => {
       expect(getDifficultyColor('easy')).toBe('text-green-600 bg-green-100')
-      expect(getDifficultyColor('medium')).toBe('text-yellow-600 bg-yellow-100')
+      expect(getDifficultyColor('medium')).toBe('text-gray-600 bg-gray-100')
       expect(getDifficultyColor('hard')).toBe('text-red-600 bg-red-100')
     })
   })

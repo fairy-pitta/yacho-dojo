@@ -5,8 +5,10 @@ export interface UserAnswerHistory {
   user_id: string;
   bird_id: string;
   bird_image_id: string;
+  question_id: string;
   selected_answer: string;
   correct_answer: string;
+  user_answer: string;
   is_correct: boolean;
   answered_at: string;
   birds?: {
@@ -17,6 +19,11 @@ export interface UserAnswerHistory {
   };
   bird_images?: {
     id: string;
+    image_url: string;
+  };
+  questions?: {
+    id: string;
+    bird_name: string;
     image_url: string;
   };
 }
