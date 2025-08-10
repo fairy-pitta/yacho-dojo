@@ -1,3 +1,6 @@
+import React from "react"
+import { BRAND_COLORS } from "@/lib/colors"
+
 export function SupabaseLogo() {
   return (
     <svg
@@ -21,7 +24,7 @@ export function SupabaseLogo() {
           />
           <path
             d="M9.79895 0.89838C10.3593 0.200591 11.4954 0.582929 11.5089 1.47383L11.5955 14.5041H2.84528C1.24026 14.5041 0.345103 12.6711 1.34316 11.4283L9.79895 0.89838Z"
-            fill="#3ECF8E"
+            fill={BRAND_COLORS.supabase.green}
           />
         </g>
         <path
@@ -66,8 +69,8 @@ export function SupabaseLogo() {
           y2="14.4777"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#249361" />
-          <stop offset="1" stopColor="#3ECF8E" />
+          <stop stopColor={BRAND_COLORS.supabase.darkGreen} />
+          <stop offset="1" stopColor={BRAND_COLORS.supabase.green} />
         </linearGradient>
         <linearGradient
           id="paint1_linear_4671_51136"

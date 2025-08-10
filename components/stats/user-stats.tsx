@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 import { Trophy, Target, Clock, TrendingUp } from 'lucide-react';
+import { STATS_COLORS } from '@/lib/colors';
 import { getUserQuizHistory } from '@/lib/quiz-service';
 import { QuizResult } from '@/types/quiz';
 import { formatTime } from '@/utils/quiz';
@@ -206,7 +207,7 @@ export function UserStats({ userId }: UserStatsProps) {
         <Card>
           <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
             <CardTitle className="text-sm font-medium">最高スコア</CardTitle>
-            <Trophy className="h-4 w-4 text-yellow-600" />
+            <Trophy className="h-4 w-4" style={{ color: STATS_COLORS.trophy.gold }} />
           </CardHeader>
           <CardContent>
             <div className="text-2xl font-bold">{stats.bestScore}%</div>

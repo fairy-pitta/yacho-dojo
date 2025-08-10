@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { CheckCircle, XCircle, Clock, TrendingUp } from 'lucide-react';
+import { STATS_COLORS } from '@/lib/colors';
 import { calculateUserStats, getRecentAnswerHistory, UserStats, UserAnswerHistory } from '@/lib/answer-service';
 import { useUser } from '@/hooks/use-user';
 // date-fnsの代わりに標準のDate機能を使用
@@ -103,7 +104,7 @@ export function AnswerHistory({ limit = 10, showStats = true }: AnswerHistoryPro
                 <div className="text-sm text-muted-foreground">正解数</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-purple-600">{stats.accuracy}%</div>
+                <div className="text-2xl font-bold" style={{ color: STATS_COLORS.accuracy.purple }}>{stats.accuracy}%</div>
                 <div className="text-sm text-muted-foreground">正解率</div>
               </div>
             </div>
