@@ -9,6 +9,7 @@ import { QuizError } from './quiz-error';
 import { QuizResult as QuizResultComponent } from './quiz-result';
 import { QuizQuestion } from './quiz-question';
 import { QuizLoading } from './quiz-loading';
+import { useSearchParams } from 'next/navigation';
 
 interface QuizComponentProps {
   questionCount?: number;
@@ -17,6 +18,11 @@ interface QuizComponentProps {
 
 export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentProps) {
   const { user } = useUser();
+  const searchParams = useSearchParams();
+  const mode = searchParams.get('mode') || undefined;
+  const familyParam = searchParams.get('family') || undefined;
+  const orderParam = searchParams.get('order') || undefined;
+
   const [session, setSession] = useState<QuizSession | null>(null);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<string>('');
@@ -44,7 +50,15 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
       setIsLoading(true);
       setError(null);
 
-      const { data: questions, error: fetchError } = await getRandomQuestions(questionCount);
+      // URLパラメータからフィルタ設定を構築
+      const settings: { family?: string; order?: string } = {};
+      if (mode === 'family' && familyParam && familyParam !== 'all') {
+        settings.family = familyParam;
+      } else if (mode === 'order' && orderParam && orderParam !== 'all') {
+        settings.order = orderParam;
+      }
+
+      const { data: questions, error: fetchError } = await getRandomQuestions(questionCount, settings);
 
       if (fetchError || !questions) {
         setError(fetchError || '問題の読み込みに失敗しました');
@@ -68,7 +82,7 @@ export function QuizComponent({ questionCount = 10, onComplete }: QuizComponentP
     }
 
     loadQuestions();
-  }, [user, questionCount]);
+  }, [user, questionCount, mode, familyParam, orderParam]);
 
   const currentQuestion = session?.questions[currentQuestionIndex];
 

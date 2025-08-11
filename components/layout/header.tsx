@@ -45,18 +45,20 @@ export function Header() {
             <span className="font-bold text-lg text-foreground">野鳥識別士道場</span>
           </Link>
 
-          {/* ナビゲーションメニュー */}
-          <nav className="hidden md:flex items-center space-x-8">
-            <Link href="/" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
-              ホーム
-            </Link>
-            <Link href="/quiz" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
-              問題演習
-            </Link>
-            <Link href="/results" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
-              成績
-            </Link>
-          </nav>
+          {/* ナビゲーションメニュー（ログイン時のみ表示） */}
+          {user && (
+            <nav className="hidden md:flex items-center space-x-8">
+              <Link href="/" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
+                ホーム
+              </Link>
+              <Link href="/quiz" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
+                問題演習
+              </Link>
+              <Link href="/results" className="text-foreground hover:text-primary transition-colors text-sm font-medium">
+                成績
+              </Link>
+            </nav>
+          )}
 
           {/* ユーザーメニュー */}
           <div className="flex items-center space-x-3" data-testid="user-menu">

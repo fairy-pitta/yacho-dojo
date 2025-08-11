@@ -6,7 +6,7 @@ import { Question, UserAnswer, QuizResult, QuizSettings } from '@/types/quiz';
  */
 export async function getRandomQuestions(
   count: number = 10,
-  settings?: QuizSettings
+  settings?: Partial<QuizSettings> & { family?: string; order?: string; mode?: string }
 ): Promise<{ data: Question[] | null; error: string | null }> {
   try {
     const supabase = createClient();
@@ -14,10 +14,15 @@ export async function getRandomQuestions(
     // birdsテーブルからランダムに鳥を選択
     let birdsQuery = supabase
       .from('birds')
-      .select('id, japanese_name, scientific_name, family');
+      .select('id, japanese_name, scientific_name, family, "order"');
 
-    // カテゴリフィルタ（family で代用）
-    if (settings?.category) {
+    // フィルタリング（family / order 優先）
+    if (settings?.family) {
+      birdsQuery = birdsQuery.eq('family', settings.family);
+    } else if (settings?.order) {
+      birdsQuery = birdsQuery.eq('order', settings.order);
+    } else if (settings?.category) {
+      // 互換: category は family を指す
       birdsQuery = birdsQuery.eq('family', settings.category);
     }
 
@@ -38,7 +43,7 @@ export async function getRandomQuestions(
     // 各鳥に対して画像を取得し、問題を生成
     const generatedQuestions: Question[] = [];
     
-    for (const bird of selectedBirds) {
+    for (const bird of selectedBirds as Array<{ id: number; japanese_name: string; scientific_name?: string | null; family?: string | null; order?: string | null }>) {
       // その鳥の画像をランダムに1つ選択
       const { data: images, error: imagesError } = await supabase
         .from('bird_images')
@@ -52,7 +57,7 @@ export async function getRandomQuestions(
       const randomImage = images[Math.floor(Math.random() * images.length)];
       
       // 他の鳥から間違いの選択肢を生成
-      const otherBirds = birds
+      const otherBirds = (birds as Array<{ id: number; japanese_name: string }>)
         .filter(b => b.id !== bird.id)
         .sort(() => Math.random() - 0.5)
         .slice(0, 3)
@@ -71,6 +76,9 @@ export async function getRandomQuestions(
         difficulty = difficulties[Math.floor(Math.random() * difficulties.length)];
       }
 
+      // 表示カテゴリ: family優先、なければorder
+      const displayCategory = bird.family || bird.order || '野鳥';
+
       // 問題を生成
       const question: Question = {
         id: `generated-${bird.id}-${randomImage.id}`,
@@ -80,7 +88,7 @@ export async function getRandomQuestions(
         correct_answer: bird.japanese_name,
         options,
         difficulty,
-        category: bird.family || '野鳥',
+        category: displayCategory,
         bird_id: bird.id.toString(),
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString()
